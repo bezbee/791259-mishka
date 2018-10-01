@@ -22,43 +22,43 @@
     <main class="page__main">
       <h1 class="visually-hidden">Интернет - магазин «Мишка» - товары ручной работы для дома</h1>
 
-      <section class="catalog">
-        <div class="catalog__wraper">
-          <h2 class="calalog__header">Милые штучки ручной работы для дома
+      <section class="product-category">
+          <h2 class="product-category__header">Милые штучки ручной работы для дома
           </h2>
-          <ul class="catalog__list">
-            <li class="calalog__item item">Предметы интерьера</li>
-            <li class="calalog__item item">Детские игрушки</li>
-            <li class="calalog__item item">
-              <h3 class="item__title">Вязанные корзинки</h3>
-              <span class="item__bestseller">Товар недели</span>
-              <p class="item__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-              <table class="item__specification">
-                <tr>
-                  <td class="item__field">Цвет:</td>
-                  <td class="item__value">«Тиффани»/серый</td>
-                </tr>
-                <tr>
-                  <td class="item__field">Диаметр:</td>
-                  <td class="item__value">25 см</td>
-                </tr>
-                <tr>
-                  <td class="item__field">Высота:</td>
-                  <td class="item__value">15 см</td>
-                </tr>
-              </table>
-              <img class="item__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
-              <p class="item__price">Цена: 990 руб.</p>
-              <button class="item__button" type="submit">Заказать</button>
-            </li>
+          <ul class="product-category__list">
+            <li class="product-category__item">Предметы интерьера</li>
+            <li class="product-category__item">Детские игрушки</li>
           </ul>
+        </section>
+        <section class="bestseller">
+          <div class="product-card">
+            <h3 class="product-card__title">Вязанные корзинки</h3>
+            <span class="product-card__bestseller">Товар недели</span>
+            <p class="product-card__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+            <table class="product-card__specification">
+              <tr>
+                <td class="product-card__field">Цвет:</td>
+                <td class="product-card__value">«Тиффани»/серый</td>
+              </tr>
+              <tr>
+                <td class="product-card__field">Диаметр:</td>
+                <td class="product-card__value">25 см</td>
+              </tr>
+              <tr>
+                <td class="product-card__field">Высота:</td>
+                <td class="product-card__value">15 см</td>
+              </tr>
+            </table>
+            <img class="product-card__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
+            <p class="product-card__price">Цена: 990 руб.</p>
+            <button class="product-card__order button" type="submit">Заказать</button>
         </div>
       </section>
 
       <section class="advantages">
         <div class="advantages__wrapper">
           <h2 class="visually-hidden">Отличительные особенности нашего бизнеса</h2>
-          <header class="advantages__header">Коротко о нас:</header>
+          <p class="advantages__intro">Коротко о нас:</p>
           <ul class="advantages__list">
             <li class="advantages__item advantages__item--eco">Экологиски чистые материалы</li>
             <li class="advantages__item advantages__item--economy">Скандинавский стиль по российской цене</li>
