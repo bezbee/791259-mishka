@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensansbold.woff2") format("woff2"),
+      url("../fonts/opensansbold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"),
+      url("../fonts/opensans.woff") format("woff");
+  font-weight: 400;
+}
+
+.bestseller {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+.product-card {
+  color: #444444;
+}
+
+.product-card__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+  line-height: 30px;
+}
+
+.product-card__bestseller {
+  color: #63D1BB;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.product-card__price {
+font-size: 17px;
+line-height: 24px;
+}
+
+.product-card__order {
+  font-size: 17px;
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid #444444;
+}

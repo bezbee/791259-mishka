@@ -1,1 +1,5 @@
-body { background: white; }
+@import "blocks/header.scss";
+@import "blocks/product-category.scss";
+@import "blocks/bestseller.scss";
+@import "blocks/advantages.scss";
+@import "blocks/footer.scss";
