@@ -1,0 +1,28 @@
+.product-card {
+  border: 1px solid #ECECEC;
+  margin-bottom: 30px;
+}
+
+.product-card__title {
+font-weight: 700;
+font-size: 17px;
+color: #000000;
+line-height: 24px;
+padding: 25px 0px 25px 28px;
+}
+
+.product-card__specification {
+  color: #444;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 0px 0px 25px 28px;
+
+}
+
+.product-card__price {
+  color: #000;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 22px 0px 22px 28px;
+}

@@ -10,7 +10,11 @@
 .product-category__header {
   font-size: 27px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 700;
+  padding-top: 70px;
+  padding-bottom: 125px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .product-category__list {
@@ -23,6 +27,7 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: 400;
+  padding: 24px 0px 29px 29px;
 }
 .product-category__item:last-child {
   background-color: #56C3B2;
@@ -30,4 +35,5 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: 400;
+  padding: 24px 0px 29px 29px;
 }

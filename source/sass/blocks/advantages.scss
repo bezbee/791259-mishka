@@ -1,14 +1,10 @@
-@mixin list-style-none {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 .advantages__intro {
   font-size: 25px;
   color: #000000;
-  letter-spacing: 0;
+  font-weight: 700;
   line-height: 30px;
+  padding: 29px 75px 30px 0px;
 }
 .advantages__list {
   @include list-style-none;
@@ -19,4 +15,5 @@
   color: #000000;
   line-height: 20px;
   text-align: left;
+  font-weight: 700;
 }
