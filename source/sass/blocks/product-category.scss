@@ -1,6 +1,6 @@
 .product-category {
   background-color: $background-grey;
-  background-image: url(../img/hero-mobile@1x.jpg);
+  background-image: url("../img/hero-mobile@1x.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -26,7 +26,9 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: 400;
-  padding: 24px 0px 29px 29px;
+  padding-top: 24px;
+  padding-left: 29px;
+  padding-bottom: 29px;
 }
 
 .product-category__item:last-child {
@@ -35,5 +37,7 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: 400;
-  padding: 24px 0px 29px 29px;
+  padding-top: 24px;
+  padding-left: 29px;
+  padding-bottom: 29px;
 }

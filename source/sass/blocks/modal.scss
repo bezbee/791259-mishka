@@ -23,7 +23,10 @@
   font-size: 17px;
   color: $grey;
   line-height: 16px;
-  padding: 17px 22px;
+  padding-top: 17px;
+  padding-left: 22px;
+  padding-bottom: 17px;
+  padding-right: 22px;
   border: 2px solid rgba(68, 68, 68, 0.1);
 }
 
@@ -34,5 +37,8 @@
   color: $grey;
   line-height: 16px;
   text-transform: uppercase;
-  padding: 17px 68px;
+  padding-top: 17px;
+  padding-left: 68px;
+  padding-bottom: 17px;
+  padding-right: 68px;
 }
