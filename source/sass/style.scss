@@ -1,3 +1,10 @@
+$emerald: #56C3B2;
+$black: #000;
+$white: #fff;
+$grass: #63D1BB;
+$grey: #444;
+$background-grey: #f1f1f1;
+
 @import "mixin.scss";
 @import "blocks/header.scss";
 @import "blocks/product-category.scss";
@@ -11,11 +18,13 @@
 @import "blocks/product-card.scss";
 @import "blocks/modal.scss";
 
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
+  color: $black;
 }
 
 .visually-hidden:not(:focus):not(:active),

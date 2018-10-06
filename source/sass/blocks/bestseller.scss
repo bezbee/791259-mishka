@@ -1,23 +1,22 @@
-
 .bestseller {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
 }
 
 .product-card {
-  color: #444444;
+  color: $grey;
 }
 
 .product-card__title {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 25px;
-  color: #000;
+  color: $black;
   line-height: 30px;
 }
 
 .product-card__bestseller {
-  color: #63D1BB;
+  color: $grass;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -28,13 +27,13 @@
 .product-card__description {
   font-size: 15px;
   line-height: 24px;
-  color: #444444;
+  color: $grey;
 }
 
 .product-card__specification {
   font-size: 15px;
   line-height: 24px;
-  color: #444444;
+  color: $grey;
 }
 
 .product-card__price {
