@@ -22,11 +22,11 @@
   color: $grey;
   line-height: 16px;
   padding: 17px 22px;
-  border: 2px solid rgba(68, 68, 68, .1);
+  border: 2px solid rgba(68, 68, 68, 0.1);
 }
 
 .modal__button {
-  background: #63D1BB;
+  background: $grass;
   font-weight: 700px;
   font-size: 17px;
   color: $grey;

@@ -1,8 +1,8 @@
-$emerald: #56C3B2;
-$black: #000;
-$white: #fff;
-$grass: #63D1BB;
-$grey: #444;
+$emerald: #56c3b2;
+$black: #000000;
+$white: #ffffff;
+$grass: ##63d1bb;
+$grey: #444444;
 $background-grey: #f1f1f1;
 
 @import "mixin.scss";
@@ -22,7 +22,7 @@ $background-grey: #f1f1f1;
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $black;
 }
@@ -49,13 +49,13 @@ img {
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/opensansbold.woff2") format("woff2"),
-      url("../fonts/opensansbold.woff") format("woff");
+    url("../fonts/opensansbold.woff") format("woff");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/opensans.woff2") format("woff2"),
-      url("../fonts/opensans.woff") format("woff");
+    url("../fonts/opensans.woff") format("woff");
   font-weight: 400;
 }
