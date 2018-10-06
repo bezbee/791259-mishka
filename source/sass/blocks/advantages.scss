@@ -1,0 +1,21 @@
+.advantages__intro {
+  font-size: 25px;
+  color: $black;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 29px;
+  padding-left: 75px;
+  padding-bottom: 30px;
+}
+
+.advantages__list {
+  @include list-style-none;
+}
+
+.advantages__item {
+  font-size: 17px;
+  color: $black;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 700;
+}

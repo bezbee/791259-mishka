@@ -1,0 +1,55 @@
+@import "var.scss";
+@import "mixin.scss";
+@import "blocks/header.scss";
+@import "blocks/product-category.scss";
+@import "blocks/bestseller.scss";
+@import "blocks/advantages.scss";
+@import "blocks/footer.scss";
+@import "blocks/footer-social.scss";
+@import "blocks/footer-copyright.scss";
+@import "blocks/catalog-title.scss";
+@import "blocks/catalog-list.scss";
+@import "blocks/product-card.scss";
+@import "blocks/modal.scss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  color: $black;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensansbold.woff2") format("woff2"),
+    url("../fonts/opensansbold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
+  font-weight: 400;
+}
