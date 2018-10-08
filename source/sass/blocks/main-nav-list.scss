@@ -1,0 +1,23 @@
+.main-nav {
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nav__list {
+  @include list-style-none;
+}
+
+@media (min-width: 768px) {
+
+  .main-nav {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .main-nav__toggle {
+    display: none;
+  }
+}

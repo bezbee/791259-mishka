@@ -1,0 +1,17 @@
+.page-footer__logo-image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .page-footer__logo-image {
+    display: block;
+    display: block;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer__logo-image {
+    margin-left: 100px;
+  }
+}
