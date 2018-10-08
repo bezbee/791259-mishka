@@ -1,12 +1,17 @@
 @import "var.scss";
 @import "mixin.scss";
 @import "blocks/header.scss";
+@import "blocks/main-nav-list.scss";
+@import "blocks/user-list.scss";
+@import "blocks/site-list.scss";
 @import "blocks/product-category.scss";
-@import "blocks/bestseller.scss";
+@import "blocks/featured.scss";
 @import "blocks/advantages.scss";
 @import "blocks/footer.scss";
+@import "blocks/footer-logo.scss";
 @import "blocks/footer-social.scss";
 @import "blocks/footer-copyright.scss";
+@import "blocks/catalog-header.scss";
 @import "blocks/catalog-title.scss";
 @import "blocks/catalog-list.scss";
 @import "blocks/product-card.scss";
@@ -14,6 +19,7 @@
 
 
 body {
+  min-width: 320px;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
