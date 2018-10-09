@@ -1,3 +1,6 @@
 .social__list {
   @include list-style-none;
+  display: flex;
+  align-items: center;
+  height: 80px;
 }

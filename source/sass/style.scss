@@ -1,12 +1,19 @@
 @import "var.scss";
 @import "mixin.scss";
 @import "blocks/header.scss";
+@import "blocks/header-logo.scss";
+@import "blocks/main-nav-list.scss";
+@import "blocks/user-list.scss";
+@import "blocks/sitelist-additional.scss";
+@import "blocks/site-list.scss";
 @import "blocks/product-category.scss";
-@import "blocks/bestseller.scss";
+@import "blocks/featured.scss";
 @import "blocks/advantages.scss";
 @import "blocks/footer.scss";
+@import "blocks/footer-logo.scss";
 @import "blocks/footer-social.scss";
 @import "blocks/footer-copyright.scss";
+@import "blocks/catalog-header.scss";
 @import "blocks/catalog-title.scss";
 @import "blocks/catalog-list.scss";
 @import "blocks/product-card.scss";
@@ -14,11 +21,20 @@
 
 
 body {
+  min-width: 320px;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $black;
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1250px;
+    outline: 1px dotted pink;
+    margin: 0 auto;
+  }
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -38,6 +54,11 @@ input[type="radio"].visually-hidden {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
 }
 
 @font-face {

@@ -1,3 +1,9 @@
+.page-footer__copyright {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
 .copyright__text {
   color: $black;
   font-size: 19px;
@@ -6,4 +12,16 @@
   padding-top: 32px;
   padding-bottom: 31px;
   padding-right: 38px;
+}
+
+@media (min-width: 768px) {
+  .page-footer__copyright {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer__copyright {
+    margin-right: 100px;
+  }
 }

@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin margin-mobile {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@mixin margin-tablet {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@mixin margin-desktop {
+  margin-left: 100px;
+  margin-right: 100px;
+}

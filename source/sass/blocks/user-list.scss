@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .user-list {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .user-list {
+    position: static;
+  }
+}
