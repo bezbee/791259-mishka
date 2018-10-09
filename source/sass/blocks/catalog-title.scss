@@ -5,18 +5,18 @@
   line-height: 30px;
   background-color: $background-grey;
   margin-bottom: 30px;
-  height: 175px;
+  min-height: 175px;
   text-align: center;
 }
 
 @media (min-width: 768px) {
   .catalog-page-main__title {
-    height: 220px;
+    min-height: 220px;
   }
 }
 
 @media (min-width: 1200px) {
   .catalog-page-main__title {
-    height: 250px;
+    min-height: 250px;
   }
 }
