@@ -1,5 +1,6 @@
 .page-header {
   background-color: $white;
+
   @include margin-mobile;
   //
   height: 395px;
@@ -18,13 +19,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     @include margin-tablet;
   }
 }
 
 @media (min-width: 1200px) {
-  .page-header{
+  .page-header {
     width: 1050px;
+
     @include margin-desktop;
   }
 }

@@ -34,7 +34,7 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
-  text-align:left;
+  text-align: left;
   //
   height: 103px;
   //
@@ -47,7 +47,7 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
-  text-align:left;
+  text-align: left;
   //
   height: 103px;
   //
@@ -55,9 +55,9 @@
 }
 
 @media (min-width: 768px) {
-
   .product-category {
     height: 735px;
+
     @include margin-tablet;
   }
 
@@ -67,8 +67,8 @@
     //
   }
   .product-category__list {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 
   .product-category__item {
@@ -78,9 +78,9 @@
 }
 
 @media (min-width: 1200px) {
-
   .product-category {
     width: 1050px;
+
     @include margin-desktop;
   }
 }

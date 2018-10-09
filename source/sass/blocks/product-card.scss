@@ -2,7 +2,6 @@
   border: 1px solid #ececec;
   height: 375px;
   width: 260px;
-
 }
 
 .product-card__image {
@@ -51,9 +50,10 @@
 }
 
 @media (min-width: 1200px) {
-  .catalog__list{
+  .catalog__list {
     display: flex;
     flex-direction: row;
+
     @include margin-desktop;
     height: 790px;
     margin-left: 50px;

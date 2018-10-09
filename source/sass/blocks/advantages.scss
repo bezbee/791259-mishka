@@ -4,12 +4,13 @@
   outline: 1px solid orange;
   //
   display: block;
-  margin: 0px;
+  margin: 0;
+
   @include margin-mobile;
 }
 
 .advantages__intro {
-  margin: 0px;
+  margin: 0;
   font-size: 25px;
   color: $black;
   font-weight: 700;
@@ -31,6 +32,7 @@
 @media (min-width: 768px) {
   .advantages {
     height: 565px;
+
     @include margin-tablet;
   }
 
@@ -47,7 +49,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-
   }
 
   .advantages__item {
@@ -57,7 +58,6 @@
     //
     width: 335px;
   }
-
 }
 
 @media (min-width: 1200px) {
