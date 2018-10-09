@@ -14,12 +14,17 @@
       <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип «Мишка» - товары ручной работы для дома">
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <ul class="main-nav__list site-list"></ul>
-          <li class="site-list__catalog">Каталог товаров</li>
-          <li class="site-list__knitting">Вязание на заказ</li>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__catalog"><a href="#" class="site-list__link">Каталог товаров</a></li>
+          <li class="site-list__knitting"><a href="#" class="site-list__link">Вязание на заказ<a></li>
+            <ul class="site-list-additional">
+              <li class="site-list-additional__new"><a href="#" class="site-list-additional__link">Новые поступления</a></li>
+              <li class="site-list-additional__sale"><a href="#" class="site-list-additional__link">Распродажа<a></li>
+            </ul>
+        </ul>
         <ul class="main-nav__list user-list">
-          <li class="user-list__search">Поиск по сайту</li>
-          <li class="user-list__basket">Корзина: пока пуста</li>
+          <li class="user-list__search"><a href="#" class="user-list__link">Поиск по сайту</a></li>
+          <li class="user-list__basket"><a href="#" class="user-list__link">Корзина: пока пуста</a></li>
         </ul>
       </nav>
     </header>
@@ -28,51 +33,55 @@
       <h1 class="visually-hidden">Интернет - магазин «Мишка» - товары ручной работы для дома</h1>
 
       <section class="product-category">
-          <h2 class="product-category__header">Милые штучки ручной работы для дома
-          </h2>
+          <h2 class="product-category__header">Милые штучки ручной работы для дома</h2>
           <ul class="product-category__list">
             <li class="product-category__item">Предметы интерьера</li>
             <li class="product-category__item">Детские игрушки</li>
           </ul>
         </section>
+
         <section class="featured">
-          <h3 class="featured__title">Вязанные корзинки</h3>
-          <span class="featured__weekly">Товар недели</span>
-          <div class="featured__inside">
-            <div class="featured__text">
-              <p class="featured__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-              <table class="featured__specification">
-                <tr>
-                  <td class="featured__field">Цвет:</td>
-                  <td class="featured__value">«Тиффани»/серый</td>
-                </tr>
-                <tr>
-                  <td class="featured__field">Диаметр:</td>
-                  <td class="featured__value">25 см</td>
-                </tr>
-                <tr>
-                  <td class="featured__field">Высота:</td>
-                  <td class="featured__value">15 см</td>
-                </tr>
-              </table>
-              <p class="featured__price">Цена: 990 руб.</p>
-              <button class="featured__order button" type="submit">Заказать</button>
+          <div class="featured__wrapper">
+            <h3 class="featured__title">Вязанные корзинки</h3>
+            <span class="featured__weekly">Товар недели</span>
+            <div class="featured__inside">
+              <div class="featured__text">
+                <p class="featured__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+                <table class="featured__specification">
+                  <tr>
+                    <td class="featured__field">Цвет:</td>
+                    <td class="featured__value">«Тиффани»/серый</td>
+                  </tr>
+                  <tr>
+                    <td class="featured__field">Диаметр:</td>
+                    <td class="featured__value">25 см</td>
+                  </tr>
+                  <tr>
+                    <td class="featured__field">Высота:</td>
+                    <td class="featured__value">15 см</td>
+                  </tr>
+                </table>
+                <p class="featured__price">Цена: 990 руб.</p>
+                <button class="featured__order button" type="submit">Заказать</button>
+              </div>
+              <img class="featured__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
             </div>
-            <img class="featured__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
-          </div>
+        </div>
       </section>
 
       <section class="advantages">
         <h2 class="visually-hidden">Отличительные особенности нашего бизнеса</h2>
-        <p class="advantages__intro">Коротко о нас:</p>
-        <ul class="advantages__list">
-          <li class="advantages__item advantages__item--eco">Экологически чистые материалы</li>
-          <li class="advantages__item advantages__item--economy">Скандинавский стиль по российской цене</li>
-          <li class="advantages__item advantages__item--like">Увеличивает лайки на фотографиях</li>
-          <li class="advantages__item advantages__item--byhand">Связано вручную с любовью и умилением</li>
-          <li class="advantages__item advantages__item--local">Поддержка отечественного производителя</li>
-          <li class="advantages__item advantages__item--wrap">Поставляется в подарочной упаковке</li>
-        </ul>
+        <div class="advantages__wrapper">
+          <p class="advantages__intro">Коротко о нас:</p>
+          <ul class="advantages__list">
+            <li class="advantages__item advantages__item--eco">Экологически<br> чистые материалы</li>
+            <li class="advantages__item advantages__item--economy">Скандинавский стиль<br> по российской цене</li>
+            <li class="advantages__item advantages__item--like">Увеличивает лайки<br> на фотографиях</li>
+            <li class="advantages__item advantages__item--byhand">Связано вручную с<br> любовью и умилением</li>
+            <li class="advantages__item advantages__item--local">Поддержка отечественного<br> производителя</li>
+            <li class="advantages__item advantages__item--wrap">Поставляется в<br> подарочной упаковке</li>
+          </ul>
+      </div>
       </section>
 
     </main>

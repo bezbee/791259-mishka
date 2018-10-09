@@ -7,3 +7,9 @@
     left: 50px;
   }
 }
+
+@media (min-width: 1200px) {
+  .user-list {
+    position: static;
+  }
+}

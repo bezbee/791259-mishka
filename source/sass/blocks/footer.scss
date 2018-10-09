@@ -1,6 +1,8 @@
 .page-footer {
   background-color: $background-grey;
-  height: 165px;
+  //
+  height: 160px;
+  //
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,7 +11,9 @@
 
 @media (min-width: 768px) {
   .page-footer {
-    height: 145px;
+    //
+    height: 143px;
+    //
     display: flex;
     flex-direction: row;
     justify-content: space-between;

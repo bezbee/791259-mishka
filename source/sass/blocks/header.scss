@@ -1,34 +1,30 @@
 .page-header {
   background-color: $white;
-  width: auto;
+  @include margin-mobile;
+  //
   height: 395px;
-  width: auto;
+  outline: 1px solid yellow;
+  //
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.page-header__logo-image {
-  height: 35px;
-  align-self: center;
-}
-
 @media (min-width: 768px) {
   .page-header {
+    //
     height: 90px;
+    //
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     @include margin-tablet;
   }
-
-  .page-header__logo-image {
-    align-self: flex-start;
-  }
 }
 
 @media (min-width: 1200px) {
-  .page-header__logo-image {
-    order: 3;
+  .page-header{
+    width: 1050px;
+    @include margin-desktop;
   }
 }

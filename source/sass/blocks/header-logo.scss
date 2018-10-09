@@ -1,0 +1,18 @@
+.page-header__logo-image {
+  height: 35px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .page-header__logo-image {
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-header__logo-image {
+    position: absolute;
+    top: 35px;
+    left: 555px;
+  }
+}

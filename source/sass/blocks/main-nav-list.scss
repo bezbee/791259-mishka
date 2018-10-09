@@ -10,14 +10,20 @@
 }
 
 @media (min-width: 768px) {
-
-  .main-nav {
-    height: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
   .main-nav__toggle {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    //
+    height: 90px;
+    outline: 1px solid purple;
+    width: 1050px;
+    //
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
