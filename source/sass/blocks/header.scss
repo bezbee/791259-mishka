@@ -1,14 +1,10 @@
 .page-header {
+  margin: 0 auto;
+  min-width: 320px;
   background-color: $white;
-
-  @include margin-mobile;
-  //
-  height: 395px;
-  outline: 1px solid yellow;
-  //
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
 }
 
 @media (min-width: 768px) {

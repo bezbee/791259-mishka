@@ -1,10 +1,56 @@
-@media (min-width: 768px) {
-  .user-list {
-    display: flex;
-    position: absolute;
-    top: 100px;
-    left: 50px;
+.user-list {
+  border: 1px solid red;
+}
+
+.user-list__link {
+  display: block;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  box-shadow: 0 1px 0 0 #ececec, inset 0 1px 0 0 #ececec;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
   }
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.user-list__search .user-list__link::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 39px;
+  left: 48px;
+  background-image: url("../img/icon-search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity: 0.4;
+}
+
+.user-list__basket .user-list__link::before {
+  content: '';
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  top: 39px;
+  left: 48px;
+  background-image: url("../img/icon-cart.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity: 0.4;
+}
+
+
+@media (min-width: 768px) {
+
 }
 
 @media (min-width: 1200px) {
