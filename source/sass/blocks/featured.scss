@@ -2,18 +2,22 @@
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $grey;
-  //
-  height: 825px;
+
   outline: 1px solid black;
   //
-  display: block;
 
   @include margin-mobile;
 }
 
+.featured__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .featured__title {
   margin: 0;
-
+  margin-bottom: 15px;
+  padding-top: 38px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 25px;
@@ -28,12 +32,16 @@
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
+  margin-bottom: 35px;
+  border: 1px solid pink;
 }
 
 .featured__description {
   font-size: 15px;
   line-height: 24px;
   color: $grey;
+  border: 1px solid pink;
+  width: 254px;
 }
 
 
@@ -41,12 +49,35 @@
   font-size: 15px;
   line-height: 24px;
   color: $grey;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  border: 1px solid pink;
+}
+
+.featured__specification tr {
+
+  border-bottom: 1px solid $grey;
+
+}
+
+.featured__specification td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.featured__image {
+  height: 315px;
+  width: 260px;
+  border: 1px solid pink;
+  align-self: center;
 }
 
 .featured__price {
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
+  align-self: center;
+  border: 1px solid pink;
 }
 
 .featured__order {
@@ -58,12 +89,15 @@
   border: 2px solid #444444;
   text-transform: uppercase;
   padding: 15px 70px;
-  width: 259px;
+  min-width: 259px;
+  align-self: center;
+  margin-bottom: 40px;
+  border: 1px solid pink;
 }
 
 .featured__image {
-  width: 260px;
   height: 315px;
+  width: auto;
 }
 
 @media (min-width: 768px) {

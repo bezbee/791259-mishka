@@ -1,7 +1,11 @@
 .page-footer__copyright {
   display: flex;
   align-items: center;
-  height: 80px;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding-top: 32px;
+  padding-bottom: 31px;
+  min-width: 183px;
 }
 
 .copyright__text {
@@ -9,9 +13,18 @@
   font-size: 19px;
   line-height: 18px;
   display: block;
-  padding-top: 32px;
-  padding-bottom: 31px;
   padding-right: 38px;
+}
+
+.copyright__link {
+  display: block;
+  border: 1px solid red;
+  width: 27px;
+  height: 35px;
+  background-image: url("../img/logo-htmlacademy.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 @media (min-width: 768px) {

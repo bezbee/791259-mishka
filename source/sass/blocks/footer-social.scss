@@ -2,5 +2,37 @@
   @include list-style-none;
   display: flex;
   align-items: center;
-  height: 80px;
+  justify-content: space-between;
+  min-width: 142px;
+  border: 1px solid black;
+  padding-top: 26px;
+  padding-bottom: 30px;
+}
+
+.social__link {
+  display: block;
+  border: 1px solid red;
+  width: 35px;
+  height: 35px;
+}
+
+.social__link--instagram {
+  background-image: url("../img/icon-insta.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.social__link--facebook {
+  background-image: url("../img/icon-fb.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.social__link--twitter {
+  background-image: url("../img/icon-twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }

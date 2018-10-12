@@ -13,7 +13,7 @@
     <header class="page-header">
 
       <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Логотип «Мишка» - товары ручной работы для дома">
-      <nav class="main-nav main-nav--opened main-nav--nojs">
+      <nav class="main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item"><a href="#" class="site-list__link">Каталог товаров</a></li>
@@ -34,10 +34,10 @@
       <h1 class="visually-hidden">Интернет - магазин «Мишка» - товары ручной работы для дома</h1>
 
       <section class="product-category">
-          <h2 class="product-category__header">Милые штучки ручной работы для дома</h2>
+          <h2 class="product-category__header">Милые штучки ручной<br> работы для дома</h2>
           <ul class="product-category__list">
-            <li class="product-category__item">Предметы интерьера</li>
-            <li class="product-category__item">Детские игрушки</li>
+            <li class="product-category__item"><a class="product-category__link">Предметы интерьера</a></li>
+            <li class="product-category__item"><a class="product-category__link">Детские игрушки</a></li>
           </ul>
         </section>
 
@@ -45,30 +45,26 @@
           <div class="featured__wrapper">
             <h3 class="featured__title">Вязанные корзинки</h3>
             <span class="featured__weekly">Товар недели</span>
-            <div class="featured__inside">
-              <div class="featured__text">
-                <p class="featured__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-                <table class="featured__specification">
-                  <tr>
-                    <td class="featured__field">Цвет:</td>
-                    <td class="featured__value">«Тиффани»/серый</td>
-                  </tr>
-                  <tr>
-                    <td class="featured__field">Диаметр:</td>
-                    <td class="featured__value">25 см</td>
-                  </tr>
-                  <tr>
-                    <td class="featured__field">Высота:</td>
-                    <td class="featured__value">15 см</td>
-                  </tr>
-                </table>
-                <p class="featured__price">Цена: 990 руб.</p>
-                <button class="featured__order button" type="submit">Заказать</button>
-              </div>
-              <img class="featured__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
-            </div>
-        </div>
-      </section>
+            <p class="featured__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+            <table class="featured__specification">
+              <tr>
+                <td class="featured__field">Цвет:</td>
+                <td class="featured__value">«Тиффани»/серый</td>
+              </tr>
+              <tr>
+                <td class="featured__field">Диаметр:</td>
+                <td class="featured__value">25 см</td>
+              </tr>
+              <tr>
+                <td class="featured__field">Высота:</td>
+                <td class="featured__value">15 см</td>
+              </tr>
+            </table>
+            <img class="featured__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
+            <p class="featured__price">Цена: 990 руб.</p>
+            <button class="featured__order button" type="submit">Заказать</button>
+          </div>
+        </section>
 
       <section class="advantages">
         <h2 class="visually-hidden">Отличительные особенности нашего бизнеса</h2>
@@ -78,9 +74,9 @@
             <li class="advantages__item advantages__item--eco">Экологически<br> чистые материалы</li>
             <li class="advantages__item advantages__item--economy">Скандинавский стиль<br> по российской цене</li>
             <li class="advantages__item advantages__item--like">Увеличивает лайки<br> на фотографиях</li>
-            <li class="advantages__item advantages__item--byhand">Связано вручную с<br> любовью и умилением</li>
+            <li class="advantages__item advantages__item--byhand">Связано вручную с любовью и умилением</li>
             <li class="advantages__item advantages__item--local">Поддержка отечественного<br> производителя</li>
-            <li class="advantages__item advantages__item--wrap">Поставляется в<br> подарочной упаковке</li>
+            <li class="advantages__item advantages__item--wrap">Поставляется в подарочной упаковке</li>
           </ul>
       </div>
       </section>
@@ -93,20 +89,20 @@
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--instagram" href="#"><span class="">Мы в Инстаграме</span></a>
+            <a class="social__link social__link--instagram" href="#"><span class="visually-hidden">Мы в Инстаграме</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="#"><span class="">Мы в Фейсбуке</span></a>
+            <a class="social__link social__link--facebook" href="#"><span class="visually-hidden">Мы в Фейсбуке</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--twitter" href="#"><span class="">Мы в Твиттере</span></a>
+            <a class="social__link social__link--twitter" href="#"><span class="visually-hidden">Мы в Твиттере</span></a>
           </li>
         </ul>
       </div>
 
       <div class="page-footer__copyright copyright">
         <b class="copyright__text">Разработано</b>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">HTML Academy</span></a>
       </div>
 
     </footer>

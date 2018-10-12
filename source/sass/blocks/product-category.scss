@@ -3,11 +3,7 @@
   background-image: url("../img/hero-mobile@1x.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  //
-  height: 490px;
-  outline: 1px solid orange;
-  //
+  background-size: cover;
   display: block;
 }
 
@@ -17,10 +13,11 @@
   line-height: 30px;
   font-weight: 700;
   text-align: center;
-  //
-  height: 280px;
-  //
-  margin: 0;
+  width: 275px;
+  padding-top: 80px;
+  padding-bottom: 125px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 .product-category__list {
@@ -28,30 +25,60 @@
   border: 1px solid blue;
 }
 
-.product-category__item:first-child {
-  background-color: $grass;
-  color: $white;
+.product-category__item {
+  position: relative;
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
   text-align: left;
-  //
-  height: 103px;
-  //
-  padding-left: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.product-category__item:first-child {
+  background-color: $grass;
+  color: $white;
+
 }
 
 .product-category__item:last-child {
   background-color: $emerald;
   color: $white;
-  font-size: 19px;
-  line-height: 24px;
-  font-weight: 700;
-  text-align: left;
-  //
-  height: 103px;
-  //
+
+}
+.product-category__link {
+  display: block;
+  width: 136px;
+  color: $white;
   padding-left: 30px;
+}
+
+.product-category__item:first-child .product-category__link::after {
+  content: '';
+  position: absolute;
+  width: 41px;
+  height: 63px;
+  top: 20px;
+  right: 50px;
+  background-image: url("../img/icon-interior.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity: 0.2;
+}
+
+.product-category__item:last-child .product-category__link::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  right: 50px;
+  background-image: url("../img/icon-toy.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity: 0.2;
 }
 
 @media (min-width: 768px) {
@@ -62,9 +89,11 @@
   }
 
   .product-category__header {
-    //
-    height: 625px;
-    //
+
+    padding-top: 174px;
+    width: 525px;
+    padding-bottom: 380px;
+    display: block;
   }
 
   .product-category__list {
@@ -74,7 +103,12 @@
 
   .product-category__item {
     flex-grow: 1;
-    height: 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .product-category__link{
+    padding-left: 38px;
   }
 }
 
