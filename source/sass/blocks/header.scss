@@ -15,6 +15,10 @@
   border: 1px solid red;
 }
 
+.pade-header__text {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .page-header {
     display: flex;
@@ -31,10 +35,22 @@
     padding-top: 22px;
     padding-bottom: 21px;
   }
+
+  .pade-header__text {
+    display: block;
+    position: absolute;
+    top: 109px;
+    right: 50px;
+    font-size: 15px;
+    color: $grey;
+    line-height: 24px;
+  }
 }
+
 
 @media (min-width: 1200px) {
   .page-header {
+    position: relative;
     max-width: 1250px;
 
     @include margin-desktop;
@@ -47,5 +63,9 @@
     top: 0;
     right: 625px;
     padding-top: 9px;
+  }
+
+  .pade-header__text {
+    right: 0;
   }
 }
