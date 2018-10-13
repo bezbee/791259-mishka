@@ -16,13 +16,14 @@
 
 .featured__title {
   margin: 0;
-  margin-bottom: 15px;
   padding-top: 38px;
+  padding-bottom: 15px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 25px;
   color: $black;
   line-height: 30px;
+  border: 1px solid red;
 }
 
 .featured__weekly {
@@ -32,16 +33,18 @@
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
-  margin-bottom: 35px;
-  border: 1px solid pink;
+  padding-bottom: 35px;
+  border: 1px solid red;
 }
 
 .featured__description {
+  margin: 0;
   font-size: 15px;
   line-height: 24px;
   color: $grey;
-  border: 1px solid pink;
+  border: 1px solid red;
   width: 254px;
+  padding-bottom: 30px;
 }
 
 
@@ -51,13 +54,12 @@
   color: $grey;
   border-collapse: collapse;
   margin-bottom: 15px;
-  border: 1px solid pink;
+  border: 1px solid red;
+  width: 290px;
 }
 
 .featured__specification tr {
-
   border-bottom: 1px solid $grey;
-
 }
 
 .featured__specification td {
@@ -68,16 +70,17 @@
 .featured__image {
   height: 315px;
   width: 260px;
-  border: 1px solid pink;
-  align-self: center;
+  border: 1px solid red;
+  align-self: flex-start;
 }
 
 .featured__price {
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
-  align-self: center;
-  border: 1px solid pink;
+  align-self: flex-start;
+  border: 1px solid red;
+  margin-left: 70px;
 }
 
 .featured__order {
@@ -89,10 +92,18 @@
   border: 2px solid #444444;
   text-transform: uppercase;
   padding: 15px 70px;
-  min-width: 259px;
-  align-self: center;
   margin-bottom: 40px;
-  border: 1px solid pink;
+  max-width: 292px;
+
+  &:hover,
+  &:focus {
+    background-color: $grey;
+    color: $white;
+  }
+
+  &:active {
+    color: lighten(#444444, 20%);
+  }
 }
 
 .featured__image {
@@ -102,49 +113,44 @@
 
 @media (min-width: 768px) {
   .featured {
-    //
-    height: 640px;
-    //
     @include margin-tablet;
-  }
-
-  .featured__wrapper {
-    max-width: 875px;
-    outline: 1px solid red;
-    margin: 0 auto;
+    position: relative;
+    max-width: 1050px;
   }
 
   .featured__title {
-    position: relative;
+    padding-top: 54px;
+    padding-bottom: 50px;
+    font-family: OpenSans-Bold;
+    font-size: 43px;
+    line-height: 50px;
   }
 
   .featured__weekly {
-    display: block;
     width: 80px;
     position: absolute;
-  }
-
-  .featured__inside {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .featured__text {
-    width: 50%;
+    top: 0;
+    right: 0;
+    padding-top: 66px;
   }
 
   .featured__image {
     width: 333px;
     height: 404px;
+    position: absolute;
+    top: 155px;
+    right: 0;
+  }
+
+  .featured__price {
+    font-size: 20px;
+
   }
 }
 
 @media (min-width: 1200px) {
   .featured {
-    //
-    height: 795px;
-    //
-    width: 1050px;
+    padding-left: 175px;
 
     @include margin-desktop;
   }
@@ -152,5 +158,42 @@
   .featured__image {
     width: 525px;
     height: 636px;
+  }
+
+  .featured__title {
+    position: absolute;
+    top: 0;
+    left: 137px;
+    z-index: 10;
+    padding-top: 132px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .featured__weekly {
+    left: 0;
+    top: 0;
+    padding-top: 141px;
+  }
+
+  .featured__description {
+    margin-top: 230px;
+    padding-bottom: 43px;
+  }
+
+  .featured__image {
+    top: 71px;
+  }
+
+  .featured__specification {
+    margin-bottom: 109px;
+  }
+
+  .featured__price {
+    margin-bottom: 33px;
+  }
+
+  .featured__order {
+    margin-bottom: 100px;
   }
 }

@@ -1,7 +1,5 @@
 .main-nav {
   align-self: stretch;
-  border: 2px solid brown;
-
 }
 
 .main-nav__list {
@@ -64,8 +62,12 @@
   }
 }
 
-
 @media (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
   .main-nav__toggle {
     display: none;
   }
@@ -73,11 +75,7 @@
 
 @media (min-width: 1200px) {
   .main-nav {
-    //
-    height: 90px;
-    outline: 1px solid purple;
-    width: 1050px;
-    //
+    width: 1250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

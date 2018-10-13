@@ -6,6 +6,15 @@
   padding-top: 32px;
   padding-bottom: 31px;
   min-width: 183px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
 }
 
 .copyright__text {

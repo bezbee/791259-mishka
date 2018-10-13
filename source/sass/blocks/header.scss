@@ -7,23 +7,45 @@
   align-items: center;
 }
 
+.page-header__logo-image {
+  height: 35px;
+  width: 86px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 1px solid red;
+}
+
 @media (min-width: 768px) {
   .page-header {
-    //
-    height: 90px;
-    //
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     @include margin-tablet;
   }
+
+  .page-header__logo-image {
+    align-self: flex-start;
+    width: 113px;
+    height: 46px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+  }
 }
 
 @media (min-width: 1200px) {
   .page-header {
-    width: 1050px;
+    max-width: 1250px;
 
     @include margin-desktop;
+  }
+
+  .page-header__logo-image {
+    position: absolute;
+    width: 149px;
+    height: 72px;
+    top: 0;
+    right: 625px;
+    padding-top: 9px;
   }
 }
