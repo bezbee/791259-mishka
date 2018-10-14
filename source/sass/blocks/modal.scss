@@ -1,42 +1,70 @@
 .modal {
+  width: 566px;
   height: 336px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #C6C6C6;
+  box-shadow: 0 5px 10px 0 rgba(0,1,1,0.25);
 }
 
 .modal__title {
+  margin: 0;
   font-weight: 700;
   font-size: 25px;
   color: $black;
   line-height: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+  text-transform: uppercase;
+  border: 1px solid red;
 }
 
 .modal__text {
+  margin: 0;
   color: $grey;
   font-size: 15px;
   line-height: 24px;
   padding-top: 23px;
   padding-bottom: 23px;
+  border: 1px solid red;
 }
 
 .modal__size-list {
   @include list-style-none;
   display: flex;
   align-content: center;
+  border: 1px solid red;
+  margin-bottom: 31px;
 }
 
-.modal__item {
+.modal__button--size {
   font-size: 17px;
   color: $grey;
   line-height: 16px;
-  padding-top: 17px;
-  padding-left: 22px;
-  padding-bottom: 17px;
-  padding-right: 22px;
-  border: 2px solid rgba(68, 68, 68, 0.1);
+  padding-top: 20px;
+  padding-left: 37px;
+  padding-bottom: 15px;
+  padding-right: 37px;
+  border: 2px solid rgba(#444444, 0.1%);
+
+  &:hover,
+  &:focus {
+  border: 2px solid rgba(#444444, 0.3%);
+  }
+
+  &:active {
+    border-color: $emerald;
+  }
+}
+
+.modal__item {
+  margin-right: 7px;
+}
+
+.modal__item:nth-child(3) {
+    margin-right: 0;
 }
 
 .modal__button {
