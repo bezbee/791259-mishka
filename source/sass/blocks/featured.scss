@@ -4,7 +4,6 @@
   color: $grey;
 
   outline: 1px solid black;
-  //
 
   @include margin-mobile;
 }
@@ -102,7 +101,7 @@
   }
 
   &:active {
-    color: opacify($grey, 0.3);
+    color: opacify($grey, .3);
   }
 }
 
