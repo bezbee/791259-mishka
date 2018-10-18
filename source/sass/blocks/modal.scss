@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: flex-start;
   border: 1px solid #c6c6c6;
-  box-shadow: 0 5px 10px 0 rgba(0,1,1,0.25);
+  box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
 }
 
 .modal__title {
@@ -51,7 +51,7 @@
 
   &:hover,
   &:focus {
-  border: 2px solid rgba(#444444, 0.3%);
+    border: 2px solid rgba(#444444, 0.3%);
   }
 
   &:active {

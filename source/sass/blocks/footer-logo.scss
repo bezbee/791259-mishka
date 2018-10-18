@@ -1,13 +1,14 @@
 .page-footer__logo-image {
   display: none;
+
   &:hover,
   &:focus {
     fill: $grass;
   }
+
   &:active {
     opacity: 0.4;
   }
-
 }
 
 @media (min-width: 768px) {

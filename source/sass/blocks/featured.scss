@@ -101,13 +101,8 @@
   }
 
   &:active {
-    color: opacify($grey, .3);
+    color: opacify($grey, 0.3);
   }
-}
-
-.featured__image {
-  height: 315px;
-  width: auto;
 }
 
 @media (min-width: 768px) {
@@ -142,7 +137,6 @@
 
   .featured__price {
     font-size: 20px;
-
   }
 }
 
@@ -156,6 +150,7 @@
   .featured__image {
     width: 525px;
     height: 636px;
+    top: 71px;
   }
 
   .featured__title {
@@ -177,10 +172,6 @@
   .featured__description {
     margin-top: 230px;
     padding-bottom: 43px;
-  }
-
-  .featured__image {
-    top: 71px;
   }
 
   .featured__specification {
