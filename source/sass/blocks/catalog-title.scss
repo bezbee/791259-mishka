@@ -24,12 +24,12 @@
 
 @media (min-width: 1200px) {
   .catalog-page-main__title {
-
-    @include margin-tablet;
     font-size: 53px;
     line-height: 57px;
     padding-top: 103px;
     padding-bottom: 96px;
     max-width: 1150px;
+
+    @include margin-tablet;
   }
 }
