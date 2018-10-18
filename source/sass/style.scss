@@ -1,7 +1,6 @@
 @import "var.scss";
 @import "mixin.scss";
 @import "blocks/header.scss";
-@import "blocks/header-logo.scss";
 @import "blocks/main-nav-list.scss";
 @import "blocks/user-list.scss";
 @import "blocks/sitelist-additional.scss";
@@ -13,7 +12,6 @@
 @import "blocks/footer-logo.scss";
 @import "blocks/footer-social.scss";
 @import "blocks/footer-copyright.scss";
-@import "blocks/catalog-header.scss";
 @import "blocks/catalog-title.scss";
 @import "blocks/catalog-list.scss";
 @import "blocks/product-card.scss";
@@ -22,18 +20,15 @@
 
 body {
   min-width: 320px;
-  margin: 0;
-  padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $black;
+  margin: 0 auto;
 }
 
 @media (min-width: 1200px) {
   body {
     width: 1250px;
-    outline: 1px dotted pink;
-    margin: 0 auto;
   }
 }
 
@@ -47,6 +42,7 @@ input[type="radio"].visually-hidden {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }

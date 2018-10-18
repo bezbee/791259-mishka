@@ -1,11 +1,22 @@
 .page-footer__logo-image {
   display: none;
+
+  &:hover,
+  &:focus {
+    fill: $grass;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
 }
 
 @media (min-width: 768px) {
   .page-footer__logo-image {
     display: block;
     margin-left: 50px;
+    padding-top: 51px;
+    padding-bottom: 58px;
   }
 }
 
