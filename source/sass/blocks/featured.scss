@@ -23,7 +23,7 @@
   font-size: 25px;
   color: $black;
   line-height: 30px;
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 .featured__weekly {
@@ -34,7 +34,7 @@
   line-height: 20px;
   text-transform: uppercase;
   padding-bottom: 35px;
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 .featured__description {
@@ -42,7 +42,7 @@
   font-size: 15px;
   line-height: 24px;
   color: $grey;
-  border: 1px solid red;
+  outline: 1px solid red;
   width: 254px;
   padding-bottom: 30px;
 }
@@ -54,8 +54,8 @@
   color: $grey;
   border-collapse: collapse;
   margin-bottom: 15px;
-  border: 1px solid red;
-  width: 290px;
+  outline: 1px solid red;
+  max-width: 290px;
 }
 
 .featured__specification tr {
@@ -70,7 +70,7 @@
 .featured__image {
   height: 315px;
   width: 260px;
-  border: 1px solid red;
+  outline: 1px solid red;
   align-self: flex-start;
 }
 
@@ -79,7 +79,7 @@
   line-height: 24px;
   font-weight: 700;
   align-self: flex-start;
-  border: 1px solid red;
+  outline: 1px solid red;
   margin-left: 70px;
 }
 
@@ -89,7 +89,7 @@
   color: $grey;
   text-align: center;
   line-height: 20px;
-  border: 2px solid #444444;
+  border: 2px solid $grey;
   text-transform: uppercase;
   padding: 15px 70px;
   margin-bottom: 40px;
@@ -102,7 +102,7 @@
   }
 
   &:active {
-    color: lighten(#444444, 20%);
+    color: opacify($grey, 0.3);
   }
 }
 
@@ -121,7 +121,6 @@
   .featured__title {
     padding-top: 54px;
     padding-bottom: 50px;
-    font-family: OpenSans-Bold;
     font-size: 43px;
     line-height: 50px;
   }

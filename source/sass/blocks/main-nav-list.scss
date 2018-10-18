@@ -49,16 +49,11 @@
 
 
 @media (max-width: 767px) {
-  .main-nav--closed .site-list {
-    display: none;
-  }
 
-  .main-nav--closed .user-list {
-    display: none;
-  }
-
+  .main-nav--closed .site-list,
+  .main-nav--closed .user-list,
   .main-nav--nojs .main-nav__toggle {
-  display: none;
+    display: none;
   }
 }
 
@@ -71,6 +66,7 @@
   .main-nav__toggle {
     display: none;
   }
+
 }
 
 @media (min-width: 1200px) {
