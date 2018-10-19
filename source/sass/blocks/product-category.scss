@@ -88,10 +88,29 @@
   opacity: 0.2;
 }
 
+@media (min-width: 320px) {
+
+  @media (min-resolution: 114dpi), (min-resolution: 1.5 dppx) {
+    .product-category {
+      background-image: url("../img/hero-mobile@2x.jpg");
+      background-size: 575px 375px;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .product-category {
     @include margin-tablet;
     outline: 1px solid black;
+    background-image: url("../img/hero-tablet@1x.jpg");
+    background-size: 1150px 746px;
+  }
+
+  @media (min-resolution: 114dpi), (min-resolution: 1.5 dppx) {
+    .product-category {
+      background-image: url("../img/hero-tablet@2x.jpg");
+      background-size: 1150px 746px;
+    }
   }
 
   .product-category__header {

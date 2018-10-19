@@ -67,7 +67,11 @@
                 <td class="featured__value">15 см</td>
               </tr>
             </table>
-            <img class="featured__image" src="http://placehold.it/150x100" alt="Вязанные корзинки">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="../img/triple-set-desktop@1x.jpg 1x, ../img/triple-set-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="../img/triple-set-tablet@1x.jpg 1x, ../img/triple-set-tablet@2x.jpg 2x">
+              <img class="featured__image" src="../img/triple-set-mobile@1x.jpg" srcset="../img/triple-set-mobile@2x.jpg 2x" alt="Вязанные корзинки">
+            </picture>
             <p class="featured__price">Цена: 990 руб.</p>
             <button class="featured__order button" type="submit">Заказать</button>
           </div>
