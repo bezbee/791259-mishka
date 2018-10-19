@@ -12,7 +12,13 @@
 
     <header class="page-header">
 
-      <a><img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Логотип «Мишка» - товары ручной работы для дома"></a>
+      <a>
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/logo-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+          <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Логотип «Мишка» - товары ручной работы для дома">
+        </picture>
+      </a>
       <nav class="main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__list site-list">
