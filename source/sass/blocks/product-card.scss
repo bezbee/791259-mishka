@@ -142,7 +142,7 @@
 
   .product-card__image {
     width: 316px;
-    height: 462px;
+    height: auto;
   }
 
   .product-card__text {
@@ -151,5 +151,9 @@
 
   .product-card__specification {
     padding-bottom: 35px;
+  }
+
+  .product-card:last-child .product-card__specification {
+    padding-bottom: 10px;
   }
 }
