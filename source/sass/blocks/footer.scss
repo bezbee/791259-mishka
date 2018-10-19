@@ -14,3 +14,9 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: 1200px) {
+  .page-footer {
+    @include margin-desktop;
+  }
+}
