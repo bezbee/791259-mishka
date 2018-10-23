@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="47px" height="29px" viewBox="0 0 47 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-feature-money</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Mishka-Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Mishka-Index-Mobile" transform="translate(-30.000000, -1922.000000)" fill="#63D1BB">
-            <g id="about" transform="translate(0.000000, 1736.000000)">
-                <g id="icon-feature-money" transform="translate(30.000000, 186.000000)">
-                    <path d="M42.882,0.834 L4.116,0.834 C1.96,0.834 0.212,2.583 0.212,4.739 L0.212,24.26 C0.212,26.416 1.96,28.165 4.116,28.165 L42.882,28.165 C45.038,28.165 46.787,26.416 46.787,24.26 L46.787,4.739 C46.787,2.583 45.038,0.834 42.882,0.834 Z M3.235,25.784 L3.235,3.551 L43.437,3.551 L43.437,25.784 L3.235,25.784 Z" id="Shape"></path>
-                    <path d="M7.14,21.88 L39.535,21.88 L39.535,7.456 L7.14,7.456 L7.14,21.88 Z M23.5,9.354 C26.436,9.354 28.815,11.734 28.815,14.668 C28.815,17.604 26.436,19.982 23.5,19.982 C20.564,19.982 18.186,17.603 18.186,14.668 C18.185,11.733 20.564,9.354 23.5,9.354 Z" id="Shape"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="29" viewBox="0 0 47 29" width="47" xmlns="http://www.w3.org/2000/svg"><g fill="#63d1bb" fill-rule="evenodd" transform=""><path d="m42.882.834h-38.766c-2.156 0-3.904 1.749-3.904 3.905v19.521c0 2.156 1.748 3.905 3.904 3.905h38.766c2.156 0 3.905-1.749 3.905-3.905v-19.521c0-2.156-1.749-3.905-3.905-3.905zm-39.647 24.95v-22.233h40.202v22.233z"/><path d="m7.14 21.88h32.395v-14.424h-32.395zm16.36-12.526c2.936 0 5.315 2.38 5.315 5.314 0 2.936-2.379 5.314-5.315 5.314s-5.314-2.379-5.314-5.314c-.001-2.935 2.378-5.314 5.314-5.314z"/></g></svg>
