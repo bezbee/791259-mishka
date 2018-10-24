@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-search color</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Mishka-Styleguide" transform="translate(-51.000000, -308.000000)" fill="#63D1BB">
-            <g id="icon-search-color" transform="translate(51.000000, 308.000000)">
-                <path d="M17.47,15.93 L14.055,12.515 C15.02,11.226 15.6,9.634 15.6,7.899 C15.6,3.646 12.153,0.2 7.9,0.2 C3.647,0.2 0.2,3.646 0.2,7.899 C0.2,12.152 3.646,15.599 7.899,15.599 C9.633,15.599 11.225,15.019 12.512,14.053 L15.929,17.469 C16.132,17.671 16.347,17.799 16.7,17.799 C17.307,17.799 17.8,17.307 17.8,16.699 C17.8,16.459 17.739,16.2 17.47,15.93 Z M2.399,7.899 C2.399,4.861 4.861,2.399 7.899,2.399 C10.937,2.399 13.399,4.861 13.399,7.899 C13.399,10.937 10.937,13.399 7.899,13.399 C4.861,13.399 2.399,10.938 2.399,7.899 Z" id="Shape"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m17.47 15.93-3.415-3.415c.965-1.289 1.545-2.881 1.545-4.616 0-4.253-3.447-7.699-7.7-7.699s-7.7 3.446-7.7 7.699 3.446 7.7 7.699 7.7c1.734 0 3.326-.58 4.613-1.546l3.417 3.416c.203.202.418.33.771.33.607 0 1.1-.492 1.1-1.1 0-.24-.061-.499-.33-.769zm-15.071-8.031c0-3.038 2.462-5.5 5.5-5.5s5.5 2.462 5.5 5.5-2.462 5.5-5.5 5.5-5.5-2.461-5.5-5.5z" fill="#63d1bb" fill-rule="evenodd" transform=""/></svg>

@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="34px" height="28px" viewBox="0 0 34 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-feature-heart</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Mishka-Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Mishka-Index-Mobile" transform="translate(-37.000000, -2050.000000)" fill="#63D1BB">
-            <g id="about" transform="translate(0.000000, 1736.000000)">
-                <g id="icon-feature-heart" transform="translate(37.000000, 314.000000)">
-                    <path d="M33.525,8.808 C33.525,3.983 29.613,0.072 24.789,0.072 C21.384,0.072 18.441,2.023 17,4.865 C15.559,2.023 12.616,0.072 9.211,0.072 C4.386,0.072 0.475,3.983 0.475,8.808 C0.475,17.935 15.132,27.929 17,27.929 C18.869,27.929 33.525,17.979 33.525,8.808 Z" id="Shape"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="28" viewBox="0 0 34 28" width="34" xmlns="http://www.w3.org/2000/svg"><path d="m33.525 8.808c0-4.825-3.912-8.736-8.736-8.736-3.405 0-6.348 1.951-7.789 4.793-1.441-2.842-4.384-4.793-7.789-4.793-4.825 0-8.736 3.911-8.736 8.736 0 9.127 14.657 19.121 16.525 19.121 1.869 0 16.525-9.95 16.525-19.121z" fill="#63d1bb" fill-rule="evenodd" transform=""/></svg>

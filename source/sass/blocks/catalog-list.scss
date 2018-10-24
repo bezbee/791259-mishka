@@ -4,4 +4,17 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .catalog__list::before {
+    content: "";
+    width: 100%;
+    height: 23px;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    position: absolute;
+    left: 0;
+    top: -50px;
+  }
 }
