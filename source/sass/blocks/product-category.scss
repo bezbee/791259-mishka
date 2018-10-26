@@ -88,7 +88,7 @@
 }
 
 @media (min-width: 320px) {
-  @media (min-resolution: 114dpi), (min-resolution: 1.5 dppx) {
+  @media (min-resolution: 114dpi), (min-resolution: 1.5dppx) {
     .product-category {
       background-image: url("../img/hero-mobile@2x.jpg");
       background-size: 575px 375px;
@@ -104,7 +104,7 @@
     background-size: 1150px 746px;
   }
 
-  @media (min-resolution: 114dpi), (min-resolution: 1.5 dppx) {
+  @media (min-resolution: 114dpi), (min-resolution: 1.5dppx) {
     .product-category {
       background-image: url("../img/hero-tablet@2x.jpg");
       background-size: 1150px 746px;
@@ -124,7 +124,7 @@
   .product-category__list {
     display: flex;
     flex-direction: row;
-    max-width: 1050px; // не работает
+    max-width: 1050px;
   }
 
   .product-category__item {
