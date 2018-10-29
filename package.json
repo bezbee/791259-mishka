@@ -15,8 +15,10 @@
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "4.0.x",
+    "gulp-uglify": "^3.0.1",
     "postcss-reporter": "^6.0.0",
     "postcss-scss": "^2.0.0",
+    "pump": "^3.0.0",
     "stylelint": "^9.6.0",
     "stylelint-config-htmlacademy": "0.1.x",
     "uglify-js": "^3.4.9"
