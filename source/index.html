@@ -102,7 +102,39 @@
             <li class="advantages__item advantages__item--wrap">Поставляется в подарочной упаковке</li>
           </ul>
       </section>
+      <section class="reviews">
+        <h2 class="reviews__title">Отзывы</h2>
+        <blockquote class="reviews__item">
+          <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+          <cite class="reviews__author-name">Анастасия Красильникова<br><span class="review__author-nickname">@misssssiskras</span></cite>
+        </blockquote>
+        <button class="reviews__prev" type="button">Вперед</button>
+        <button class="reviews__next" type="button">Назад</button>
+        <a class="reviews__write button" href="#">Написать</a>
+      </section>
+      <section class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <table class="contacts_table">
+          <tr class="contacts__email">
+            <td class="contacts__field">email:</td>
+            <td class="contacts__value">info@mimimishkashop.ru</td>
+          </tr>
+          <tr class="contacts__address">
+            <td class="contacts__field">адрес:</td>
+            <td class="contacts__value">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</td>
+          </tr>
+        </table>
+        <picture>
+          <source type="image/webp" media="(min-width: 1200px)" srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
+          <source type="image/webp" media="(min-width: 768px)" srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
+          <source srcset="img/map-mobile@1x.webp 1x, img/map-mobile@2x.webp 2x">
 
+          <source media="(min-width: 1200px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
+          <source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
+          <img src="img/map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg 2x" alt="г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101" class="contacts__map">
+        </picture>
+        <a class="contacts__write button" href="#">Нaпишите нам</a>
+      </section>
     </main>
 
     <footer class="page-footer">
