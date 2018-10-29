@@ -47,6 +47,12 @@ gulp.task("min-js", function () {
        .pipe(gulp.dest("build/js/"));
 });
 
+gulp.task("min-html", function (){
+  return gulp.src("build/*.html")
+  .pipe(htmlmin({collapseWhitespace: true }))
+  .pipe(gulp.dest("build/"));
+});
+
 gulp.task("server", function () {
   server.init({
     server: "build/",
@@ -64,5 +70,5 @@ gulp.task("clean", function () {
   return del("build");
 });
 
-gulp.task("build", gulp.series("clean", "copy", "css", "min-js"));
+gulp.task("build", gulp.series("clean", "copy", "css", "min-js", "min-html"));
 gulp.task("start", gulp.series("build", "server"));
