@@ -44,88 +44,95 @@
       <span class="pade-header__text">Бесплатная доставка по России</span>
     </header>
 
-    <main class="catalog-page-main">
-      <h1 class="catalog-page-main__title">Каталог товаров</h1>
-      <section class="catalog">
-        <ul class="catalog__list">
-          <li class="catalog__item product-card">
-            <a href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-hare-desktop@1x.webp 1x, img/photo-hare-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-hare-tablet@1x.webp 1x, img/photo-hare-tablet@2x.webp 2x">
-                <source  type="image/webp" srcset="img/photo-hare-mobile@1x.webp 1x, img/photo-hare-mobile@2x.webp 2x">
-
-                <source media="(min-width: 1200px)" srcset="img/photo-hare-desktop@1x.jpg 1x, img/photo-hare-desktop@2x.jpg 2x">
-                <source media="(min-width: 768px)" srcset="img/photo-hare-tablet@1x.jpg 1x, img/photo-hare-tablet@2x.jpg 2x">
-                <img class="product-card__image" src="img/photo-hare-mobile@1x.jpg" srcset="img/photo-hare-mobile@2x.jpg" alt="Зайчик - попрыгайчик">
-              </picture>
-            </a>
-            <div class="product-card__text">
-              <h3 class="product-card__title"><a href="#">Зайчик - попрыгайчик</a></h3>
-              <p class="product-card__specification">Рост 30 см, вес 200 г</p>
-              <div class="product-card__wrapper">
-                <p class="product-card__price">1200 руб.</p>
-                <a class="product-card__link"><span class="visually-hidden">В корзину</span></a>
-              </div>
-            </div>
+    <main class="form-main__title">
+      <h1 class="form-main__title"></h1>
+      <section class="form">
+        <p class="form__intro"></p>
+        <form class="filter" method="get" action="#">
+          <fieldset class="filter__element filter-element">
+          <legend class="filter-element__title">Тип</legend>
+          <ul class="filter-element__list">
+            <li class="filter-element__option">
+              <input class="filter-element__input" type="radio" name="product-category" value="accessories" id="filter-accessories">
+            <label for="filter-accessories">Аксессуар для интерьера</label>
           </li>
-          <li class="catalog__item product-card">
-            <a href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-bowl-desktop@1x.webp 1x, img/photo-bowl-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-bowl-tablet@1x.webp 1x, img/photo-bowl-tablet@2x.webp 2x">
-                <source  type="image/webp" srcset="img/photo-bowl-mobile@1x.webp 1x, img/photo-bowl-mobile@2x.webp 2x">
+          <li class="filter-element__option">
+            <input class="filter-element__input" type="radio" name="product-category" value="toy" id="filter-toy">
+          <label for="filter-toy">Детская игрушка</label>
+        </li>
+          </fieldset>
 
-                <source media="(min-width: 1200px)" srcset="img/photo-bowl-desktop@1x.jpg 1x, img/photo-bowl-desktop@2x.jpg 2x">
-                <source media="(min-width: 768px)" srcset="img/photo-bowl-tablet@1x.jpg 1x, img/photo-bowl-tablet@2x.jpg 2x">
-              <img class="product-card__image" src="img/photo-bowl-mobile@1x.jpg" srcset="img/photo-bowl-mobile@2x.jpg 2x" alt="Корзинка для белья">
-              </picture>
-            </a>
-            <div class="product-card__text">
-              <h3 class="product-card__title"><a href="#">Корзинка для белья</a></h3>
-              <p class="product-card__specification">Диаметр 15 см, высота 10 см</p>
-              <div class="product-card__wrapper">
-                <p class="product-card__price">690 руб.</p>
-                <a class="product-card__link"><span class="visually-hidden">В корзину</span></a>
-              </div>
-            </div>
-          </li>
-          <li class="catalog__item product-card">
-          <a href="#">
-            <picture>
-              <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-toys-desktop@1x.webp 1x, img/photo-toys-desktop@2x.webp 2x">
-              <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-toys-tablet@1x.webp 1x, img/photo-toys-tablet@2x.webp 2x">
-              <source  type="image/webp" srcset="img/photo-toys-mobile@1x.webp 1x, img/photo-toys-mobile@2x.webp 2x">
+          <fieldset class="filter__element filter-element">
+            <legend class="filter-element__title">Цвет</legend>
+            <ul class="filter-element__list">
+              <li class="filter-element__option">
+                <input class="filter-element__input" type="checkbox" id="color-white" checked>
+              <label for="color-white">Белый</label>
+              </li>
+              <li class="filter-element__option">
+                <input class="filter-element__input" type="checkbox" id="color-grey" checked>
+                <label for="color-grey">Серый</label>
+              </li>
+              <li class="filter-element__option">
+                <input class="filter-element__input" type="checkbox" id="color-tiffany">
+                <label for="color-tiffany">"Тиффани"</label>
+              </li>
+              <li class="filter-element__option">
+                <input class="filter-element__input" type="checkbox" id="color-black">
+                <label for="color-black">Черный</label>
+              </li>
+              <li class="filter-element__option">
+                <input class="filter-element__input" type="checkbox" id="color-pink">
+                <label for="color-pink">Розовый</label>
+              </li>
+              <li class="filter-element__option">
+                <input class="filter-element__input" type="checkbox" id="color-orange">
+                <label for="color-orange">Оранжевый</label>
+              </li>
+            </ul>
+          </fieldset>
 
-              <source media="(min-width: 1200px)" srcset="img/photo-toys-desktop@1x.jpg 1x, img/photo-toys-desktop@2x.jpg 2x">
-              <source media="(min-width: 768px)" srcset="img/photo-toys-tablet@1x.jpg 1x, img/photo-toys-tablet@2x.jpg 2x">
-            <img class="product-card__image" src="img/photo-toys-mobile@1x.jpg" srcset="img/photo-toys-mobile@2x.jpg 2x" alt="Корзинка для белья">
-            </picture>
-          </a>
-          <div class="product-card__text">
-            <h3 class="product-card__title"><a href="#">Большая корзинка<br> для игрушек</a></h3>
-            <p class="product-card__specification">Диаметр 30 см, высота 30 см</p>
-            <div class="product-card__wrapper">
-              <p class="product-card__price">1500 руб.</p>
-              <a class="product-card__link"><span class="visually-hidden">В корзину</span></a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="production">
-        <h2 class="production__title">Процесс производства</h2>
-        <picture>
-          <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
-          <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
-          <source srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+          <fieldset class="filter__element filter-element">
+            <legend class="filter-element__title">ФИО</legend>
+            <ul class="filter-element__list">
+              <li class="filter-element__option">
+                <label for="first-name">Имя:</label>
+                <input class="filter-element__input" type="text" id="first-name" placeholder="Введите ваше имя*" required>
+              </li>
+              <li class="filter-element__option">
+                <label for="last-name">Фамилия:</label>
+                <input class="filter-element__input" type="text" id="last-name" placeholder="Укажите фамилию*" required>
+              </li>
+              <li class="filter-element__option">
+                <label for="middle-name">Отечество:</label>
+                <input class="filter-element__input" type="text" id="middle-name" placeholder="Отчество, если желаете">
+              </li>
+          </fieldset>
 
-          <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
-          <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
-          <img class="production__image" src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Вязанная корзина">
-        </picture>
-        <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-        <a href="#" class="production__order button">Сделать заказ</a>
+          <fieldset class="filter__element filter-element">
+           <legend class="filter-element__title">Тел</legend>
+            <label for="phone" class="visually-hidden">Укажите номер телефона</label>
+            <input class="filter-element__input" type="tel" id="phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
+          </fieldset>
+
+          <fieldset class="filter__element filter-element">
+            <legend class="filter-element__title">Email</legend>
+             <label for="email" class="visually-hidden">Укажите имэйл</label>
+             <input class="filter-element__input" type="email" id="email" placeholder="Ваш Email*" required>
+          </fieldset>
+          <fieldset class="filter__element filter-element">
+            <legend class="filter-element__title">Доп</legend>
+             <label for="textarea" class="visually-hidden">Пожелания</label>
+             <textarea class="filter-element__input" id="textarea" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+          </fieldset>
+          <p>*Поля обязательны для заполнения</p>
+          <fieldset class="filter__element filter-element">
+            <button class="filter-element__submit" type="submit">Отправить заказ</button>
+
+          </fieldset>
+
+        </form>
+
       </section>
     </main>
 
@@ -156,16 +163,3 @@
       </div>
 
     </footer>
-    <section class="modal-add-to-basket modal">
-      <h2 class="modal__title">Добавить в корзину</h2>
-      <p class="modal__text">Выберите размер:</p>
-      <ul class="modal__size-list">
-        <li class="modal__item"><button class="modal__button--size">S</button></li>
-        <li class="modal__item"><button class="modal__button--size">M</button></li>
-        <li class="modal__item"><button class="modal__button--size">L</button></li>
-      </ul>
-      <button class="modal__button" type="submit">Добавить</button>
-    </section>
-    <script src="js/nav-min.js"></script>
-  </body>
-</html>
