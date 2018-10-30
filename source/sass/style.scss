@@ -8,6 +8,8 @@
 @import "blocks/product-category.scss";
 @import "blocks/featured.scss";
 @import "blocks/advantages.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
 @import "blocks/footer.scss";
 @import "blocks/footer-logo.scss";
 @import "blocks/footer-social.scss";
@@ -55,6 +57,14 @@ img {
 a {
   text-decoration: none;
   color: $black;
+}
+
+h1,
+h2,
+h3,
+p,
+blockquote {
+  @include zero;
 }
 
 @font-face {

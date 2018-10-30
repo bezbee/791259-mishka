@@ -18,3 +18,12 @@
   margin-left: 100px;
   margin-right: 100px;
 }
+
+@mixin zero {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin outline {
+  outline: 1px solid red;
+}
