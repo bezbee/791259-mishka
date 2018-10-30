@@ -30,6 +30,7 @@
 @media (min-width: 768px) {
   .site-list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
     top: 85px;
