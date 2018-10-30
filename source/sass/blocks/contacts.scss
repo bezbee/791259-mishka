@@ -1,7 +1,7 @@
 .contacts {
-  margin-bottom: 60px;
+  margin-bottom: 34px;
 
-  @include margin-mobile;
+  margin-left: 68px;
   outline: 1px solid black;
 }
 
@@ -26,20 +26,21 @@ padding-bottom: 25px;
 }
 
 .contacts__field {
-  padding-right: 47px;
+  padding-right: 32px;
   vertical-align: top;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
 }
 
 .contacts__value {
   vertical-align: top;
-  max-width: 187px;
+  max-width: 145px;
 }
 
 .contacts__map {
   max-height: 457px;
   min-width: 322px;
   display: block;
+  margin-left: 40px;
   margin-bottom: 39px;
 }
 
@@ -47,11 +48,11 @@ padding-bottom: 25px;
   border: 2px solid $grey;
   text-transform: uppercase;
 
-  @include margin-mobile;
+  margin-left: 68px;
   max-width: 260px;
-  padding-top: 18px;
-  padding-bottom: 14px;
-  margin-bottom: 39px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  margin-bottom: 38px;
   display: block;
   font-weight: 700;
   text-align: center;

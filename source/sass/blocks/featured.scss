@@ -22,12 +22,14 @@
 .featured__wrapper {
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
+
 }
 
 .featured__title {
   margin: 0;
-  padding-top: 38px;
-  padding-bottom: 15px;
+  padding-top: 28px;
+  padding-bottom: 5px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 25px;
@@ -43,7 +45,7 @@
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
   outline: 1px solid red;
 }
 
@@ -54,7 +56,7 @@
   color: $grey;
   outline: 1px solid red;
   width: 254px;
-  padding-bottom: 30px;
+  padding-bottom: 19px;
 }
 
 
@@ -73,7 +75,7 @@
 }
 
 .featured__specification td {
-  padding-top: 15px;
+  padding-top: 3px;
   padding-bottom: 15px;
 }
 
@@ -90,8 +92,8 @@
   font-weight: 700;
   align-self: flex-start;
   outline: 1px solid red;
-  margin-left: 70px;
-  padding-top: 25px;
+  margin-left: 68px;
+  padding-top: 24px;
   padding-bottom: 25px;
 }
 
@@ -103,7 +105,7 @@
   line-height: 20px;
   border: 2px solid $grey;
   text-transform: uppercase;
-  padding: 15px 70px;
+  padding: 14px 69px;
   margin-bottom: 40px;
   max-width: 259px;
 

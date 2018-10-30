@@ -3,9 +3,7 @@
   outline: 1px solid orange;
   //
   display: block;
-  margin: 0;
-
-  @include margin-mobile;
+  margin-left: 68px;
 }
 
 .advantages__intro {
@@ -14,14 +12,14 @@
   color: $black;
   font-weight: 700;
   line-height: 30px;
-  padding-top: 40px;
-  padding-bottom: 48px;
+  padding-top: 31px;
+  padding-bottom: 46px;
   outline: 1px solid purple;
 }
 
 .advantages__list {
   @include list-style-none;
-  margin-bottom: 70px;
+  margin-bottom: 59px;
 }
 
 .advantages__item {
@@ -32,9 +30,9 @@
   text-align: left;
   font-weight: 700;
   width: 250px;
-  padding-top: 60px;
+  padding-top: 40px;
   outline: 1px solid purple;
-  margin-bottom: 38px;
+  margin-bottom: 42px;
 }
 
 .advantages__item--eco::before {
@@ -42,8 +40,8 @@
   position: absolute;
   width: 32px;
   height: 38px;
-  top: 0;
-  left: 0;
+  top: -15px;
+  left: 9px;
   background-image: url("../img/icon-feature-flower.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -55,8 +53,8 @@
   position: absolute;
   width: 47px;
   height: 29px;
-  top: 0;
-  left: 0;
+  top: -13px;
+  left: 2px;
   background-image: url("../img/icon-feature-money.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -68,8 +66,8 @@
   position: absolute;
   width: 34px;
   height: 28px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 9px;
   background-image: url("../img/icon-feature-heart.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -81,8 +79,8 @@
   position: absolute;
   width: 35px;
   height: 35px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 5px;
   background-image: url("../img/icon-feature-ball.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -94,8 +92,8 @@
   position: absolute;
   width: 55px;
   height: 24px;
-  top: 0;
-  left: 0;
+  top: -10px;;
+  left: -4px;
   background-image: url("../img/icon-feature-rocket.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -107,8 +105,8 @@
   position: absolute;
   width: 34px;
   height: 34px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 5px;
   background-image: url("../img/icon-feature-gift.svg");
   background-position: center;
   background-repeat: no-repeat;
