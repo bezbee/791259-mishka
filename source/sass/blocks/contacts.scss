@@ -6,12 +6,12 @@
 }
 
 .contacts__title {
-font-weight: bold;
-font-size: 18px;
-line-height: 30px;
-padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 25px;
 
-@include outline;
+  @include outline;
 }
 
 .contacts__table {
