@@ -4,16 +4,18 @@
 
 .user-list__item {
   position: relative;
-  outline: 1px solid red;
+  box-shadow: 0 1px 0 0 #ececec, inset 0 1px 0 0 #ececec;
 }
 
 .user-list__link {
   display: block;
-  width: 100%;
-  text-align: center;
+  width: 182px;
+  position: relative;
+  margin: 0 auto;
+  text-align: left;
   padding-top: 35px;
   padding-bottom: 35px;
-  box-shadow: 0 1px 0 0 #ececec, inset 0 1px 0 0 #ececec;
+
 
   &:hover,
   &:focus {
@@ -31,7 +33,7 @@
   width: 18px;
   height: 18px;
   top: 39px;
-  right: 60px;
+  left: -60px;
   background-image: url("../img/icon-search.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +58,7 @@
   width: 21px;
   height: 18px;
   top: 39px;
-  right: 60px;
+  left: -60px;
   background-image: url("../img/icon-cart.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -112,13 +114,13 @@
   }
 
   .user-list__item--search .user-list__link::before {
-    top: 36px;
+    top: 0px;
     left: 34px;
   }
 
   .user-list__item--basket .user-list__link::before {
-    top: 35px;
-    left: 30px;
+    top: 0px;
+    left: -50px;
   }
 }
 

@@ -3,13 +3,14 @@
 }
 
 .site-list__item {
-  outline: 1px solid black;
+  box-shadow: 0 1px 0 0 #ececec, inset 0 1px 0 0 #ececec;
 }
 
 .site-list__link {
   display: block;
-  width: 100%;
-  text-align: center;
+  width: 182px;
+  margin: 0 auto;
+  text-align: left;
   padding-top: 35px;
   padding-bottom: 35px;
   box-shadow: 0 1px 0 0 #ececec, inset 0 1px 0 0 #ececec;
