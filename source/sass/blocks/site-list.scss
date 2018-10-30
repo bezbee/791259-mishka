@@ -1,5 +1,7 @@
 .site-list {
   outline: 1px solid blue;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-list__item {
