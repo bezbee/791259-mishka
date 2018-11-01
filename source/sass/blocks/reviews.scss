@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  margin-left: 69px;
+  @include padding-mobile;
   margin-bottom: 87px;
   position: relative;
   outline: 1px solid black;
@@ -12,8 +12,10 @@
     height: 23px;
     width: 100%;
     background-image: url("../img/bg-zigzag-line.svg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
     position: absolute;
-    bottom: -45px;
+    bottom: -60px;
     left: 0;
   }
 }
@@ -30,7 +32,6 @@
   font-size: 15px;
   color: $grey;
   line-height: 30px;
-  width: 295px;
   padding-bottom: 26px;
   outline: 1px solid red;
 }
@@ -39,7 +40,6 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  width: 271px;
   padding-bottom: 34px;
   display: block;
   outline: 1px solid red;
@@ -110,5 +110,11 @@
 
   &:active {
     color: opacify($grey, 0.3);
+  }
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    @include padding-tablet;
   }
 }

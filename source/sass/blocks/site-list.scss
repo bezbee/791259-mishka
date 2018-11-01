@@ -33,16 +33,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
-    top: 85px;
+    top: 72px;
     left: 50px;
-  }
-
-  .site-list__item {
-    padding-right: 38px;
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .site-list__item:not(:first-child) {
-    padding-left: 35px;
+    margin-left: -14px;
   }
 }
 

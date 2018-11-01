@@ -1,15 +1,14 @@
 .contacts {
   margin-bottom: 34px;
 
-  margin-left: 68px;
-  outline: 1px solid black;
+  @include padding-mobile;
 }
 
 .contacts__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 23px;
 
   @include outline;
 }
@@ -26,7 +25,7 @@
 }
 
 .contacts__field {
-  padding-right: 32px;
+  padding-right: 30px;
   vertical-align: top;
   padding-bottom: 30px;
 }
@@ -38,21 +37,22 @@
 
 .contacts__map {
   max-height: 457px;
-  min-width: 322px;
+  width: 100%;
   display: block;
-  margin-left: 40px;
-  margin-bottom: 39px;
+  margin-bottom: 43px;
 }
 
 .contacts__write {
   border: 2px solid $grey;
   text-transform: uppercase;
 
-  margin-left: 68px;
-  max-width: 260px;
   padding-top: 14px;
   padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 36px;
   margin-bottom: 38px;
+  margin-left: 30px;
+  margin-right: 30px;
   display: block;
   font-weight: 700;
   text-align: center;

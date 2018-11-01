@@ -4,19 +4,34 @@
   padding: 0;
 }
 
-@mixin margin-mobile {
-  margin-left: 30px;
-  margin-right: 30px;
+@mixin margin-mobile  {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @mixin margin-tablet {
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @mixin margin-desktop {
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@mixin padding-mobile  {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@mixin padding-tablet {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@mixin padding-desktop {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 @mixin zero {

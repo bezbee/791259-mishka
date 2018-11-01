@@ -4,7 +4,7 @@
   justify-content: space-between;
   outline: 1px solid black;
   padding-top: 32px;
-  padding-bottom: 31px;
+  padding-bottom: 27px;
   min-width: 180px;
 
   &:hover,
@@ -22,7 +22,7 @@
   font-size: 19px;
   line-height: 18px;
   display: block;
-  padding-right: 38px;
+  padding-right: 28px;
 }
 
 .copyright__link {
@@ -32,8 +32,9 @@
   height: 35px;
   background-image: url("../img/logo-htmlacademy.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0 3px;
   background-size: auto;
+
 }
 
 @media (min-width: 768px) {

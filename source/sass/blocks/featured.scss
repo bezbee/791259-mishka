@@ -3,15 +3,14 @@
   font-weight: 400;
   color: $grey;
   position: relative;
-  outline: 1px solid black;
-
-  @include margin-mobile;
 
   &::after {
     content: "";
     height: 23px;
     width: 100%;
     background-image: url("../img/bg-zigzag-line.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -21,7 +20,8 @@
 .featured__wrapper {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+
+  @include padding-mobile;
 }
 
 .featured__title {
@@ -54,7 +54,7 @@
   color: $grey;
   outline: 1px solid red;
   width: 254px;
-  padding-bottom: 19px;
+  padding-bottom: 20px;
 }
 
 
@@ -103,7 +103,7 @@
   line-height: 20px;
   border: 2px solid $grey;
   text-transform: uppercase;
-  padding: 14px 69px;
+  padding: 14px;
   margin-bottom: 40px;
   max-width: 259px;
 
@@ -120,7 +120,7 @@
 
 @media (min-width: 768px) {
   .featured {
-    @include margin-tablet;
+    padding-left: 17px;
     max-width: 1050px;
 
     &::before {
@@ -128,21 +128,21 @@
       height: 23px;
       width: 100%;
       background-image: url("../img/bg-zigzag-fill.svg");
+      background-size: 100% 90%;
       position: absolute;
-      top: -20px;
+      top: 0;
       left: 0;
-      padding-bottom: 5px;
     }
 
     &::after {
-      bottom: -20px;
+      bottom: -30px;
       left: 0;
     }
   }
 
   .featured__title {
-    padding-top: 54px;
-    padding-bottom: 50px;
+    padding-top: 55px;
+    padding-bottom: 54px;
     font-size: 43px;
     line-height: 50px;
   }
@@ -150,21 +150,46 @@
   .featured__weekly {
     width: 80px;
     position: absolute;
-    top: 0;
-    right: 0;
-    padding-top: 66px;
+    top: 66px;
+    right: 65px;
+  }
+
+  .featured__description {
+    font-size: 17px;
+    line-height: 30px;
+    min-width: 300px;
+    padding-bottom: 35px;
+  }
+
+  .featured__specification  {
+    margin-bottom: 23px;
+
+  }
+
+  .featured__specification tr {
+    display: block;
+    max-width: 292px;
+  }
+
+  .featured__field {
+    padding-right: 40px;
   }
 
   .featured__image {
     width: 333px;
     height: 404px;
     position: absolute;
-    top: 155px;
-    right: 0;
+    top: 160px;
+    right: 50px;
   }
 
   .featured__price {
     font-size: 20px;
+    padding-bottom: 34px;
+  }
+
+  .featured__order {
+    max-width: 291px;
   }
 }
 
