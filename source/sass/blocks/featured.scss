@@ -123,12 +123,14 @@
     padding-left: 17px;
     max-width: 1050px;
 
+    @include outline;
+
     &::before {
       content: "";
       height: 23px;
       width: 100%;
       background-image: url("../img/bg-zigzag-fill.svg");
-      background-size: 100% 90%;
+      background-size: 90% 100%;
       position: absolute;
       top: 0;
       left: 0;
@@ -142,7 +144,7 @@
 
   .featured__title {
     padding-top: 55px;
-    padding-bottom: 54px;
+    padding-bottom: 50px;
     font-size: 43px;
     line-height: 50px;
   }
@@ -150,8 +152,9 @@
   .featured__weekly {
     width: 80px;
     position: absolute;
-    top: 66px;
-    right: 65px;
+    top: 65px;
+    right: 71px;
+    text-align: center;
   }
 
   .featured__description {
@@ -179,7 +182,7 @@
     width: 333px;
     height: 404px;
     position: absolute;
-    top: 160px;
+    top: 163px;
     right: 50px;
   }
 

@@ -116,5 +116,64 @@
 @media (min-width: 768px) {
   .reviews {
     @include padding-tablet;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 19px;
+
+    background-image: url("../img/review@1x.jpg");
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    @include outline;
+
+    &::after {
+     bottom: -90px;
+    }
+  }
+
+  .reviews__title {
+    font-size: 43px;
+    line-height: 50px;
+    padding-bottom: 52px;
+  }
+
+  .reviews__text {
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom: 55px;
+  }
+
+  .reviews__author-name {
+    max-width: 290px;
+  }
+
+  .reviews__br {
+    display: none;
+  }
+
+  .reviews__buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .reviews__write {
+    position: absolute;
+
+    top: 90px;
+    right: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .reviews__prev {
+    left: 17px;
+    top: -10px;
+  }
+
+  .reviews__next {
+    top: -10px;
+    right: 28px;
   }
 }

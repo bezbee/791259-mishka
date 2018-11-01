@@ -116,10 +116,17 @@
 }
 
 @media (min-width: 768px) {
+
+  .advantages {
+
+    @include outline;
+    margin-bottom: 0;
+  }
   .advantages__wrapper {
     width: 718px;
     margin: 0 auto;
     outline: 1px solid green;
+    margin-bottom: 0;
   }
 
   .advantages__intro {
@@ -145,6 +152,10 @@
     padding-top: 38px;
     font-size: 20px;
     line-height: 22px;
+  }
+
+  .advantages__list {
+    margin-bottom: 0;
   }
 }
 
