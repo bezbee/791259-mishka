@@ -108,13 +108,14 @@
       background-position: center;
     }
   }
+
   .contacts__title {
     font-size: 43px;
     line-height: 50px;
     padding-bottom: 47px;
   }
 
-  .contacts__table tbody{
+  .contacts__table tbody {
     font-size: 17px;
     line-height: 30px;
     display: flex;
@@ -153,7 +154,7 @@
   .contacts {
     padding-left: 250px;
 
-    &:after {
+    &::after {
       left: 140px;
       top: -7px;
     }

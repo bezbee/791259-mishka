@@ -5,7 +5,6 @@
   display: block;
 
   @include padding-mobile;
-
 }
 
 .advantages__intro {
@@ -116,12 +115,11 @@
 }
 
 @media (min-width: 768px) {
-
   .advantages {
-
     @include outline;
     margin-bottom: 0;
   }
+
   .advantages__wrapper {
     width: 718px;
     margin: 0 auto;
@@ -144,6 +142,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .advantages__item {
@@ -152,10 +151,6 @@
     padding-top: 38px;
     font-size: 20px;
     line-height: 22px;
-  }
-
-  .advantages__list {
-    margin-bottom: 0;
   }
 }
 

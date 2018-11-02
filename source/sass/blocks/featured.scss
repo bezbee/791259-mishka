@@ -170,9 +170,8 @@
     padding-bottom: 35px;
   }
 
-  .featured__specification  {
+  .featured__specification {
     margin-bottom: 23px;
-
   }
 
   .featured__specification tr {
@@ -206,12 +205,12 @@
   .featured {
     max-width: 1250px;
 
-    &:before {
+    &::before {
       top: -20px;
       height: 34px;
     }
 
-    &:after {
+    &::after {
       height: 23px;
       bottom: 10px;
     }
