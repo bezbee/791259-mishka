@@ -38,6 +38,11 @@
   vertical-align: top;
 }
 
+.contacts__email .contacts__value {
+  text-decoration: underline;
+  text-decoration-color: $emerald;
+}
+
 .contacts__map {
   max-height: 457px;
   width: 100%;
