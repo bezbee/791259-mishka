@@ -24,6 +24,10 @@
   @include outline;
 }
 
+.contacts__address {
+  @include outline;
+}
+
 .contacts__field {
   padding-right: 30px;
   vertical-align: top;
@@ -32,7 +36,6 @@
 
 .contacts__value {
   vertical-align: top;
-  max-width: 145px;
 }
 
 .contacts__map {
@@ -59,4 +62,59 @@
   font-size: 18px;
   color: $grey;
   line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    @include padding-tablet;
+    margin-bottom: 54px;
+
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 47px;
+      height: 81px;
+      top: -14px;
+      right: 52px;
+      background-image: url("../img/icon-flag.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  .contacts__title {
+    font-size: 43px;
+    line-height: 50px;
+    padding-bottom: 47px;
+  }
+
+  .contacts__table tbody{
+    font-size: 17px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacts__email {
+    margin-right: 50px;
+  }
+
+  .contacts__address {
+    width: 50%;
+  }
+
+  .contacts__address .contacts__field {
+    padding-right: 18px;
+  }
+
+  .contacts__map {
+    margin-bottom: 58px;
+  }
+
+  .contacts__write {
+    max-width: 158px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+  }
 }

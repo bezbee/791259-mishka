@@ -145,8 +145,14 @@
     @include margin-desktop;
   }
 
+  .product-category__header br {
+    display: none;
+  }
+
   .product-category__header {
     font-size: 53px;
     line-height: 57px;
+    width: 70%;
+
   }
 }

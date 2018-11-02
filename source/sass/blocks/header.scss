@@ -33,7 +33,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    @include margin-tablet;
+    @include padding-tablet;
   }
 
   .page-header__logo-link {
@@ -59,9 +59,6 @@
 @media (min-width: 1200px) {
   .page-header {
     position: relative;
-    max-width: 1250px;
-
-    @include margin-desktop;
   }
 
   .page-header__logo-link {
@@ -69,7 +66,7 @@
     width: 149px;
     height: 72px;
     top: 0;
-    right: 465px;
+    right: 575px;
     padding-top: 9px;
   }
 
