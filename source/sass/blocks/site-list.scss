@@ -52,6 +52,10 @@
     line-height: 24px;
   }
 
+  .site-list__link {
+    padding-top: 33px;
+  }
+
   .site-list__item:first-child {
     border-right: 1px solid $background-grey;
     padding-right: 50px;

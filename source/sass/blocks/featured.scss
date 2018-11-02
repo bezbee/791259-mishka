@@ -6,13 +6,13 @@
 
   &::after {
     content: "";
-    height: 23px;
+    height: 6px;
     width: 100%;
     background-image: url("../img/bg-zigzag-line.svg");
-    background-repeat: no-repeat;
-    background-size: 100% 80%;
+    background-repeat: repeat;
+    background-size: contain;
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
     left: 0;
   }
 }
@@ -77,6 +77,10 @@
   padding-bottom: 15px;
 }
 
+.featured__field {
+  padding-right: 15px;
+}
+
 .featured__image {
   height: 315px;
   width: 260px;
@@ -121,30 +125,31 @@
 @media (min-width: 768px) {
   .featured {
     padding-left: 17px;
-    max-width: 1050px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 
     @include outline;
 
     &::before {
       content: "";
-      height: 23px;
+      height: 24px;
       width: 100%;
       background-image: url("../img/bg-zigzag-fill.svg");
-      background-size: 90% 100%;
+      background-size: contain;
+      background-repeat: repeat;
       position: absolute;
-      top: 0;
+      top: -10px;
       left: 0;
     }
 
     &::after {
       bottom: -30px;
       left: 0;
+      height: 17px;
     }
   }
 
   .featured__title {
-    padding-top: 55px;
+    padding-top: 45px;
     padding-bottom: 50px;
     font-size: 43px;
     line-height: 50px;
@@ -153,7 +158,7 @@
   .featured__weekly {
     width: 80px;
     position: absolute;
-    top: 65px;
+    top: 55px;
     right: 71px;
     text-align: center;
   }
@@ -199,15 +204,28 @@
 
 @media (min-width: 1200px) {
   .featured {
-    padding-left: 175px;
+    max-width: 1250px;
 
-    @include margin-desktop;
+    &:before {
+      top: -15px;
+      height: 34px;
+    }
+
+    &:after {
+      height: 23px;
+      bottom: 10px;
+    }
+  }
+
+  .featured__wrapper {
+    padding-left: 233px;
   }
 
   .featured__image {
     width: 525px;
     height: 636px;
-    top: 71px;
+    top: 77px;
+    right: 120px;
   }
 
   .featured__title {
@@ -215,28 +233,29 @@
     top: 0;
     left: 137px;
     z-index: 10;
-    padding-top: 132px;
+    padding-top: 122px;
+    padding-left: 113px;
     font-size: 53px;
     line-height: 57px;
   }
 
   .featured__weekly {
-    left: 0;
+    left: 120px;
     top: 0;
-    padding-top: 141px;
+    padding-top: 131px;
   }
 
   .featured__description {
     margin-top: 230px;
-    padding-bottom: 43px;
+    padding-bottom: 45px;
   }
 
   .featured__specification {
-    margin-bottom: 109px;
+    margin-bottom: 78px;
   }
 
   .featured__price {
-    margin-bottom: 33px;
+    padding-left: 8px;
   }
 
   .featured__order {

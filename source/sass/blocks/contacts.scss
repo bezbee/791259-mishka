@@ -62,6 +62,17 @@
   font-size: 18px;
   color: $grey;
   line-height: 20px;
+  max-width: 260px;
+
+  &:hover,
+  &:focus {
+    background-color: $grey;
+    color: $white;
+  }
+
+  &:active {
+    color: opacify($grey, 0.3);
+  }
 }
 
 @media (min-width: 768px) {
@@ -116,5 +127,46 @@
     max-width: 158px;
     margin: 0 auto;
     margin-bottom: 55px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contacts {
+    padding-left: 250px;
+
+    &:after {
+      left: 140px;
+      top: -7px;
+    }
+  }
+
+  .contacts__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .contacts__table tbody {
+    flex-direction: column;
+  }
+
+  .contacts__address {
+    width: 330px;
+  }
+
+  .contacts__address .contacts__field {
+    padding-right: 25px;
+  }
+
+  .contacts__map {
+    max-width: 525px;
+    position: absolute;
+    top: 2920px;
+    right: 125px;
+  }
+
+  .contacts__write {
+    margin: 0;
+    margin-top: 78px;
+    margin-left: 250px;
   }
 }
