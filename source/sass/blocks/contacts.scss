@@ -42,7 +42,21 @@
   max-height: 457px;
   width: 100%;
   display: block;
+
   margin-bottom: 43px;
+  position: relative;
+}
+
+.contacts__map::before {
+  content: " ";
+  width: 67px;
+  height: 100px;
+  position: absolute;
+  top: 148px;
+  left: 140px;
+  background-image: url("../img/icon-map-pin.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .contacts__write {
@@ -120,7 +134,12 @@
   }
 
   .contacts__map {
-    margin-bottom: 58px;
+    margin-bottom: 55px;
+  }
+
+  .contacts__map::before {
+    left: 360px;
+    top: 140px;
   }
 
   .contacts__write {
@@ -162,6 +181,10 @@
     position: absolute;
     top: 2920px;
     right: 125px;
+  }
+
+  .contacts__map::before {
+    left: 240px;
   }
 
   .contacts__write {

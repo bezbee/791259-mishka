@@ -175,6 +175,11 @@
     right: 0;
   }
 
+  .reviews__prev,
+  .reviews__next {
+    width: 80px;
+  }
+
   .reviews__write {
     position: absolute;
 
@@ -185,13 +190,13 @@
   }
 
   .reviews__prev {
-    left: 17px;
+    left: -86px;
     top: -10px;
   }
 
   .reviews__next {
     top: -10px;
-    right: 28px;
+    right: 78px;
   }
 }
 
