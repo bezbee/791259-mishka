@@ -3,7 +3,7 @@
   width: 260px;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 58px;
   position: relative;
 
   &::before {
@@ -16,7 +16,6 @@
     background-image: url("../img/icon-video.svg");
     background-position: center;
     background-repeat: no-repeat;
-
   }
 }
 
@@ -74,12 +73,23 @@
   margin: 0 auto;
   display: block;
   width: 192px;
+  margin-bottom: 33px;
+
+  &:hover,
+  &:focus {
+    background-color: $grey;
+    color: $white;
+  }
+
+  &:active {
+    color: opacify($grey, 0.3);
+  }
 }
 
 @media (min-width: 768px) {
   .production {
     width: 668px;
-    margin-bottom: 110px;
+    margin-bottom: 65px;
   }
 
   .production__title {
@@ -114,6 +124,7 @@
 
   .production__order {
     width: 584px;
+    margin-bottom: 46px;
   }
 }
 
@@ -153,5 +164,4 @@
     width: 230px;
     padding-top: 14px;
   }
-
 }
