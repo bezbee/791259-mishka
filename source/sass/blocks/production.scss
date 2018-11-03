@@ -4,7 +4,6 @@
   margin: 0 auto;
   position: relative;
   margin-bottom: 58px;
-  position: relative;
 
   &::before {
     content: "";
@@ -32,7 +31,7 @@
   height: 77px;
   top: 40px;
   left: 80px;
-  background-image: url(../img/icon-play.svg);
+  background-image: url("../img/icon-play.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -92,10 +91,6 @@
     margin-bottom: 65px;
   }
 
-  .production__title {
-    position: static;
-  }
-
   .production__image {
     margin-top: 0;
   }
@@ -106,6 +101,7 @@
   }
 
   .production__title {
+    position: static;
     max-width: 100%;
     font-size: 20px;
     line-height: 24px;
