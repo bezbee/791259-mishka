@@ -8,13 +8,26 @@
 }
 
 @media (min-width: 768px) {
+  .catalog__list {
+    position: relative;
+    margin-bottom: -5px;
+
+    &::before {
+      content: "";
+      height: 24px;
+      width: 100%;
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-size: contain;
+      background-repeat: repeat;
+      position: absolute;
+      top: -90px;
+      left: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
   .catalog__list::before {
-    content: "";
-    width: 100%;
-    height: 23px;
-    background-image: url("../img/bg-zigzag-fill.svg");
-    position: absolute;
-    left: 0;
-    top: -50px;
+    height: 34px;
   }
 }

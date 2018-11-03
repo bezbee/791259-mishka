@@ -15,10 +15,11 @@
 
 @media (min-width: 768px) {
   .catalog-page-main__title {
-    padding-top: 102px;
+    padding-top: 98px;
     padding-bottom: 75px;
     font-size: 43px;
     line-height: 50px;
+    margin-bottom: 80px;
   }
 }
 
@@ -26,10 +27,9 @@
   .catalog-page-main__title {
     font-size: 53px;
     line-height: 57px;
-    padding-top: 103px;
+    padding-top: 93px;
     padding-bottom: 96px;
-    max-width: 1150px;
-
-    @include margin-desktop;
+    margin-left: -35px;
+    margin-bottom: 132px;
   }
 }

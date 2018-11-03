@@ -10,7 +10,7 @@
     <link rel="preload" href="fonts/opensansbold.woff2" as="font">
   </head>
 
-  <body class="page">
+  <body class="page page__catalog">
 
     <svg style="display:none" enable-background="new 0 0 101.615 34.056" xmlns="http://www.w3.org/2000/svg">
       <symbol id="footer-logotype" viewBox="0 0 101.615 34.056">
@@ -114,19 +114,21 @@
         </ul>
       </section>
       <section class="production">
-        <picture>
-          <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
-          <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
-          <source srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+        <div class="production__image">
+          <picture>
+            <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
+            <source srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
 
-          <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
-          <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
-          <img class="production__image" src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Вязанная корзина">
-        </picture>
+            <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+            <img src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Вязанная корзина">
+          </picture>
+        </div>
         <div class="production__text">
           <h2 class="production__title">Процесс производства</h2>
-          <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-          <a href="#" class="production__order button">Сделать заказ</a>
+          <p class="production__intro">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <a href="#" class="production__order">Сделать заказ</a>
         </div>
       </section>
     </main>
