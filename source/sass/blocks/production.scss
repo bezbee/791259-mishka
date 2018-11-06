@@ -89,15 +89,20 @@
   .production {
     width: 668px;
     margin-bottom: 65px;
+
+    &::before {
+      top: 493px;
+      left: 40px;
+    }
   }
 
   .production__image {
     margin-top: 0;
-  }
 
-  .production__image::before {
-    top: 190px;
-    left: 285px;
+    &::before {
+      top: 190px;
+      left: 285px;
+    }
   }
 
   .production__title {

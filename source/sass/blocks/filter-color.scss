@@ -33,7 +33,7 @@
   background-color: $white;
 }
 
-.filter__element--color input:checked+label::after {
+.filter__element--color input:checked + label::after {
   content: "";
   position: absolute;
   width: 22px;
