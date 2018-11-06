@@ -1,0 +1,44 @@
+.filter__element--type .filter-element__list {
+  padding-top: 25px;
+  padding-bottom: 13px;
+
+  margin-top: 5px;
+  margin-bottom: 11px;
+}
+
+.filter__element--type .filter-element__option {
+  position: relative;
+  padding-bottom: 18px;
+}
+
+
+.filter__element--type label::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  top: -7px;
+  left: -61px;
+  border: 2px solid $grey;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.filter__element--type label:focus::before,
+.filter__element--type label:hover::before {
+  border-color: $emerald;
+}
+
+.filter__element--type label:active::before {
+  border-color: lighten($grey, 40%);
+}
+
+.filter__element--type .filter-element__input:checked + label::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  top: 5px;
+  left: -50px;
+  background-color: $emerald;
+  border-radius: 50%;
+  position: absolute;
+}

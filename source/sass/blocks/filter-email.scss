@@ -1,0 +1,29 @@
+.filter__element--email {
+  margin-left: 26px;
+  margin-bottom: 31px;
+}
+
+.filter__element--email legend {
+  padding-left: 2px;
+}
+
+.filter__element--email input {
+  margin-top: 4px;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  border: 1px solid red;
+  display: block;
+  width: 100%;
+  background-image: url("../img/icon-mail.svg");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+
+  border: none;
+  border-bottom: 2px solid $grey;
+
+  &:hover,
+  &:focus {
+   border-color: $emerald;
+   background-image: url("../img/icon-mail--green.svg");
+  }
+}

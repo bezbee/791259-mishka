@@ -1,0 +1,28 @@
+.filter__element--tel {
+  margin-left: 26px;
+  margin-bottom: 34px;
+}
+
+.filter__element--tel legend {
+  padding-left: 0;
+}
+
+.filter__element--tel input {
+  padding-top: 18px;
+  padding-bottom: 17px;
+  border: 1px solid red;
+  display: block;
+  width: 100%;
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+
+  border: none;
+  border-bottom: 2px solid $grey;
+
+  &:hover,
+  &:focus {
+    border-color: $emerald;
+    background-image: url("../img/icon-phone--green.svg");
+  }
+}

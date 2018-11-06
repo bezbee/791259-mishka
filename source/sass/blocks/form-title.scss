@@ -1,0 +1,11 @@
+.form-main__title {
+	font-weight: 700;
+	font-size: 27px;
+	text-align: center;
+	line-height: 30px;
+
+  @include zero;
+  padding-top: 70px;
+  padding-bottom: 75px;
+  background-color: #f1f1f1;
+}

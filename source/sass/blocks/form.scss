@@ -1,0 +1,84 @@
+.form__intro {
+	font-weight: 700;
+	font-size: 13px;
+	color: $grey;
+	line-height: 24px;
+
+  padding-left: 30px;
+  padding-right: 29px;
+  padding-top: 23px;
+  padding-bottom: 24px;
+}
+
+.filter-element__title {
+  font-weight: 700;
+  font-size: 17px;
+  color: $emerald;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-left: 25px;
+}
+
+.filter-element {
+  border: none;
+  border-top: 2px solid $emerald;
+  padding: 0;
+  margin-right: 30px;
+
+  outline: 1px solid black;
+}
+
+.filter-element input {
+  font-size: 17px;
+  color: $grey;
+  line-height: 18px;
+}
+
+.filter-element__list {
+  @include list-style-none;
+  outline: 1px solid purple;
+
+  padding-left: 65px;
+  margin-left: 25px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 17px;
+  color: $grey;
+  line-height: 18px;
+  padding-top: 13px;
+}
+
+.filter-element__option label {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.filter__element--tel {
+  margin-left: 26px;
+}
+
+.filter__element--tel legend {
+  padding-left: 0;
+}
+
+.filter__element--tel input {
+  padding-top: 18px;
+  padding-bottom: 17px;
+  border: 1px solid red;
+  display: block;
+  width: 100%;
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+
+  border: none;
+  border-bottom: 2px solid $grey;
+
+  &:hover,
+  &:focus {
+    border-color: $emerald;
+    background-image: url("../img/icon-phone--green.svg");
+  }
+}

@@ -1,0 +1,32 @@
+.filter__element--extra {
+  margin-left: 26px;
+  margin-bottom: 5px;
+}
+
+.filter__element--extra legend {
+  padding-left: 2px;
+  margin-bottom: 25px;
+}
+
+.filter__element--extra textarea {
+  border: none;
+  border: 2px solid $grey;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+
+  font-size: 17px;
+  color: $grey;
+  line-height: 18px;
+}
+
+.filter__element--asterix {
+  font-size: 14px;
+  color: $grey;
+  line-height: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 35px;
+}

@@ -1,0 +1,45 @@
+.filter__element--color .filter-element__list {
+  padding-top: 34px;
+  margin-bottom: 11px;
+}
+
+.filter__element--color .filter-element__option {
+  padding-bottom: 39px;
+  position: relative;
+}
+
+.filter__element--color .filter-element__option:last-child {
+  padding-bottom: 29px;
+}
+
+.filter__element--color label::before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: -10px;
+  left: -62px;
+  border: 2px solid $grey;
+  position: absolute;
+  background-color: #f1f1f1;
+}
+
+.filter__element--color label:hover::before,
+.filter__element--color label:focus::before {
+  border-color: $emerald;
+}
+
+.filter__element--color label:active::before {
+  border-color: lighten($grey, 40%);
+  background-color: $white;
+}
+
+.filter__element--color input:checked+label::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  top: 0;
+  left: -52px;
+  background-image: url("../img/icon-tick.svg");
+  background-position: center;
+}
