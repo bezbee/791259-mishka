@@ -1,16 +1,16 @@
-.filter__element--name .filter-element__list {
+.form__name .form-element__list {
   padding-left: 2px;
   padding-top: 30px;
   margin-bottom: 10px;
 }
 
-.filter__element--name .filter-element__option {
+.form__name .form-element__option {
   padding-bottom: 22px;
   display: flex;
   flex-direction: column;
 }
 
-.filter__element--name input {
+.form__name input {
   border: none;
   border-bottom: 2px solid $grey;
   padding-top: 17px;

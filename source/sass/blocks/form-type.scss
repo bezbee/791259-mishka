@@ -1,4 +1,4 @@
-.filter__element--type .filter-element__list {
+.form__type .form-element__list {
   padding-top: 25px;
   padding-bottom: 13px;
 
@@ -6,13 +6,13 @@
   margin-bottom: 11px;
 }
 
-.filter__element--type .filter-element__option {
+.form__type .form-element__option {
   position: relative;
   padding-bottom: 18px;
 }
 
 
-.filter__element--type label::before {
+.form__type label::before {
   content: "";
   width: 35px;
   height: 35px;
@@ -23,16 +23,16 @@
   position: absolute;
 }
 
-.filter__element--type label:focus::before,
-.filter__element--type label:hover::before {
+.form__type label:focus::before,
+.form__type label:hover::before {
   border-color: $emerald;
 }
 
-.filter__element--type label:active::before {
+.form__type label:active::before {
   border-color: lighten($grey, 40%);
 }
 
-.filter__element--type .filter-element__input:checked + label::after {
+.form__type .form-element__input:checked + label::after {
   content: "";
   width: 15px;
   height: 15px;

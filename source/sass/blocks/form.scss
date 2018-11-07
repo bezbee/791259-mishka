@@ -10,7 +10,7 @@
   padding-bottom: 24px;
 }
 
-.filter-element__title {
+.form-element__title {
   font-weight: 700;
   font-size: 17px;
   color: $emerald;
@@ -19,7 +19,7 @@
   padding-left: 25px;
 }
 
-.filter-element {
+.form-element {
   border: none;
   border-top: 2px solid $emerald;
   padding: 0;
@@ -28,13 +28,13 @@
   outline: 1px solid black;
 }
 
-.filter-element input {
+.form-element input {
   font-size: 17px;
   color: $grey;
   line-height: 18px;
 }
 
-.filter-element__list {
+.form-element__list {
   @include list-style-none;
   outline: 1px solid purple;
 
@@ -49,7 +49,7 @@
   padding-top: 13px;
 }
 
-.filter-element__option label {
+.form-element__option label {
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;

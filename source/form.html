@@ -54,86 +54,86 @@
     <h1 class="form-main__title">Вязание на заказ</h1>
     <section class="form">
       <p class="form__intro">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-      <form class="filter" method="get" action="#">
-        <fieldset class="filter__element--type filter-element">
-          <legend class="filter-element__title">Тип</legend>
-          <ul class="filter-element__list">
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="radio" name="product-category" value="accessories" id="filter-accessories">
-              <label for="filter-accessories">Аксессуары для интерьера</label>
+      <form class="form" method="get" action="#">
+        <fieldset class="form__type form-element">
+          <legend class="form-element__title">Тип</legend>
+          <ul class="form-element__list">
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="radio" name="product-category" value="accessories" id="form-accessories">
+              <label for="form-accessories">Аксессуары для интерьера</label>
             </li>
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="radio" name="product-category" value="toy" id="filter-toy">
-              <label for="filter-toy">Детская игрушка</label>
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="radio" name="product-category" value="toy" id="form-toy">
+              <label for="form-toy">Детская игрушка</label>
             </li>
         </fieldset>
 
-        <fieldset class="filter__element--color filter-element">
-          <legend class="filter-element__title">Цвет</legend>
-          <ul class="filter-element__list">
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="checkbox" id="color-white" checked>
+        <fieldset class="form__color form-element">
+          <legend class="form-element__title">Цвет</legend>
+          <ul class="form-element__list">
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="checkbox" id="color-white" checked>
               <label for="color-white">Белый</label>
             </li>
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="checkbox" id="color-grey" checked>
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="checkbox" id="color-grey" checked>
               <label for="color-grey">Серый</label>
             </li>
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="checkbox" id="color-tiffany">
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="checkbox" id="color-tiffany">
               <label for="color-tiffany">«Тиффани»</label>
             </li>
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="checkbox" id="color-black">
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="checkbox" id="color-black">
               <label for="color-black">Черный</label>
             </li>
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="checkbox" id="color-pink">
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="checkbox" id="color-pink">
               <label for="color-pink">Розовый</label>
             </li>
-            <li class="filter-element__option">
-              <input class="filter-element__input visually-hidden" type="checkbox" id="color-orange">
+            <li class="form-element__option">
+              <input class="form-element__input visually-hidden" type="checkbox" id="color-orange">
               <label for="color-orange">Оранжевый</label>
             </li>
           </ul>
         </fieldset>
 
-        <fieldset class="filter__element--name filter-element">
-          <legend class="filter-element__title">ФИО</legend>
-          <ul class="filter-element__list">
-            <li class="filter-element__option">
+        <fieldset class="form__name form-element">
+          <legend class="form-element__title">ФИО</legend>
+          <ul class="form-element__list">
+            <li class="form-element__option">
               <label for="first-name">Имя:</label>
-              <input class="filter-element__input" type="text" id="first-name" placeholder="Введите ваше имя*" required>
+              <input class="form-element__input" type="text" id="first-name" placeholder="Введите ваше имя*" required>
             </li>
-            <li class="filter-element__option">
+            <li class="form-element__option">
               <label for="last-name">Фамилия:</label>
-              <input class="filter-element__input" type="text" id="last-name" placeholder="Укажите фамилию*" required>
+              <input class="form-element__input" type="text" id="last-name" placeholder="Укажите фамилию*" required>
             </li>
-            <li class="filter-element__option">
+            <li class="form-element__option">
               <label for="middle-name">Отечество:</label>
-              <input class="filter-element__input" type="text" id="middle-name" placeholder="Отчество, если желаете">
+              <input class="form-element__input" type="text" id="middle-name" placeholder="Отчество, если желаете">
             </li>
         </fieldset>
 
-        <fieldset class="filter__element--tel filter-element">
-          <legend class="filter-element__title">Тел</legend>
+        <fieldset class="form__tel form-element">
+          <legend class="form-element__title">Тел</legend>
           <label for="phone" class="visually-hidden">Укажите номер телефона</label>
-          <input class="filter-element__input" type="tel" id="phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
+          <input class="form-element__input" type="tel" id="phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
         </fieldset>
 
-        <fieldset class="filter__element--email filter-element">
-          <legend class="filter-element__title">Email</legend>
+        <fieldset class="form__email form-element">
+          <legend class="form-element__title">Email</legend>
           <label for="email" class="visually-hidden">Укажите имэйл</label>
-          <input class="filter-element__input" type="email" id="email" placeholder="Ваш Email*" required>
+          <input class="form-element__input" type="email" id="email" placeholder="Ваш Email*" required>
         </fieldset>
-        <fieldset class="filter__element--extra filter-element">
-          <legend class="filter-element__title">Доп</legend>
+        <fieldset class="form__extra form-element">
+          <legend class="form-element__title">Доп</legend>
           <label for="textarea" class="visually-hidden">Пожелания</label>
-          <textarea class="filter-element__input" id="textarea" placeholder="Опишите все ваши пожелания к заказу" rows="6"></textarea>
+          <textarea class="form-element__input" id="textarea" placeholder="Опишите все ваши пожелания к заказу" rows="6"></textarea>
         </fieldset>
-        <p class="filter__element--asterix"><sup>*</sup>Поля обязательны для заполнения</p>
-        <fieldset class="filter__element--send filter-element">
-          <button class="filter-element__submit" type="submit">Отправить заказ</button>
+        <p class="form__asterix"><sup>*</sup>Поля обязательны для заполнения</p>
+        <fieldset class="form__send form-element">
+          <button class="form-element__submit" type="submit">Отправить заказ</button>
         </fieldset>
       </form>
     </section>
