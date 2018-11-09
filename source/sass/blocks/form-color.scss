@@ -1,6 +1,9 @@
 .form__color .form-element__list {
   padding-top: 34px;
   margin-bottom: 11px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .form__color .form-element__option {
