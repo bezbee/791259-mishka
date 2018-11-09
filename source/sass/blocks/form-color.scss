@@ -96,16 +96,15 @@
     max-width: 1200px;
   }
 
-    .form__color .form-element__option {
-      width: 262px;
-    }
-
-   .form__color .form-element__option:nth-child(2n+1) {
-    padding-right: 0;
+  .form__color .form-element__option {
+    width: 262px;
   }
+
+  .form__color .form-element__option:nth-child(2n+1) {
+    padding-right: 0;
+}
 
   .form__color legend {
     left: 110px;
   }
-
 }
