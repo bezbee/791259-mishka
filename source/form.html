@@ -35,8 +35,8 @@
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a class="site-list__link site-list__active">Каталог товаров</a></li>
-        <li class="site-list__item"><a href="form.html" class="site-list__link">Вязание на заказ</a></li>
+        <li class="site-list__item"><a href="catalog.html" class="site-list__link site-list__active">Каталог товаров</a></li>
+        <li class="site-list__item"><a class="site-list__link">Вязание на заказ</a></li>
         <ul class="site-list-additional">
           <li class="site-list-additional__item"><a href="#" class="site-list-additional__link">Новые поступления</a></li>
           <li class="site-list-additional__item"><a href="#" class="site-list-additional__link">Распродажа<a></li>
@@ -66,6 +66,7 @@
               <input class="form-element__input visually-hidden" type="radio" name="product-category" value="toy" id="form-toy">
               <label for="form-toy">Детская игрушка</label>
             </li>
+          </ul>
         </fieldset>
 
         <fieldset class="form__color form-element">
@@ -122,7 +123,7 @@
         </fieldset>
 
         <fieldset class="form__email form-element">
-          <legend class="form-element__title">Email</legend>
+          <legend class="form-element__title">E-mail</legend>
           <label for="email" class="visually-hidden">Укажите имэйл</label>
           <input class="form-element__input" type="email" id="email" placeholder="Ваш Email*" required>
         </fieldset>
@@ -139,7 +140,7 @@
     </section>
   </main>
 
-  <footer class="page-footer">
+  <footer class="page-footer form__footer">
     <a href="index.html" class="page-footer__logo-image">
       <svg height="34.056" width="101.615">
         <use xlink:href="#footer-logotype"></use>

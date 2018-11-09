@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  outline: 1px solid black;
   padding-top: 32px;
   padding-bottom: 27px;
   min-width: 180px;
@@ -27,9 +26,8 @@
 
 .copyright__link {
   display: block;
-  outline: 1px solid red;
   width: 28px;
-  height: 35px;
+  height: 37px;
   background-image: url("../img/logo-htmlacademy.svg");
   background-repeat: no-repeat;
   background-position: 0 3px;

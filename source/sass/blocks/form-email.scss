@@ -11,7 +11,7 @@
   margin-top: 4px;
   padding-top: 18px;
   padding-bottom: 17px;
-  border: 1px solid red;
+  border: none;
   display: block;
   width: 100%;
   background-image: url("../img/icon-mail.svg");
@@ -24,5 +24,42 @@
   &:focus {
     border-color: $emerald;
     background-image: url("../img/icon-mail--green.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .form__email {
+    background-color: #f1f1f1;
+    margin-left: 0;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+  }
+
+  .form__email legend {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+  }
+
+  .form__email input {
+    margin-top: 21px;
+    margin-left: 190px;
+    padding-left: 15px;
+    width: 68%;
+    background-position: 95% center;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form__email legend {
+    left: 135px;
+    top: 42px;
+  }
+
+  .form__email input {
+    margin-left: 225px;
+    width: 57%;
+    background-position: right center;
   }
 }

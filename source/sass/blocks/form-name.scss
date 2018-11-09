@@ -21,3 +21,50 @@
     border-color: $emerald;
   }
 }
+
+@media (min-width: 768px) {
+  .form__name {
+    position: relative;
+  }
+
+  .form__name legend {
+    position: absolute;
+    top: 9px;
+  }
+
+  .form__name .form-element__list {
+    padding-left: 167px;
+    padding-top: 7px;
+    padding-right: 20px;
+  }
+
+  .form__name .form-element__option {
+    flex-direction: row;
+    padding-bottom: 43px;
+  }
+
+  .form__name label {
+    padding-right: 24px;
+  }
+
+  .form__name input {
+    padding-top: 17px;
+    margin-top: -17px;
+    flex-grow: 1;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form__name {
+    margin-right: 250px;
+  }
+
+  .form__name legend {
+    left: 110px;
+  }
+
+  .form__name .form-element__list {
+    padding-left: 200px;
+  }
+}

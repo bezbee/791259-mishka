@@ -9,3 +9,38 @@
   padding-bottom: 75px;
   background-color: #f1f1f1;
 }
+
+@media (min-width: 768px) {
+  .form-main__title {
+    font-size: 43px;
+    line-height: 50px;
+    padding-top: 92px;
+    position: relative;
+
+    &::after {
+      content: "";
+      height: 24px;
+      width: 100%;
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-size: contain;
+      background-repeat: repeat;
+      position: absolute;
+      top: 210px;
+      left: 0;
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  .form-main__title {
+    font-size: 53px;
+    line-height: 57px;
+    margin-left: -50px;
+    padding-bottom: 100px;
+
+    &::after {
+      top: 235px;
+      height: 34px;
+    }
+  }
+}

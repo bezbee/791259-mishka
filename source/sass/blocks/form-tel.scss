@@ -10,18 +10,52 @@
 .form__tel input {
   padding-top: 18px;
   padding-bottom: 17px;
-  border: 1px solid red;
   display: block;
   width: 100%;
   background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 97% center;
-
+  border: none;
   border-bottom: 2px solid $grey;
 
   &:hover,
   &:focus {
     border-color: $emerald;
     background-image: url("../img/icon-phone--green.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .form__tel {
+    position: relative;
+    background-color: #f1f1f1;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .form__tel legend {
+    position: absolute;
+    top: 63px;
+    left: 50px;
+  }
+
+  .form__tel input {
+    margin-left: 190px;
+    margin-top: 43px;
+    padding-left: 15px;
+    width: 68%;
+    background-position: 94% center;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form__tel legend {
+    left: 140px;
+  }
+
+  .form__tel input {
+    margin-left: 225px;
+    width: 57%;
+    background-position: 99% center;
   }
 }

@@ -42,3 +42,51 @@
   border-radius: 50%;
   position: absolute;
 }
+
+@media (min-width: 768px) {
+  .form__type {
+    position: relative;
+  }
+
+  .form__type legend {
+    position: absolute;
+    top: -17px;
+  }
+
+  .form__type .form-element__list {
+    padding-left: 245px;
+    margin-top: -45px;
+    margin-bottom: 30px;
+  }
+
+  .form__type .form-element__option:first-child {
+    padding-bottom: 55px;
+  }
+
+  .form__type label {
+
+    &::before {
+      width: 49px;
+      height: 49px;
+      top: -15px;
+      left: -81px;
+    }
+  }
+
+  .form__type .form-element__input:checked + label::after {
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: -66px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form__type .form-element__list {
+    padding-left: 280px;
+  }
+
+  .form__type legend {
+    left: 115px;
+  }
+}

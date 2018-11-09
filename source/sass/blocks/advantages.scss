@@ -1,7 +1,4 @@
 .advantages {
-  //temporarly
-  outline: 1px solid orange;
-  //
   display: block;
 
   @include padding-mobile;
@@ -116,14 +113,12 @@
 
 @media (min-width: 768px) {
   .advantages {
-    @include outline;
     margin-bottom: 0;
   }
 
   .advantages__wrapper {
     width: 718px;
     margin: 0 auto;
-    outline: 1px solid green;
     margin-bottom: 0;
   }
 
