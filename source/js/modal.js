@@ -3,11 +3,13 @@
 (function () {
 
   var modal = document.querySelector('.modal');
-  var icons = document.querySelectorAll('.product-card__button');
+  var icons = document.querySelectorAll('.modal-trigger');
   var overlay = document.querySelector('.overlay');
 
   var ENTER = 13;
   var ESC = 27;
+
+
 
 
   var showElement = function (element) {
@@ -26,9 +28,6 @@
   };
 
   for (var i = 0; i < icons.length; i++) {
-    var coords = modal.getBoundingClientRect();
-    coords.top = window.innderWidth - coords.width / 2;
-    coords.left = window.innerHeight - coords.height / 2;
 
     icons[i].addEventListener('click', function () {
       showElement(modal);
