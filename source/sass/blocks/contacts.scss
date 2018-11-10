@@ -158,6 +158,7 @@
 @media (min-width: 1150px) {
   .contacts {
     padding-left: 250px;
+    position: relative;
 
     &::after {
       left: 140px;
@@ -185,7 +186,7 @@
   .contacts__map {
     max-width: 525px;
     position: absolute;
-    top: 2920px;
+    top: 20px;
     right: 125px;
   }
 
