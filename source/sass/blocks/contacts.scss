@@ -1,7 +1,5 @@
 .contacts {
   margin-bottom: 34px;
-
-  @include padding-mobile;
 }
 
 .contacts__title {
@@ -10,7 +8,7 @@
   line-height: 30px;
   padding-bottom: 23px;
 
-  @include outline;
+  @include padding-mobile;
 }
 
 .contacts__table {
@@ -18,14 +16,8 @@
   font-size: 15px;
   color: $grey;
   line-height: 30px;
-}
-
-.contacts__email {
-  @include outline;
-}
-
-.contacts__address {
-  @include outline;
+  margin-bottom: 35px;
+  margin-left: 30px;
 }
 
 .contacts__field {
@@ -36,6 +28,7 @@
 
 .contacts__value {
   vertical-align: top;
+  padding-right: 35px;
 }
 
 .contacts__email .contacts__value {
@@ -47,6 +40,7 @@
   max-height: 457px;
   width: 100%;
   display: block;
+  padding: 0;
 
   margin-bottom: 43px;
   position: relative;
@@ -96,7 +90,6 @@
 
 @media (min-width: 768px) {
   .contacts {
-    @include padding-tablet;
     margin-bottom: 54px;
 
     position: relative;
@@ -118,6 +111,7 @@
     font-size: 43px;
     line-height: 50px;
     padding-bottom: 47px;
+    padding-left: 50px;
   }
 
   .contacts__table tbody {
@@ -125,10 +119,17 @@
     line-height: 30px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
   }
 
   .contacts__email {
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .contacts__email .contacts__field {
+    min-width: 60px;
+    padding-right: 10px;
   }
 
   .contacts__address {
@@ -136,11 +137,11 @@
   }
 
   .contacts__address .contacts__field {
-    padding-right: 18px;
+    padding-right: 22px;
   }
 
   .contacts__map {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
   }
 
   .contacts__map::before {
@@ -157,7 +158,6 @@
 
 @media (min-width: 1150px) {
   .contacts {
-    padding-left: 250px;
     position: relative;
 
     &::after {
@@ -169,24 +169,38 @@
   .contacts__title {
     font-size: 53px;
     line-height: 57px;
+    padding-left: 250px;
+  }
+
+  .contacts__table {
+    margin-bottom: -20px;
   }
 
   .contacts__table tbody {
     flex-direction: column;
   }
 
+  .contacts__email {
+    padding-left: 200px;
+  }
+
+  .contacts__email .contacts__field {
+    padding-right: 20px;
+  }
+
   .contacts__address {
     width: 330px;
+    padding-left: 220px;
   }
 
   .contacts__address .contacts__field {
-    padding-right: 25px;
+    padding-right: 20px;
   }
 
   .contacts__map {
     max-width: 525px;
     position: absolute;
-    top: 20px;
+    top: -70px;
     right: 125px;
   }
 

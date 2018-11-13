@@ -5,7 +5,6 @@
   @include padding-mobile;
   margin-bottom: 87px;
   position: relative;
-  outline: 1px solid black;
 
   &::after {
     content: "";
@@ -25,7 +24,6 @@
   font-size: 25px;
   line-height: 30px;
   padding-bottom: 25px;
-  outline: 1px solid red;
 }
 
 .reviews__text {
@@ -33,7 +31,6 @@
   color: $grey;
   line-height: 30px;
   padding-bottom: 26px;
-  outline: 1px solid red;
 }
 
 .reviews__br--desktop {
@@ -46,7 +43,6 @@
   line-height: 24px;
   padding-bottom: 34px;
   display: block;
-  outline: 1px solid red;
 }
 
 .reviews__buttons {
@@ -58,11 +54,9 @@
 .reviews__next {
   width: 130px;
   height: 52px;
-  border: 1px solid #ececec;
+  border: none;
   position: relative;
   margin-bottom: 38px;
-
-  @include outline;
 
   &:focus,
   &:hover {
@@ -129,8 +123,6 @@
     background-position: left;
     background-size: auto;
     background-repeat: no-repeat;
-
-    @include outline;
 
     &::after {
       bottom: -90px;

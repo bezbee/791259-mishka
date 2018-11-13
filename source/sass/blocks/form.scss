@@ -23,6 +23,7 @@
   border-top: 2px solid $emerald;
   padding: 0;
   margin-right: 30px;
+  margin-bottom: 25px;
 }
 
 .form-element input {
@@ -36,6 +37,11 @@
 
   padding-left: 65px;
   margin-left: 25px;
+  padding-top: 30px;
+}
+
+.form-element__list--name {
+  padding-left: 0;
 }
 
 ::-webkit-input-placeholder {
@@ -57,14 +63,42 @@
     padding-left: 50px;
     padding-top: 80px;
     padding-right: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 20px;
+  }
+
+  .form-element__list {
+    padding-left: 270px;
+    padding-top: 50px;
+  }
+
+  .form-element__list--color {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 272px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    max-width: 690px;
+  }
+
+  .form-element__list--name {
+    padding-left: 190px;
+    padding-top: 30px;
+    padding-right: 20px;
   }
 
   .form-element {
     border: none;
-    padding-left: 25px;
-    margin-right: 0;
-    padding-right: 30px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .form-element:nth-of-type(2) {
+    background-color: #f1f1f1;
+  }
+
+  .form-element legend {
+    position: absolute;
+    left: 25px;
   }
 
   .form-element__option label {
@@ -83,5 +117,21 @@
     padding-left: 250px;
     padding-right: 275px;
     padding-top: 125px;
+  }
+
+  .form-element__list {
+    padding-left: 305px;
+  }
+
+  .form-element__list--name {
+    padding-left: 225px;
+  }
+
+  .form-element__list--color {
+    max-width: 1200px;
+  }
+
+  .form-element legend {
+    left: 110px;
   }
 }

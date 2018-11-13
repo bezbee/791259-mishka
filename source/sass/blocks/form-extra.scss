@@ -1,6 +1,6 @@
 .form__extra {
   margin-left: 26px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .form__extra legend {
@@ -14,7 +14,8 @@
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 27px;
+  padding-bottom: 13px;
+  padding-top: 15px;
 
   font-size: 17px;
   color: $grey;
@@ -39,7 +40,7 @@
   .form__extra {
     position: relative;
     margin-left: 0;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 
   .form__extra legend {
@@ -50,7 +51,7 @@
 
   .form__extra textarea {
     margin-top: 50px;
-    margin-left: 190px;
+    margin-left: 215px;
     width: 71%;
   }
 
@@ -59,7 +60,7 @@
     line-height: 30px;
     position: absolute;
     right: 20px;
-    top: 1765px;
+    top: 246px;
   }
 }
 
@@ -73,11 +74,12 @@
   }
 
   .form__extra textarea {
-    margin-left: 225px;
-    width: 59%;
+    margin-left: 255px;
+    width: 57%;
   }
 
   .form__asterix {
-    right: 269px;
+    right: 238px;
+    top: 246px;
   }
 }
