@@ -63,17 +63,17 @@
   position: relative;
 
 
-    &::before {
-      content: "";
-      position: absolute;
-      width: 32px;
-      height: 22px;
-      top: -215px;
-      left: 35px;
-      background-image: url("../img/icon-video.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    top: -215px;
+    left: 35px;
+    background-image: url("../img/icon-video.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .production__order {
