@@ -12,6 +12,12 @@
   position: relative;
 }
 
+.production__image img {
+  display: block;
+  width: 260px;
+  height: 150px;
+}
+
 .production__play {
   position: absolute;
   width: 101px;
@@ -107,7 +113,8 @@
   }
 
   .production__image img {
-    min-width: 668px;
+    width: 668px;
+    height: 455px;
   }
 
   .production__play {
@@ -150,6 +157,10 @@
     width: 1049px;
     margin-left: 69px;
     margin-bottom: -10px;
+  }
+
+  .production__image img {
+    width: 682px;
   }
 
   .production__play {

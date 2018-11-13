@@ -57,6 +57,7 @@
   border: none;
   position: relative;
   margin-bottom: 38px;
+  background-color: $white;
 
   &:focus,
   &:hover {
@@ -96,7 +97,7 @@
   color: $grey;
   text-align: center;
   line-height: 20px;
-  max-width: 260px;
+  width: 260px;
   padding-top: 17px;
   padding-bottom: 14px;
 

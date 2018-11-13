@@ -99,6 +99,15 @@
   .form-element legend {
     position: absolute;
     left: 25px;
+    top: 50px;
+  }
+
+  .form-element:nth-child(2) legend {
+    top: 70px;
+  }
+
+  .form-element:nth-child(3) legend {
+    top: 30px;
   }
 
   .form-element__option label {

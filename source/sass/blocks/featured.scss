@@ -103,7 +103,8 @@
   text-transform: uppercase;
   padding: 14px;
   margin-bottom: 40px;
-  max-width: 259px;
+  width: 259px;
+  background-color: $white;
 
   &:hover,
   &:focus {
