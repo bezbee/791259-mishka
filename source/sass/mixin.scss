@@ -4,21 +4,6 @@
   padding: 0;
 }
 
-@mixin margin-mobile {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-@mixin margin-tablet {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-@mixin margin-desktop {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 @mixin padding-mobile {
   padding-left: 30px;
   padding-right: 30px;
@@ -37,8 +22,4 @@
 @mixin zero {
   margin: 0;
   padding: 0;
-}
-
-@mixin outline {
-  outline: 1px solid red;
 }

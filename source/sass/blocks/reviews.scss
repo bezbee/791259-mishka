@@ -90,26 +90,10 @@
 }
 
 .reviews__write {
-  border: 2px solid $grey;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 18px;
-  color: $grey;
-  text-align: center;
-  line-height: 20px;
   width: 260px;
   padding-top: 17px;
   padding-bottom: 14px;
 
-  &:hover,
-  &:focus {
-    background-color: $grey;
-    color: $white;
-  }
-
-  &:active {
-    color: opacify($grey, 0.3);
-  }
 }
 
 @media (min-width: 768px) {

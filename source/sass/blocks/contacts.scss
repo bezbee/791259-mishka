@@ -34,6 +34,16 @@
 .contacts__email .contacts__value {
   text-decoration: underline;
   text-decoration-color: $emerald;
+
+  &:focus,
+  &:hover {
+    color: $emerald;
+  }
+
+  &:active {
+    opacity: 0.7;
+    text-decoration-color: lighten($emerald, 40%);
+  }
 }
 
 .contacts__map {
@@ -59,9 +69,6 @@
 }
 
 .contacts__write {
-  border: 2px solid $grey;
-  text-transform: uppercase;
-
   padding-top: 14px;
   padding-bottom: 15px;
   padding-left: 35px;
@@ -70,22 +77,7 @@
   margin-left: 30px;
   margin-right: 30px;
   display: block;
-  font-weight: 700;
-  text-align: center;
-  font-size: 18px;
-  color: $grey;
-  line-height: 20px;
   width: 260px;
-
-  &:hover,
-  &:focus {
-    background-color: $grey;
-    color: $white;
-  }
-
-  &:active {
-    color: opacify($grey, 0.3);
-  }
 }
 
 @media (min-width: 768px) {

@@ -94,27 +94,9 @@
 }
 
 .featured__order {
-  font-size: 17px;
-  font-weight: 700;
-  color: $grey;
-  text-align: center;
-  line-height: 20px;
-  border: 2px solid $grey;
-  text-transform: uppercase;
   padding: 14px;
   margin-bottom: 40px;
   width: 259px;
-  background-color: $white;
-
-  &:hover,
-  &:focus {
-    background-color: $grey;
-    color: $white;
-  }
-
-  &:active {
-    color: opacify($grey, 0.3);
-  }
 }
 
 @media (min-width: 768px) {

@@ -4,6 +4,17 @@
   margin: 0 auto;
   position: relative;
   margin-bottom: 58px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #ececec;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    border: 1px solid #ececec;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
 }
 
 .production__image {
@@ -77,29 +88,13 @@
 }
 
 .production__order {
-  font-weight: 700;
-  font-size: 17px;
-  color: $grey;
   line-height: 16px;
-  text-transform: uppercase;
-  border: 2px solid $grey;
   padding-top: 20px;
   padding-bottom: 14px;
-  text-align: center;
   margin: 0 auto;
   display: block;
   width: 192px;
   margin-bottom: 33px;
-
-  &:hover,
-  &:focus {
-    background-color: $grey;
-    color: $white;
-  }
-
-  &:active {
-    color: opacify($grey, 0.3);
-  }
 }
 
 @media (min-width: 768px) {

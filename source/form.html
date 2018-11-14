@@ -35,7 +35,7 @@
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a href="catalog.html" class="site-list__link site-list__active">Каталог товаров</a></li>
+        <li class="site-list__item"><a href="catalog.html" class="site-list__link">Каталог товаров</a></li>
         <li class="site-list__item"><a class="site-list__link">Вязание на заказ</a></li>
         <ul class="site-list-additional">
           <li class="site-list-additional__item"><a href="#" class="site-list-additional__link">Новые поступления</a></li>
@@ -54,7 +54,7 @@
     <h1 class="form-main__title">Вязание на заказ</h1>
     <section class="form">
       <p class="form__intro">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-      <form class="form" method="get" action="#">
+      <form class="form" method="post" action="#">
         <fieldset class="form-element">
           <legend class="form-element__title">Тип</legend>
           <ul class="form-element__list">
@@ -135,13 +135,13 @@
         </fieldset>
 
         <fieldset class="form__send form-element">
-          <button class="form-element__submit" type="submit">Отправить заказ</button>
+          <button class="form-element__submit button" type="submit">Отправить заказ</button>
         </fieldset>
       </form>
     </section>
   </main>
 
-  <footer class="page-footer form__footer">
+  <footer class="page-footer page-footer--form">
     <a href="index.html" class="page-footer__logo-image">
       <svg height="34.056" width="101.615">
         <use xlink:href="#footer-logotype"></use>

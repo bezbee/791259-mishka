@@ -6,27 +6,10 @@
 }
 
 .form-element__submit {
-  border: 2px solid $grey;
-  font-weight: 700;
-  font-size: 17px;
-  color: $grey;
-  text-align: center;
   line-height: 16px;
-  text-transform: uppercase;
   padding-top: 12px;
   padding-bottom: 15px;
   width: 100%;
-  background-color: $white;
-
-  &:hover,
-  &:focus {
-    background-color: $grey;
-    color: $white;
-  }
-
-  &:active {
-    color: lighthen(#444444, 40%);
-  }
 }
 
 @media (min-width: 768px) {

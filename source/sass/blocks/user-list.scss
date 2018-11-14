@@ -40,7 +40,6 @@
 .user-list__item--search .user-list__link:hover::before,
 .user-list__item--search .user-list__link:focus::before {
   background-image: url("../img/icon-search--color.svg");
-  cursor: pointer;
   opacity: 1;
 }
 
@@ -65,7 +64,6 @@
 .user-list__item--basket .user-list__link:hover::before,
 .user-list__item--basket .user-list__link:focus::before {
   background-image: url("../img/icon-cart--color.svg");
-  cursor: pointer;
   opacity: 1;
 }
 

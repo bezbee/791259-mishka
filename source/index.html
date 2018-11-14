@@ -92,7 +92,7 @@
           <img class="featured__image" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg 2x" alt="Вязанные корзинки">
         </picture>
         <p class="featured__price">Цена: 990 руб.</p>
-        <button class="featured__order modal-trigger" type="submit">Заказать</button>
+        <button class="button featured__order modal-trigger" type="submit">Заказать</button>
       </div>
     </section>
 
@@ -176,12 +176,16 @@
     <div class="modal">
       <h2 class="modal__title">Добавить в корзину</h2>
       <p class="modal__text">Выберите размер:</p>
-      <ul class="modal__size-list">
-        <li class="modal__item"><button class="modal__button--size">S</button></li>
-        <li class="modal__item"><button class="modal__button--size">M</button></li>
-        <li class="modal__item"><button class="modal__button--size">L</button></li>
-      </ul>
-      <button class="modal__button" type="submit">Добавить</button>
+      <form class="form" method="post" action="#">
+        <ul class="modal__size-list">
+          <li class="modal__item">
+            <button class="modal__button--size" type="button">S</button>
+          </li>
+          <li class="modal__item" ><button class="modal__button--size" type="button">M</button></li>
+          <li class="modal__item"><button class="modal__button--size" type="button">L</button></li>
+        </ul>
+        <button class="modal__button" type="submit">Добавить</button>
+      </form>
     </div>
   </section>
   <div class="overlay"></div>
