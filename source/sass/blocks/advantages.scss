@@ -132,7 +132,7 @@
     max-height: 480px;
     padding-left: 18px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
   }
@@ -149,6 +149,22 @@
     &:nth-child(6) {
       margin-left: -22px;
     }
+  }
+
+  .advantages__item--eco {
+    order: -5;
+  }
+
+  .advantages__item--byhand {
+    order: -4;
+  }
+
+  .advantages__item--economy {
+    order: -3;
+  }
+
+  .advantages__item--local {
+    order: -2;
   }
 }
 

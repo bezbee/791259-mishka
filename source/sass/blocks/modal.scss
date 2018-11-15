@@ -48,7 +48,7 @@
   margin-bottom: 31px;
 }
 
-.modal__button--size {
+.modal__button-size {
   font-size: 17px;
   color: $grey;
   line-height: 16px;
@@ -57,6 +57,7 @@
   padding-bottom: 15px;
   padding-right: 37px;
   border: 2px solid rgba(#444444, 0.1%);
+  background-color: $white;
 
   &:hover,
   &:focus {
@@ -90,6 +91,7 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 46px;
+  border: none;
 
   &:hover,
   &:focus {
