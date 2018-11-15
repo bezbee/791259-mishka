@@ -22,6 +22,8 @@
   flex-direction: column;
 
   @include padding-mobile;
+
+  outline: 1px solid black;
 }
 
 .featured__title {
@@ -33,6 +35,8 @@
   font-size: 25px;
   color: $black;
   line-height: 30px;
+
+  outline: 1px solid red;
 }
 
 .featured__weekly {
@@ -43,6 +47,8 @@
   line-height: 20px;
   text-transform: uppercase;
   padding-bottom: 20px;
+
+  outline: 1px solid red;
 }
 
 .featured__description {
@@ -52,6 +58,8 @@
   color: $grey;
   width: 254px;
   padding-bottom: 20px;
+
+  outline: 1px solid red;
 }
 
 
@@ -62,6 +70,8 @@
   border-collapse: collapse;
   margin-bottom: 15px;
   max-width: 290px;
+
+  outline: 1px solid red;
 }
 
 .featured__specification tr {
@@ -91,12 +101,15 @@
   margin-left: 68px;
   padding-top: 24px;
   padding-bottom: 25px;
+  outline: 1px solid red;
 }
 
 .featured__order {
   padding: 14px;
   margin-bottom: 40px;
   width: 259px;
+
+  outline: 1px solid red;
 }
 
 @media (min-width: 768px) {
@@ -146,7 +159,6 @@
   }
 
   .featured__specification {
-    margin-bottom: 23px;
   }
 
   .featured__specification tr {
@@ -180,6 +192,7 @@
 @media (min-width: 1150px) {
   .featured {
     max-width: 1250px;
+    padding-bottom: 60px;
 
     &::before {
       top: -20px;
@@ -226,14 +239,11 @@
   }
 
   .featured__specification {
-    margin-bottom: 78px;
+    display: block;
+    padding-bottom: 58px;
   }
 
   .featured__price {
     padding-left: 8px;
-  }
-
-  .featured__order {
-    margin-bottom: 100px;
   }
 }

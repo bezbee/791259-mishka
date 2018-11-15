@@ -50,7 +50,7 @@
   .site-list {
     position: static;
     order: -1;
-    padding-left: 25px;
+    padding-left: 48px;
     font-size: 17px;
     line-height: 24px;
   }
@@ -72,7 +72,7 @@
     display: flex;
     position: absolute;
     top: 108px;
-    left: 76px;
+    left: 100px;
 
     @include list-style-none;
 
