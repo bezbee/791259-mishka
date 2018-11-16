@@ -14,7 +14,7 @@
 @media (min-width: 768px) {
   .page-footer__logo-image {
     display: block;
-    margin-left: 50px;
+    padding-left: 50px;
     padding-top: 51px;
     padding-bottom: 58px;
     padding-right: 80px;
@@ -23,6 +23,7 @@
 
 @media (min-width: 1150px) {
   .page-footer__logo-image {
-    margin-left: 80px;
+    padding-left: 100px;
+    padding-right: 85px;
   }
 }

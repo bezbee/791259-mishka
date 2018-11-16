@@ -3,7 +3,7 @@
   flex-direction: column;
 
   @include padding-mobile;
-  margin-bottom: 87px;
+  padding-bottom: 85px;
   position: relative;
 
   &::after {
@@ -23,14 +23,14 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 23px;
 }
 
 .reviews__text {
   font-size: 15px;
   color: $grey;
   line-height: 30px;
-  padding-bottom: 26px;
+  padding-bottom: 23px;
 }
 
 .reviews__br--desktop {
@@ -40,8 +40,8 @@
 .reviews__author-name {
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px;
-  padding-bottom: 34px;
+  line-height: 30px;
+  padding-bottom: 30px;
   display: block;
 }
 
@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  padding-bottom: 36px;
 }
 
 .reviews__prev,
@@ -58,7 +59,7 @@
   height: 52px;
   border: none;
 
-  margin-bottom: 38px;
+
   background-color: $white;
 
   &:focus,
@@ -92,8 +93,8 @@
 }
 
 .reviews__write {
-  width: 260px;
-  padding-top: 17px;
+  width: 257px;
+  padding-top: 16px;
   padding-bottom: 14px;
 }
 
@@ -102,8 +103,7 @@
     @include padding-tablet;
     position: relative;
     padding-top: 90px;
-    padding-bottom: 19px;
-    margin-bottom: 150px;
+    padding-bottom: 160px;
 
     background-image: url("../img/review@1x.jpg");
     background-position: left;
@@ -149,7 +149,7 @@
 
   .reviews__buttons {
     position: absolute;
-    bottom: 8px;
+    bottom: 158px;
     right: 65px;
   }
 
@@ -175,27 +175,29 @@
     right: 50px;
     padding-left: 35px;
     padding-right: 35px;
+    padding-top: 19px;
     width: 100px;
   }
 }
 
 @media (min-width: 1150px) {
   .reviews {
+    margin-left: 20px;
     padding-left: 250px;
-    padding-bottom: 65px;
-    margin-bottom: 232px;
+    padding-bottom: 295px;
     background-position: 75px 0;
 
     &::after {
       height: 23px;
+      bottom: 140px;
     }
   }
 
   .reviews__title {
     font-size: 53px;
     line-height: 57px;
-    margin-top: -16px;
-    padding-bottom: 50px;
+    margin-top: -20px;
+    padding-bottom: 49px;
   }
 
   .reviews__br--desktop {
@@ -203,16 +205,17 @@
   }
 
   .reviews__text {
-    padding-bottom: 40px;
+    padding-bottom: 35px;
   }
 
   .reviews__write {
-    right: 125px;
+    right: 103px;
     top: 77px;
+    padding-top: 14px;
   }
 
   .reviews__buttons {
     right: 115px;
-    bottom: 60px;
+    top: 307px;
   }
 }

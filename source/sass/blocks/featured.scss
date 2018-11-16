@@ -2,6 +2,7 @@
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $grey;
+  padding-bottom: 39px;
   position: relative;
 
   &::after {
@@ -22,12 +23,9 @@
   flex-direction: column;
 
   @include padding-mobile;
-
-  outline: 1px solid black;
 }
 
 .featured__title {
-  margin: 0;
   padding-top: 25px;
   padding-bottom: 5px;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -35,8 +33,6 @@
   font-size: 25px;
   color: $black;
   line-height: 30px;
-
-  outline: 1px solid red;
 }
 
 .featured__weekly {
@@ -47,19 +43,14 @@
   line-height: 20px;
   text-transform: uppercase;
   padding-bottom: 20px;
-
-  outline: 1px solid red;
 }
 
 .featured__description {
-  margin: 0;
   font-size: 15px;
   line-height: 24px;
   color: $grey;
   width: 254px;
-  padding-bottom: 20px;
-
-  outline: 1px solid red;
+  padding-bottom: 25px;
 }
 
 
@@ -68,10 +59,7 @@
   line-height: 24px;
   color: $grey;
   border-collapse: collapse;
-  margin-bottom: 15px;
   max-width: 290px;
-
-  outline: 1px solid red;
 }
 
 .featured__specification tr {
@@ -79,7 +67,6 @@
 }
 
 .featured__specification td {
-  padding-top: 3px;
   padding-bottom: 15px;
 }
 
@@ -99,23 +86,19 @@
   font-weight: 700;
   align-self: flex-start;
   margin-left: 68px;
-  padding-top: 24px;
+  padding-top: 40px;
   padding-bottom: 25px;
-  outline: 1px solid red;
 }
 
 .featured__order {
   padding: 14px;
-  margin-bottom: 40px;
   width: 259px;
-
-  outline: 1px solid red;
 }
 
 @media (min-width: 768px) {
   .featured {
     padding-left: 17px;
-    margin-bottom: 5px;
+    padding-bottom: 44px;
 
     &::before {
       content: "";
@@ -138,7 +121,7 @@
 
   .featured__title {
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 50px;
     font-size: 43px;
     line-height: 50px;
   }
@@ -146,28 +129,27 @@
   .featured__weekly {
     width: 80px;
     position: absolute;
-    top: 50px;
+    top: 57px;
     right: 71px;
     text-align: center;
+    line-height: 16px;
   }
 
   .featured__description {
     font-size: 17px;
     line-height: 30px;
     min-width: 300px;
-    padding-bottom: 35px;
-  }
-
-  .featured__specification {
+    padding-bottom: 40px;
   }
 
   .featured__specification tr {
-    display: block;
+    display: flex;
     max-width: 292px;
+    max-height: 40px;
   }
 
   .featured__field {
-    padding-right: 40px;
+    width: 29%;
   }
 
   .featured__image {
@@ -180,6 +162,7 @@
 
   .featured__price {
     font-size: 20px;
+    padding-top: 48px;
     padding-bottom: 34px;
     padding-left: 5px;
   }
@@ -192,7 +175,7 @@
 @media (min-width: 1150px) {
   .featured {
     max-width: 1250px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 
     &::before {
       top: -20px;
@@ -206,36 +189,33 @@
   }
 
   .featured__wrapper {
-    padding-left: 233px;
+    padding-left: 257px;
   }
 
   .featured__image {
     width: 525px;
     height: 636px;
     top: 77px;
-    right: 120px;
+    right: 100px;
   }
 
   .featured__title {
     position: absolute;
-    top: 0;
-    left: 137px;
+    top: 80px;
+    left: 270px;
     z-index: 10;
-    padding-top: 119px;
-    padding-left: 113px;
     font-size: 53px;
     line-height: 57px;
   }
 
   .featured__weekly {
-    left: 120px;
-    top: 0;
-    padding-top: 131px;
+    left: 140px;
+    top: 140px;
   }
 
   .featured__description {
-    margin-top: 225px;
-    padding-bottom: 45px;
+    padding-top: 225px;
+    padding-bottom: 55px;
   }
 
   .featured__specification {
@@ -243,7 +223,11 @@
     padding-bottom: 58px;
   }
 
-  .featured__price {
-    padding-left: 8px;
+  .featured__specification tr {
+    min-width: 245px;
+  }
+
+  .featured__field {
+    padding-right: 30px;
   }
 }
