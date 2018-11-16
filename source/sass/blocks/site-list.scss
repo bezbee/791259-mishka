@@ -55,6 +55,10 @@
     line-height: 24px;
   }
 
+  .site-list--1150 {
+    padding-left: 0;
+  }
+
   .site-list__link {
     padding-top: 33px;
   }
@@ -78,6 +82,11 @@
 
     font-size: 15px;
     line-height: 24px;
+  }
+
+  .site-list--1150 .site-list-additional {
+    left: 50px;
+    top: 108px;
   }
 
   .site-list-additional__item {

@@ -22,7 +22,7 @@
   }
 }
 
-.pade-header__text {
+.page-header__text {
   display: none;
 }
 
@@ -43,7 +43,7 @@
     padding-bottom: 21px;
   }
 
-  .pade-header__text {
+  .page-header__text {
     display: block;
     position: absolute;
     top: 108px;
@@ -68,7 +68,16 @@
     right: 550px;
   }
 
-  .pade-header__text {
+  .page-header__logo-link--1150 {
+    top: -10px;
+    right: 600px;
+  }
+
+  .page-header__text {
     right: 102px;
+  }
+
+  .page-header__text--1150 {
+    right: 152px;
   }
 }

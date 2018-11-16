@@ -24,17 +24,6 @@
   @include list-style-none;
 }
 
-.product-category__item {
-  &:hover,
-  &:focus {
-    margin-top: -5px;
-  }
-
-  &:active {
-    opacity: 0.4;
-  }
-}
-
 .product-category__item:first-child {
   background-color: $grass;
   color: $white;
@@ -129,6 +118,15 @@
 
   .product-category__item {
     flex-grow: 1;
+
+    &:hover,
+    &:focus {
+      margin-top: -5px;
+    }
+
+    &:active {
+      opacity: 0.4;
+    }
   }
 
   .product-category__link {

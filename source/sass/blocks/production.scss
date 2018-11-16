@@ -3,6 +3,7 @@
   width: 260px;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 30px;
   margin-bottom: 58px;
 
   &:hover,
@@ -19,7 +20,7 @@
 
 .production__image {
   width: 100%;
-  margin-top: 90px;
+  padding-top: 90px;
   position: relative;
 }
 
@@ -33,7 +34,7 @@
   position: absolute;
   width: 101px;
   height: 77px;
-  top: 40px;
+  top: 130px;
   left: 80px;
   background-color: transparent;
   background-image: url("../img/icon-play.svg");
@@ -66,11 +67,11 @@
   font-size: 13px;
   color: $grey;
   line-height: 24px;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-left: 35px;
   width: 190px;
   display: block;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
   position: relative;
 
 
@@ -79,7 +80,7 @@
     position: absolute;
     width: 32px;
     height: 22px;
-    top: -215px;
+    top: -210px;
     left: 35px;
     background-image: url("../img/icon-video.svg");
     background-position: center;
@@ -89,22 +90,21 @@
 
 .production__order {
   line-height: 16px;
-  padding-top: 20px;
+  padding-top: 17px;
   padding-bottom: 14px;
   margin: 0 auto;
   display: block;
   width: 192px;
-  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
   .production {
     min-width: 668px;
-    margin-bottom: 65px;
+    padding-bottom: 50px;
   }
 
   .production__image {
-    margin-top: 0;
+    padding-top: 0;
   }
 
   .production__image img {
@@ -122,7 +122,7 @@
     max-width: 100%;
     font-size: 20px;
     line-height: 24px;
-    padding-top: 33px;
+    padding-top: 42px;
     padding-left: 109px;
   }
 
@@ -132,7 +132,7 @@
     line-height: 30px;
     padding-top: 30px;
     padding-left: 40px;
-    margin-bottom: 33px;
+    padding-bottom: 35px;
 
     &::before {
       left: 40px;
@@ -142,7 +142,7 @@
 
   .production__order {
     width: 584px;
-    margin-bottom: 46px;
+    padding-top: 15px;
   }
 }
 
@@ -150,8 +150,9 @@
   .production {
     display: flex;
     width: 1049px;
-    margin-left: 69px;
-    margin-bottom: -5px;
+    margin-left: 50px;
+    padding-bottom: 0;
+    margin-bottom: 100px;
   }
 
   .production__image img {
@@ -159,32 +160,33 @@
   }
 
   .production__play {
-    left: 300px;
+    left: 290px;
     top: 190px;
   }
 
   .production__text {
     width: 45%;
-    padding-top: 63px;
+    padding-top: 53px;
   }
 
   .production__title {
-    padding-left: 40px;
-    padding-right: 50px;
+    padding-left: 35px;
+    padding-right: 55px;
   }
 
   .production__intro {
-    margin-bottom: 48px;
+    padding-bottom: 48px;
+    padding-left: 35px;
     display: block;
 
     &::before {
       top: -100px;
-      left: 45px;
+      left: 38px;
     }
   }
 
   .production__order {
     width: 223px;
-    padding-top: 10px;
+    margin-left: 37px;
   }
 }

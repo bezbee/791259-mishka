@@ -75,6 +75,7 @@
 }
 
 .featured__image {
+  padding-top: 25px;
   height: 315px;
   width: 260px;
   align-self: flex-start;
@@ -86,7 +87,7 @@
   font-weight: 700;
   align-self: flex-start;
   margin-left: 68px;
-  padding-top: 40px;
+  padding-top: 15px;
   padding-bottom: 25px;
 }
 
@@ -144,7 +145,7 @@
 
   .featured__specification tr {
     display: flex;
-    max-width: 292px;
+    width: 292px;
     max-height: 40px;
   }
 
