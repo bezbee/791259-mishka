@@ -51,7 +51,7 @@
 
 .contacts__map {
   max-height: 457px;
-  width: 99%;
+  width: 100%;
   display: block;
   padding: 0;
   padding-top: 35px;
@@ -119,10 +119,6 @@
 
   .contacts__address .contacts__field {
     padding-right: 22px;
-  }
-
-  .contacts__map {
-    width: 100%;
   }
 
   .contacts__write {
