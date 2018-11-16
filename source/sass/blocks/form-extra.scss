@@ -53,34 +53,34 @@
   .form__extra textarea {
     margin-top: 50px;
     margin-left: 215px;
-    width: 68%;
+    width: 66%;
   }
 
   .form__asterix {
     font-size: 17px;
     line-height: 30px;
     position: absolute;
-    right: 20px;
+    right: 50px;
     top: 249px;
   }
 }
 
 @media (min-width: 1150px) {
   .form__extra {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
 
   .form__extra legend {
-    left: 135px;
+    left: 105px;
   }
 
   .form__extra textarea {
-    margin-left: 255px;
-    width: 57%;
+    margin-left: 225px;
+    width: 56%;
   }
 
   .form__asterix {
     top: 246px;
-    right: 270px;
+    right: 325px;
   }
 }

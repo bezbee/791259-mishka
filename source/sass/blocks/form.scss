@@ -90,6 +90,7 @@
     border: none;
     position: relative;
     margin-bottom: 40px;
+    margin-right: 0;
   }
 
   .form-element:nth-of-type(2) {
@@ -118,29 +119,30 @@
   ::-webkit-input-placeholder {
     font-size: 19px;
     line-height: 18px;
+    color: $grey;
   }
 }
 
 @media (min-width: 1150px) {
   .form__intro {
-    padding-left: 250px;
-    padding-right: 275px;
-    padding-top: 125px;
+    padding-left: 220px;
+    padding-right: 305px;
+    padding-top: 123px;
   }
 
   .form-element__list {
-    padding-left: 305px;
+    padding-left: 275px;
   }
 
   .form-element__list--name {
-    padding-left: 225px;
+    padding-left: 200px;
   }
 
   .form-element__list--color {
-    max-width: 1200px;
+    max-width: 1150px;
   }
 
   .form-element legend {
-    left: 110px;
+    left: 80px;
   }
 }

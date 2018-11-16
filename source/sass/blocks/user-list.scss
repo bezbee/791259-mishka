@@ -97,7 +97,7 @@
   }
 
   .user-list__item--search {
-    width: 85px;
+    width: 82px;
   }
 
   .user-list__item--search .user-list__link {
@@ -110,13 +110,13 @@
   }
 
   .user-list__item--search .user-list__link::before {
-    top: 0;
+    top: 3px;
     left: 34px;
   }
 
   .user-list__item--basket .user-list__link::before {
     top: 0;
-    left: -50px;
+    left: -51px;
   }
 }
 
