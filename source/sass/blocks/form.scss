@@ -105,10 +105,12 @@
 
   .form-element:nth-child(2) legend {
     top: 70px;
+    left: 25px;
   }
 
   .form-element:nth-child(3) legend {
     top: 30px;
+    left: 25px;
   }
 
   .form-element__option label {
@@ -125,13 +127,13 @@
 
 @media (min-width: 1150px) {
   .form__intro {
-    padding-left: 220px;
+    padding-left: 225px;
     padding-right: 305px;
     padding-top: 123px;
   }
 
   .form-element__list {
-    padding-left: 275px;
+    padding-left: 278px;
   }
 
   .form-element__list--name {
@@ -143,6 +145,17 @@
   }
 
   .form-element legend {
-    left: 80px;
+    left: 86px;
+    top: 52px;
+  }
+
+  .form-element:nth-child(2) legend {
+    top: 73px;
+    left: 84px;
+  }
+
+  .form-element:nth-child(3) legend {
+    top: 30px;
+    left: 84px;
   }
 }
