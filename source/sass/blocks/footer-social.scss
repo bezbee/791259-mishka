@@ -3,15 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 142px;
-  outline: 1px solid black;
-  padding-top: 26px;
-  padding-bottom: 30px;
+  min-width: 143px;
+  padding-top: 23px;
+  padding-bottom: 9px;
 }
 
 .social__link {
   display: block;
-  outline: 1px solid red;
   width: 35px;
   height: 35px;
 
@@ -30,6 +28,7 @@
 
   &--instagram {
     background-image: url("../img/icon-insta.svg");
+    width: 22px;
 
     &:hover,
     &:focus {
@@ -53,5 +52,17 @@
     &:focus {
       background-image: url("../img/icon-twitter--green.svg");
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .social__list {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-footer__social--1150 {
+    padding-top: 10px;
   }
 }

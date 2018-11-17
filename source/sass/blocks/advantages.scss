@@ -1,27 +1,23 @@
 .advantages {
-  //temporarly
-  outline: 1px solid orange;
-  //
-  display: block;
-  margin: 0;
+  @include padding-mobile;
 
-  @include margin-mobile;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 19px;
 }
 
 .advantages__intro {
-  margin: 0;
   font-size: 25px;
   color: $black;
   font-weight: 700;
   line-height: 30px;
-  padding-top: 40px;
-  padding-bottom: 48px;
-  outline: 1px solid purple;
+  padding-top: 31px;
+  padding-bottom: 46px;
 }
 
 .advantages__list {
   @include list-style-none;
-  margin-bottom: 70px;
 }
 
 .advantages__item {
@@ -32,9 +28,8 @@
   text-align: left;
   font-weight: 700;
   width: 250px;
-  padding-top: 60px;
-  outline: 1px solid purple;
-  margin-bottom: 38px;
+  padding-top: 40px;
+  padding-bottom: 42px;
 }
 
 .advantages__item--eco::before {
@@ -42,8 +37,8 @@
   position: absolute;
   width: 32px;
   height: 38px;
-  top: 0;
-  left: 0;
+  top: -15px;
+  left: 9px;
   background-image: url("../img/icon-feature-flower.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -55,8 +50,8 @@
   position: absolute;
   width: 47px;
   height: 29px;
-  top: 0;
-  left: 0;
+  top: -13px;
+  left: 2px;
   background-image: url("../img/icon-feature-money.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -68,8 +63,8 @@
   position: absolute;
   width: 34px;
   height: 28px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 9px;
   background-image: url("../img/icon-feature-heart.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -81,8 +76,8 @@
   position: absolute;
   width: 35px;
   height: 35px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 5px;
   background-image: url("../img/icon-feature-ball.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -94,8 +89,8 @@
   position: absolute;
   width: 55px;
   height: 24px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: -4px;
   background-image: url("../img/icon-feature-rocket.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -107,8 +102,8 @@
   position: absolute;
   width: 34px;
   height: 34px;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 5px;
   background-image: url("../img/icon-feature-gift.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -117,45 +112,71 @@
 
 @media (min-width: 768px) {
   .advantages {
-    @include margin-tablet;
-  }
-
-  .advantages__wrapper {
     width: 718px;
     margin: 0 auto;
-    outline: 1px solid green;
+    padding-bottom: 0;
   }
 
   .advantages__intro {
-    padding-top: 63px;
+    padding-top: 75px;
+    padding-left: 17px;
     font-size: 43px;
     line-height: 50px;
+    padding-bottom: 62px;
   }
 
   .advantages__list {
     max-height: 480px;
+    padding-left: 18px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .advantages__item {
-    padding-bottom: 20px;
-    width: 335px;
+    padding-bottom: 70px;
+    width: 293px;
+    padding-right: 41px;
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .advantages__item--eco {
+    order: -5;
+  }
+
+  .advantages__item--byhand {
+    order: -4;
+  }
+
+  .advantages__item--economy {
+    order: -3;
+  }
+
+  .advantages__item--local {
+    order: -2;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .advantages {
-    max-width: 700px;
-    margin-left: 275px;
-    margin-right: 100px;
+    padding-bottom: 25px;
   }
 
   .advantages__intro {
-    padding-top: 76px;
+    padding-top: 53px;
+    padding-left: 9px;
     font-size: 53px;
     line-height: 57px;
+  }
+
+  .advantages__list {
+    padding-left: 8px;
+  }
+
+  .advantages__item {
+    padding-right: 55px;
   }
 }

@@ -11,8 +11,8 @@
 
 .main-nav__toggle {
   position: absolute;
-  top: 31px;
-  right: 60px;
+  top: 32px;
+  right: 30px;
   z-index: 2;
 
   cursor: pointer;
@@ -33,6 +33,7 @@
   height: 21px;
 
   background-image: url("../img/icon-menu-close.svg");
+  background-color: $white;
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -46,6 +47,7 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+  background-color: $white;
 }
 
 
@@ -68,7 +70,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .main-nav {
     width: 1250px;
     display: flex;

@@ -8,6 +8,8 @@
 @import "blocks/product-category.scss";
 @import "blocks/featured.scss";
 @import "blocks/advantages.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
 @import "blocks/footer.scss";
 @import "blocks/footer-logo.scss";
 @import "blocks/footer-social.scss";
@@ -15,7 +17,18 @@
 @import "blocks/catalog-title.scss";
 @import "blocks/catalog-list.scss";
 @import "blocks/product-card.scss";
+@import "blocks/production.scss";
+@import "blocks/form-title.scss";
+@import "blocks/form.scss";
+@import "blocks/form-radio.scss";
+@import "blocks/form-checkbox.scss";
+@import "blocks/form-text.scss";
+@import "blocks/form-tel.scss";
+@import "blocks/form-email.scss";
+@import "blocks/form-extra.scss";
+@import "blocks/form-send.scss";
 @import "blocks/modal.scss";
+@import "blocks/overlay.scss";
 
 
 body {
@@ -24,11 +37,16 @@ body {
   font-weight: 400;
   color: $black;
   margin: 0 auto;
+  position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   body {
     width: 1250px;
+  }
+
+  .page--1150 {
+    width: 1150px;
   }
 }
 
@@ -55,6 +73,40 @@ img {
 a {
   text-decoration: none;
   color: $black;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+blockquote {
+  @include zero;
+}
+
+.button {
+  font-size: 17px;
+  font-weight: 700;
+  color: $grey;
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid $grey;
+  text-transform: uppercase;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $grey;
+    color: $white;
+  }
+
+  &:active {
+    color: lighten($grey, 40%);
+  }
 }
 
 @font-face {

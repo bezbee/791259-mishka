@@ -3,18 +3,41 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
 }
 
 @media (min-width: 768px) {
+  .catalog__list {
+    position: relative;
+    padding-top: 55px;
+
+    &::before {
+      content: "";
+      height: 24px;
+      width: 100%;
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-size: contain;
+      background-repeat: repeat;
+      position: absolute;
+      top: -40px;
+      left: 0;
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog__list {
+    flex-direction: row;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+
   .catalog__list::before {
-    content: "";
-    width: 100%;
-    height: 23px;
-    background-image: url("../img/bg-zigzag-fill.svg");
-    position: absolute;
-    left: 0;
+    height: 34px;
     top: -50px;
   }
 }

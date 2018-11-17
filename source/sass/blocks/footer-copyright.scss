@@ -2,10 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  outline: 1px solid black;
   padding-top: 32px;
-  padding-bottom: 31px;
-  min-width: 183px;
+  padding-bottom: 27px;
+  min-width: 180px;
 
   &:hover,
   &:focus {
@@ -22,28 +21,33 @@
   font-size: 19px;
   line-height: 18px;
   display: block;
-  padding-right: 38px;
+  padding-right: 28px;
 }
 
 .copyright__link {
   display: block;
-  outline: 1px solid red;
-  width: 27px;
-  height: 35px;
+  width: 28px;
+  height: 37px;
   background-image: url("../img/logo-htmlacademy.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0 3px;
   background-size: auto;
 }
 
 @media (min-width: 768px) {
   .page-footer__copyright {
-    margin-right: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .page-footer__copyright {
-    margin-right: 100px;
+    padding-right: 100px;
+  }
+
+  .page-footer__copyright--1150 {
+    padding-right: 50px;
+    padding-top: 26px;
   }
 }

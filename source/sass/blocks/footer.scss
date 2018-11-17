@@ -15,8 +15,8 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .page-footer {
-    @include margin-desktop;
+@media (min-width: 1150px) {
+  .page-footer--form {
+    margin-top: -8px;
   }
 }

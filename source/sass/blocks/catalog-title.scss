@@ -15,21 +15,20 @@
 
 @media (min-width: 768px) {
   .catalog-page-main__title {
-    padding-top: 102px;
+    padding-top: 93px;
     padding-bottom: 75px;
     font-size: 43px;
     line-height: 50px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .catalog-page-main__title {
     font-size: 53px;
     line-height: 57px;
-    padding-top: 103px;
+    padding-top: 93px;
     padding-bottom: 96px;
-    max-width: 1150px;
-
-    @include margin-desktop;
+    padding-left: 345px;
+    text-align: left;
   }
 }

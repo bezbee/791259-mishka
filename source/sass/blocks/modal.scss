@@ -1,12 +1,23 @@
 .modal {
   max-width: 566px;
-  height: 336px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   border: 1px solid #c6c6c6;
   box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
+  position: fixed;
+  background-color: $white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 2;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.modal-show {
+  display: flex;
 }
 
 .modal__title {
@@ -18,7 +29,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-transform: uppercase;
-  outline: 1px solid red;
+  text-align: center;
 }
 
 .modal__text {
@@ -28,18 +39,16 @@
   line-height: 24px;
   padding-top: 23px;
   padding-bottom: 23px;
-  outline: 1px solid red;
 }
 
 .modal__size-list {
   @include list-style-none;
   display: flex;
   align-content: center;
-  outline: 1px solid red;
   margin-bottom: 31px;
 }
 
-.modal__button--size {
+.modal__button-size {
   font-size: 17px;
   color: $grey;
   line-height: 16px;
@@ -48,6 +57,7 @@
   padding-bottom: 15px;
   padding-right: 37px;
   border: 2px solid rgba(#444444, 0.1%);
+  background-color: $white;
 
   &:hover,
   &:focus {
@@ -78,7 +88,10 @@
   padding-left: 68px;
   padding-bottom: 17px;
   padding-right: 68px;
-
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 46px;
+  border: none;
 
   &:hover,
   &:focus {

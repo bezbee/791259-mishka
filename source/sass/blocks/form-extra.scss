@@ -1,0 +1,86 @@
+.form__extra {
+  margin-left: 26px;
+  margin-bottom: 10px;
+}
+
+.form__extra legend {
+  padding-left: 2px;
+  margin-bottom: 25px;
+}
+
+.form__extra textarea {
+  font-family: inherit;
+  border: 2px solid $grey;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+
+  font-size: 17px;
+  color: $grey;
+  line-height: 18px;
+
+  &:hover,
+  &:focus {
+    border-color: $emerald;
+  }
+}
+
+.form__asterix {
+  font-size: 14px;
+  color: $grey;
+  line-height: 16px;
+  padding-left: 5px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .form__extra {
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .form__extra legend {
+    position: absolute;
+    top: 65px;
+    left: 50px;
+  }
+
+  .form__extra textarea {
+    margin-top: 50px;
+    margin-left: 215px;
+    width: 66%;
+  }
+
+  .form__asterix {
+    font-size: 17px;
+    line-height: 30px;
+    position: absolute;
+    right: 50px;
+    top: 249px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form__extra {
+    margin-bottom: 35px;
+  }
+
+  .form__extra legend {
+    left: 105px;
+  }
+
+  .form__extra textarea {
+    margin-left: 225px;
+    width: 61%;
+  }
+
+  .form__asterix {
+    top: 246px;
+    right: 224px;
+  }
+}

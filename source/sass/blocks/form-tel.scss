@@ -1,0 +1,66 @@
+.form__tel {
+  margin-left: 26px;
+  margin-bottom: 34px;
+}
+
+.form__tel legend {
+  padding-left: 0;
+}
+
+.form__tel input {
+  padding-top: 18px;
+  padding-bottom: 17px;
+  display: block;
+  width: 100%;
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  border: none;
+  border-bottom: 2px solid $grey;
+
+  &:hover,
+  &:focus {
+    border-color: $emerald;
+    background-image: url("../img/icon-phone--green.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .form__tel {
+    position: relative;
+    background-color: #f1f1f1;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .form-element .form__tel {
+    margin-bottom: 0;
+  }
+
+  .form__tel legend {
+    position: absolute;
+    top: 68px;
+    left: 50px;
+  }
+
+  .form__tel input {
+    margin-left: 215px;
+    margin-top: 48px;
+    padding-left: 15px;
+    width: 64%;
+    background-position: 94% center;
+    background-color: #f1f1f1;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form__tel legend {
+    left: 110px;
+  }
+
+  .form__tel input {
+    margin-left: 225px;
+    width: 59%;
+    background-position: 99% center;
+  }
+}

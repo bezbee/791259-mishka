@@ -1,18 +1,16 @@
 .page-header {
-  margin: 0 auto;
-  min-width: 320px;
-  background-color: $white;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .page-header__logo-link {
   height: 35px;
   width: 86px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  outline: 1px solid red;
+  padding-top: 23px;
+  padding-bottom: 22px;
 
   &:hover,
   &:focus {
@@ -24,7 +22,7 @@
   }
 }
 
-.pade-header__text {
+.page-header__text {
   display: none;
 }
 
@@ -34,7 +32,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    @include margin-tablet;
+    @include padding-tablet;
   }
 
   .page-header__logo-link {
@@ -45,10 +43,10 @@
     padding-bottom: 21px;
   }
 
-  .pade-header__text {
+  .page-header__text {
     display: block;
     position: absolute;
-    top: 109px;
+    top: 108px;
     right: 50px;
     font-size: 15px;
     color: $grey;
@@ -57,24 +55,29 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .page-header {
     position: relative;
-    max-width: 1250px;
-
-    @include margin-desktop;
   }
 
   .page-header__logo-link {
     position: absolute;
     width: 149px;
     height: 72px;
-    top: 0;
-    right: 465px;
-    padding-top: 9px;
+    top: -10px;
+    right: 550px;
   }
 
-  .pade-header__text {
-    right: 0;
+  .page-header__logo-link--1150 {
+    top: -10px;
+    right: 500px;
+  }
+
+  .page-header__text {
+    right: 102px;
+  }
+
+  .page-header__text--1150 {
+    right: 50px;
   }
 }
