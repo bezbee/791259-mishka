@@ -1,6 +1,6 @@
 .radio {
   position: relative;
-  padding-bottom: 18px;
+  padding-bottom: 17px;
 }
 
 
@@ -9,7 +9,7 @@
   width: 35px;
   height: 35px;
   top: -7px;
-  left: -61px;
+  left: -62px;
   border: 2px solid $grey;
   border-radius: 50%;
   position: absolute;
@@ -33,6 +33,10 @@
   background-color: $emerald;
   border-radius: 50%;
   position: absolute;
+}
+
+.radio__input:checked + .radio__label::before {
+  border-color: lighten($grey, 30%);
 }
 
 @media (min-width: 768px) {

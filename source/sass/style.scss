@@ -18,7 +18,9 @@
 @import "blocks/catalog-list.scss";
 @import "blocks/product-card.scss";
 @import "blocks/production.scss";
+@import "blocks/form-main.scss";
 @import "blocks/form-title.scss";
+@import "blocks/form-intro.scss";
 @import "blocks/form.scss";
 @import "blocks/form-radio.scss";
 @import "blocks/form-checkbox.scss";
@@ -32,7 +34,7 @@
 
 
 body {
-  min-width: 320px;
+  width: 320px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $black;
@@ -40,12 +42,19 @@ body {
   position: relative;
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 768px) {
   body {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page {
     width: 1250px;
   }
 
-  .page--1150 {
+  .page-form,
+  .page-catalog {
     width: 1150px;
   }
 }
@@ -97,6 +106,8 @@ blockquote {
   border: 2px solid $grey;
   text-transform: uppercase;
   background-color: $white;
+  font-family: "Open Sans", "Arial", sans-serif;
+
 
   &:hover,
   &:focus {

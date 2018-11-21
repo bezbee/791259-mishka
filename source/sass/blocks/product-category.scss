@@ -24,18 +24,19 @@
   @include list-style-none;
 }
 
-.product-category__item:first-child {
-  background-color: $grass;
-  color: $white;
-}
+.product-category__item {
+  position: relative;
 
-.product-category__item:last-child {
-  background-color: $emerald;
-  color: $white;
+  &:first-child {
+    background-color: $grass;
+  }
+
+  &:last-child {
+    background-color: $emerald;
+  }
 }
 
 .product-category__link {
-  position: relative;
   display: block;
   padding-top: 25px;
   padding-bottom: 30px;
@@ -124,8 +125,12 @@
       margin-top: -5px;
     }
 
-    &:active {
-      opacity: 0.4;
+    &:first-child:active {
+      background-color: lighten($emerald, 10%);
+    }
+
+    &:last-child:active {
+      background-color: lighten($grass, 1%);
     }
   }
 

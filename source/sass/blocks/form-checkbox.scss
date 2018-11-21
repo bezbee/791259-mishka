@@ -4,7 +4,7 @@
 }
 
 .checkbox:last-child {
-  padding-bottom: 18px;
+  padding-bottom: 16px;
 }
 
 .checkbox__label::before {
@@ -28,12 +28,17 @@
   background-color: $white;
 }
 
+.checkbox__input:checked + .checkbox__label::before {
+  border-color: lighten($grey, 30%);
+  background-color: #fbfbfb;
+}
+
 .checkbox__input:checked + .checkbox__label::after {
   content: "";
   position: absolute;
   width: 22px;
   height: 24px;
-  top: 0;
+  top: -3px;
   left: -52px;
   background-image: url("../img/icon-tick.svg");
   background-position: center;
