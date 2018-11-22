@@ -115,6 +115,9 @@
   .nav-list__item--search {
     order: -2;
     width: 1%;
+    box-shadow: 0 1px 0 0 #ececec;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
   }
 
   .nav-list__item--search .nav-list__link {
@@ -124,6 +127,7 @@
   .nav-list__item--basket {
     order: -1;
     flex-grow: 1;
+    box-shadow: 1px 1px 0 0 #ececec;
   }
 
   .nav-list__item--basket .nav-list__link {
@@ -168,18 +172,18 @@
   .nav-list__item.nav-list__item--catalog {
     order: -9;
     font-size: 17px;
-    padding-left: 100px;
-    padding-right: 28px;
+    padding-left: 50px;
+    padding-right: 34px;
     padding-top: 30px;
-    box-shadow: 0 1px 0 0 #ececec;
+    box-shadow: 1px 1px 0 0 #ececec;
   }
 
   .nav-list__item.nav-list__item--knitting {
     order: -8;
     font-size: 17px;
     padding-top: 30px;
-    padding-right: 28px;
-    padding-left: 42px;
+    padding-right: 26px;
+    padding-left: 37px;
     box-shadow: 0 1px 0 0 #ececec;
   }
 
@@ -192,7 +196,7 @@
   }
 
   .nav-list__item--basket .nav-list__link {
-    padding-left: 0;
+    padding-left: 2px;
   }
 
   .nav-list__item--basket .nav-list__link::before {
@@ -204,7 +208,7 @@
     display: flex;
     font-size: 15px;
     padding-top: 19px;
-    padding-left: 100px;
+    padding-left: 50px;
     box-shadow: none;
   }
 
@@ -220,6 +224,14 @@
     padding-left: 505px;
     padding-top: 19px;
   }
+}
 
+@media (min-width: 1151px) {
+  .nav-list__item.nav-list__item--catalog {
+    padding-left: 100px;
+  }
 
+  .nav-list__item.nav-list__item--new {
+    padding-left: 100px;
+  }
 }
