@@ -57,8 +57,8 @@
     display: none;
   }
 
-  .main-nav--nojs .nav-list {
-    display: block;
+  .main-nav--nojs .main-nav__list {
+    display: flex;
   }
 }
 
