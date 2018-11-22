@@ -11,10 +11,11 @@
   width: 86px;
   padding-top: 23px;
   padding-bottom: 22px;
+  outline: 1px solid red;
 
   &:hover,
   &:focus {
-    opacity: 0.7;
+    opacity: 0.6;
   }
 
   &:active {

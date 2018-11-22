@@ -10,7 +10,7 @@
   <link rel="preload" href="fonts/opensansbold.woff2" as="font">
 </head>
 
-<body class="page">
+<body class="page page--index">
 
   <svg style="display:none" enable-background="new 0 0 101.615 34.056" xmlns="http://www.w3.org/2000/svg">
     <symbol id="footer-logotype" viewBox="0 0 101.615 34.056">
@@ -25,31 +25,27 @@
   </svg>
   <header class="page-header">
 
-    <a class="page-header__logo-link">
-      <picture>
-        <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
-        <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
-        <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Логотип «Мишка» - товары ручной работы для дома">
-      </picture>
-    </a>
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a href="catalog.html" class="site-list__link">Каталог товаров</a></li>
-        <li class="site-list__item"><a href="form.html" class="site-list__link">Вязание на заказ</a></li>
-        <li>
-          <ul class="site-list-additional">
-            <li class="site-list-additional__item"><a href="#" class="site-list-additional__link">Новые поступления</a></li>
-            <li class="site-list-additional__item"><a href="#" class="site-list-additional__link">Распродажа</a></li>
-          </ul>
+      <ul class="main-nav__list nav-list">
+        <li class="nav-list__item nav-list__item--logo">
+          <a class="nav-list__logo-link">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+              <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Логотип «Мишка» - товары ручной работы для дома">
+            </picture>
+          </a>
         </li>
-      </ul>
-      <ul class="main-nav__list user-list">
-        <li class="user-list__item user-list__item--search"><a href="#" class="user-list__link">Поиск по сайту</a></li>
-        <li class="user-list__item user-list__item--basket"><a href="#" class="user-list__link">Корзина: пока пуста</a></li>
+        <li class="nav-list__item nav-list__item--catalog"><a href="catalog.html" class="nav-list__link">Каталог товаров</a></li>
+        <li class="nav-list__item--knitting nav-list__item"><a href="form.html" class="nav-list__link">Вязание на заказ</a></li>
+        <li class="nav-list__item nav-list__item--new"><a href="#" class="nav-list__link">Новые поступления</a></li>
+        <li class="nav-list__item nav-list__item--sale"><a href="#" class="nav-list__link">Распродажа</a></li>
+        <li class="nav-list__item nav-list__item--search"><a href="#" class="nav-list__link">Поиск по сайту</a></li>
+        <li class="nav-list__item nav-list__item--basket"><a href="#" class="nav-list__link">Корзина: пока пуста</a></li>
+        <li class="nav-list__item nav-list__item--text"><span class="nav-list__text">Бесплатная доставка по России</span></li>
       </ul>
     </nav>
-    <span class="page-header__text">Бесплатная доставка по России</span>
   </header>
 
   <main class="page__main">

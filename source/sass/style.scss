@@ -1,10 +1,7 @@
 @import "var.scss";
 @import "mixin.scss";
-@import "blocks/header.scss";
 @import "blocks/main-nav-list.scss";
-@import "blocks/user-list.scss";
-@import "blocks/sitelist-additional.scss";
-@import "blocks/site-list.scss";
+@import "blocks/nav-list.scss";
 @import "blocks/product-category.scss";
 @import "blocks/featured.scss";
 @import "blocks/advantages.scss";
@@ -32,8 +29,8 @@
 @import "blocks/overlay.scss";
 
 
-body {
-  width: 320px;
+.page {
+  max-width: 320px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   color: $black;
@@ -42,19 +39,24 @@ body {
 }
 
 @media (min-width: 768px) {
-  body {
-    width: 768px;
+  .page {
+    max-width: 768px;
+  }
+  .page__main {
+    margin-top: -65px;
   }
 }
 
 @media (min-width: 1150px) {
   .page {
-    width: 1250px;
+    max-width: 1150px;
   }
 
-  .page-form,
-  .page-catalog {
-    width: 1150px;
+  .page--index {
+    max-width: 1250px;
+  }
+  .page__main {
+    margin-top: -68px;
   }
 }
 

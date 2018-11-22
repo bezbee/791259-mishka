@@ -1,6 +1,7 @@
 .site-list {
   display: flex;
   flex-direction: column;
+  outline: 1px solid red;
 }
 
 .site-list__item {
@@ -17,7 +18,7 @@
 
   &:hover,
   &:focus {
-    opacity: 0.7;
+    opacity: 0.6;
   }
 
   &:active {
@@ -96,7 +97,7 @@
   .site-list-additional__link {
     &:hover,
     &:focus {
-      opacity: 0.7;
+      opacity: 0.6;
     }
 
     &:active {
