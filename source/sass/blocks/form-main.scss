@@ -1,0 +1,75 @@
+.page-main__title {
+  font-weight: 700;
+  font-size: 27px;
+  text-align: center;
+  line-height: 30px;
+
+  @include zero;
+  padding-top: 70px;
+  padding-bottom: 75px;
+  background-color: #f1f1f1;
+  z-index: -1;
+}
+
+.page-main__intro {
+  font-size: 13px;
+  color: $grey;
+  line-height: 24px;
+
+  padding-left: 30px;
+  padding-right: 29px;
+  padding-top: 23px;
+  padding-bottom: 21px;
+}
+
+
+@media (min-width: 768px) {
+  .page-main__title {
+    font-size: 43px;
+    line-height: 50px;
+    padding-top: 92px;
+    position: relative;
+
+    &::after {
+      content: "";
+      height: 24px;
+      width: 100%;
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-size: contain;
+      background-repeat: repeat;
+      position: absolute;
+      top: 210px;
+      left: 0;
+    }
+  }
+
+  .page-main__intro {
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-main__title {
+    font-size: 53px;
+    line-height: 57px;
+    padding-bottom: 100px;
+    text-align: left;
+    padding-left: 330px;
+
+    &::after {
+      top: 235px;
+      height: 34px;
+    }
+  }
+
+  .page-main__intro {
+    padding-left: 225px;
+    padding-right: 305px;
+    padding-top: 123px;
+  }
+}

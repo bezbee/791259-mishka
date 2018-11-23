@@ -1,11 +1,12 @@
 .form-text {
+  outline: 1px solid grey;
   padding-bottom: 22px;
   display: flex;
   flex-direction: column;
 }
 
 .form-text:last-child {
-  padding-bottom: 3px;
+  padding-bottom: 0;
 }
 
 .form-text__input {
@@ -19,6 +20,49 @@
     border-color: $emerald;
   }
 }
+
+.form-text--tel .form__title::after {
+  top: 9px;
+}
+
+.form-text--tel .form-text__input {
+  padding-top: 22px;
+  padding-bottom: 16px;
+  margin-left: 27px;
+  margin-bottom: 10px;
+
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+
+  &:hover,
+  &:focus {
+    background-image: url("../img/icon-phone--green.svg");
+  }
+}
+
+.form-text--email .form__title::after {
+  top: 9px;
+  left: 109px;
+  width: 179px;
+}
+
+.form-text--email .form-text__input {
+  padding-top: 22px;
+  padding-bottom: 15px;
+  margin-left: 27px;
+  margin-bottom: 7px;
+
+  background-image: url("../img/icon-mail.svg");
+  background-repeat: no-repeat;
+  background-position: 98% 15px;
+
+  &:hover,
+  &:focus {
+    background-image: url("../img/icon-mail--green.svg");
+  }
+}
+
 
 @media (min-width: 768px) {
   .form-text {

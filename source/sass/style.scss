@@ -15,15 +15,11 @@
 @import "blocks/catalog-list.scss";
 @import "blocks/product-card.scss";
 @import "blocks/production.scss";
-@import "blocks/form-title.scss";
-@import "blocks/form-intro.scss";
+@import "blocks/form-main.scss";
 @import "blocks/form.scss";
-@import "blocks/form-radio.scss";
+@import "blocks/radio.scss";
 @import "blocks/form-checkbox.scss";
 @import "blocks/form-text.scss";
-@import "blocks/form-tel.scss";
-@import "blocks/form-email.scss";
-@import "blocks/form-extra.scss";
 @import "blocks/form-send.scss";
 @import "blocks/modal.scss";
 @import "blocks/overlay.scss";
@@ -57,6 +53,16 @@
   }
   .page__main {
     margin-top: -68px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page--index .nav-list__item--catalog {
+    padding-left: 100px;
+  }
+
+  .page--index .nav-list__item--new {
+    padding-left: 100px;
   }
 }
 

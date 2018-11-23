@@ -63,20 +63,7 @@
 }
 
 @media (min-width: 768px) {
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-  }
-
   .main-nav__toggle {
     display: none;
-  }
-}
-
-@media (min-width: 1150px) {
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
