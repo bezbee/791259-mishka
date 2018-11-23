@@ -3,7 +3,6 @@
   padding: 0;
   padding-right: 30px;
   padding-bottom: 25px;
-  outline: 1px solid red;
 }
 
 .form__title {
@@ -89,6 +88,7 @@
     border-color: $emerald;
   }
 }
+
 .form__element--footer {
   padding-left: 30px;
   padding-bottom: 55px;
@@ -113,15 +113,17 @@
 
 @media (min-width: 768px) {
   .form__element {
-    border: none;
-    position: relative;
-    margin-bottom: 40px;
-    margin-right: 0;
+    padding-bottom: 0;
+  }
 
-    outline: 1px solid red;
+  .form__wrapper {
+    display: flex;
   }
 
   .form__title {
+    padding-top: 50px;
+    padding-left: 50px;
+
     &::after {
       width: 0;
       height: 0;
@@ -129,75 +131,141 @@
   }
 
   .form__list {
-    padding-left: 270px;
+    padding-left: 210px;
     padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .form__title--color {
+    padding-top: 68px;
   }
 
   .form__list--color {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 272px;
-    padding-top: 70px;
-    padding-bottom: 10px;
-    max-width: 690px;
+    padding-bottom: 15px;
+    padding-top: 65px;
+    padding-left: 200px;
+  }
+
+  .form__title--name {
+    padding-top: 65px;
   }
 
   .form__list--name {
-    padding-left: 190px;
-    padding-top: 30px;
-    padding-right: 20px;
-  }
-
-
-
-
-  .form__element .form__title {
-    position: absolute;
-    left: 25px;
-    top: 50px;
-  }
-
-  .form__element:nth-child(2) .form__title {
-    top: 70px;
-    left: 25px;
-  }
-
-  .form__element:nth-child(3) .form__title  {
-    top: 30px;
-    left: 25px;
+    padding-left: 125px;
+    padding-top: 46px;
+    flex-grow: 1;
   }
 
   .form__option label {
     font-size: 19px;
     line-height: 18px;
   }
+
+  .form__element:nth-child(4) {
+    background-color: #f1f1f1;
+  }
+
+  .form__list--contact  {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .form__element--ext {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form__element--ext .form__title {
+    padding-left: 50px;
+    padding-top: 60px;
+  }
+
+  .form__element--ext textarea {
+    margin-top: 44px;
+    margin-left: 128px;
+    flex-grow: 1;
+    margin-right: 20px;
+    padding-top: 13px;
+    font-size: 19px;
+    line-height: 18px;
+  }
+
+  .form__element--footer {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+  .form__asterix {
+    font-size: 17px;
+    line-height: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+
+  .form__submit {
+    width: 230px;
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 1150px) {
-  .form__list {
-    padding-left: 278px;
+  .form__title {
+    padding-left: 110px;
+    padding-top: 55px;
   }
 
-  .form__list--name {
-    padding-left: 200px;
+  .form__list {
+    padding-left: 155px;
+  }
+
+  .form__title--color {
+    padding-top: 68px;
   }
 
   .form__list--color {
-    max-width: 1150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
   }
 
-  .form__element .form__title  {
-    left: 86px;
-    top: 52px;
+  .form__title--name {
+    padding-top: 70px;
   }
 
-  .form__element:nth-child(2) .form__title  {
-    top: 73px;
-    left: 84px;
+  .form__list--name {
+    padding-left: 71px;
+    padding-top: 51px;
   }
 
-  .form__element:nth-child(3) .form__title  {
-    top: 30px;
-    left: 84px;
+  .form__list--contact {
+    padding-left: 0;
+  }
+
+  .form__element--ext .form__title {
+    padding-left: 110px;
+  }
+
+  .form__element--ext textarea {
+    margin-left: 77px;
+    margin-right: 195px;
+  }
+
+  .form__element--footer {
+    padding-bottom: 23px;
+  }
+
+  .form__submit {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 193px;
+  }
+
+  .form__asterix {
+    padding-right: 193px;
   }
 }
