@@ -1,4 +1,4 @@
-.page-main__title {
+.form-main__title {
   font-weight: 700;
   font-size: 27px;
   text-align: center;
@@ -11,7 +11,7 @@
   z-index: -1;
 }
 
-.page-main__intro {
+.form-main__intro {
   font-size: 13px;
   color: $grey;
   line-height: 24px;
@@ -24,7 +24,7 @@
 
 
 @media (min-width: 768px) {
-  .page-main__title {
+  .form-main__title {
     font-size: 43px;
     line-height: 50px;
     padding-top: 92px;
@@ -43,7 +43,7 @@
     }
   }
 
-  .page-main__intro {
+  .form-main__intro {
     font-size: 17px;
     line-height: 30px;
     padding-left: 50px;
@@ -54,7 +54,7 @@
 }
 
 @media (min-width: 1150px) {
-  .page-main__title {
+  .form-main__title {
     font-size: 53px;
     line-height: 57px;
     padding-bottom: 100px;
@@ -67,7 +67,7 @@
     }
   }
 
-  .page-main__intro {
+  .form-main__intro {
     padding-left: 225px;
     padding-right: 225px;
     padding-top: 126px;

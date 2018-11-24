@@ -1,4 +1,4 @@
-.page-footer__copyright {
+.copyright {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,19 +35,15 @@
 }
 
 @media (min-width: 768px) {
-  .page-footer__copyright {
+  .copyright {
     padding-right: 50px;
     padding-top: 18px;
   }
 }
 
 @media (min-width: 1150px) {
-  .page-footer__copyright {
-    padding-right: 100px;
-  }
-
-  .page-footer__copyright--1150 {
+  .copyright {
     padding-right: 50px;
-    padding-top: 26px;
+    padding-top: 27px;
   }
 }

@@ -54,9 +54,14 @@
   width: 100%;
   display: block;
   padding: 0;
-  padding-top: 35px;
-  padding-bottom: 62px;
+  margin-top: 35px;
+  margin-bottom: 62px;
   position: relative;
+  background-color: #f4e8d8;
+  background-image: url("../img/map-mobile1@1x.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border: 0;
 }
 
 .contacts__write {
@@ -148,8 +153,7 @@
   }
 
   .contacts__table {
-    display: block;
-    padding-bottom: 58px;
+    margin-bottom: 58px;
   }
 
   .contacts__table tbody {

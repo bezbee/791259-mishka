@@ -8,7 +8,6 @@
 @import "blocks/reviews.scss";
 @import "blocks/contacts.scss";
 @import "blocks/footer.scss";
-@import "blocks/footer-logo.scss";
 @import "blocks/footer-social.scss";
 @import "blocks/footer-copyright.scss";
 @import "blocks/catalog-title.scss";
@@ -17,12 +16,10 @@
 @import "blocks/production.scss";
 @import "blocks/form-main.scss";
 @import "blocks/form.scss";
-@import "blocks/radio.scss";
+@import "blocks/form-radio.scss";
 @import "blocks/form-checkbox.scss";
 @import "blocks/form-text.scss";
-@import "blocks/form-send.scss";
 @import "blocks/modal.scss";
-@import "blocks/overlay.scss";
 
 
 .page {
@@ -63,6 +60,15 @@
 
   .page--index .nav-list__item--new {
     padding-left: 100px;
+  }
+
+  .page--index .page-footer__logo-image {
+    padding-left: 100px;
+    padding-right: 85px;
+  }
+
+  .page--index .page-footer__copyright {
+    padding-right: 100px;
   }
 }
 
@@ -125,6 +131,21 @@ blockquote {
   &:active {
     color: lighten($grey, 40%);
   }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.modal-show {
+  display: flex;
 }
 
 @font-face {

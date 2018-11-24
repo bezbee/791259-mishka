@@ -33,11 +33,11 @@
           </li>
           <li class="nav-list__item nav-list__item--catalog"><a class="nav-list__link">Каталог товаров</a></li>
           <li class="nav-list__item--knitting nav-list__item"><a href="form.html" class="nav-list__link">Вязание на заказ</a></li>
-          <li class="nav-list__item nav-list__item--new"><a href="#" class="nav-list__link">Новые поступления</a></li>
-          <li class="nav-list__item nav-list__item--sale"><a href="#" class="nav-list__link">Распродажа</a></li>
+          <li class="nav-list__item nav-list__item--new nav-list__item--hidden"><a href="#" class="nav-list__link">Новые поступления</a></li>
+          <li class="nav-list__item nav-list__item--sale nav-list__item--hidden"><a href="#" class="nav-list__link">Распродажа</a></li>
           <li class="nav-list__item nav-list__item--search"><a href="#" class="nav-list__link">Поиск по сайту</a></li>
           <li class="nav-list__item nav-list__item--basket"><a href="#" class="nav-list__link">Корзина: пока пуста</a></li>
-          <li class="nav-list__item nav-list__item--text"><span class="nav-list__text">Бесплатная доставка по России</span></li>
+          <li class="nav-list__item nav-list__item--text nav-list__item--hidden"><span class="nav-list__text">Бесплатная доставка по России</span></li>
         </ul>
       </nav>
     </header>
@@ -63,7 +63,7 @@
               <p class="product-card__specification">Рост 30 см, вес 200 г</p>
               <div class="product-card__wrapper">
                 <p class="product-card__price">1200 руб.</p>
-                <button class="product-card__button modal-trigger"><span class="visually-hidden">В корзину</span></button>
+                <a class="product-card__button modal-trigger"><span class="visually-hidden">В корзину</span></a>
               </div>
             </div>
           </li>
@@ -84,7 +84,7 @@
               <p class="product-card__specification">Диаметр 15 см, высота 10 см</p>
               <div class="product-card__wrapper">
                 <p class="product-card__price">690 руб.</p>
-                <button class="product-card__button modal-trigger"><span class="visually-hidden">В корзину</span></button>
+                <a class="product-card__button modal-trigger"><span class="visually-hidden">В корзину</span></a>
               </div>
             </div>
           </li>
@@ -105,7 +105,7 @@
             <p class="product-card__specification">Диаметр 30 см, высота 30 см</p>
             <div class="product-card__wrapper">
               <p class="product-card__price">1500 руб.</p>
-              <button class="product-card__button modal-trigger"><span class="visually-hidden">В корзину</span></button>
+              <a class="product-card__button modal-trigger"><span class="visually-hidden">В корзину</span></a>
               </div>
             </div>
           </li>
@@ -133,34 +133,31 @@
     </main>
 
     <footer class="page-footer">
-      <a href="index.html" class="page-footer__logo-image page-footer__logo-image--1150">
+      <a href="index.html" class="page-footer__logo-image">
         <svg height="34.056"  width="101.615">
           <use xlink:href="#footer-logotype"></use>
         </svg>
       </a>
 
-      <div class="page-footer__social page-footer__social--1150 social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--instagram" href="#" target="_blank"><span class="visually-hidden">Мы в Инстаграме</span></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="#" target="_blank"><span class="visually-hidden">Мы в Фейсбуке</span></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--twitter" href="#" target="_blank"><span class="visually-hidden">Мы в Твиттере</span></a>
-          </li>
-        </ul>
-      </div>
+      <ul class="page-footer__social social">
+        <li class="social__item">
+          <a class="social__link social__link--instagram" href="#" target="_blank"><span class="visually-hidden">Мы в Инстаграме</span></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="#" target="_blank"><span class="visually-hidden">Мы в Фейсбуке</span></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="#" target="_blank"><span class="visually-hidden">Мы в Твиттере</span></a>
+        </li>
+      </ul>
 
-      <div class="page-footer__copyright page-footer__copyright--1150 copyright">
+      <div class="page-footer__copyright copyright">
         <b class="copyright__text">Разработано</b>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank"><span class="visually-hidden">HTML Academy</span></a>
       </div>
 
     </footer>
-    <section>
-      <div class="modal">
+    <div class="modal">
       <h2 class="modal__title">Добавить в корзину</h2>
       <p class="modal__text">Выберите размер:</p>
       <ul class="modal__size-list">
@@ -170,7 +167,6 @@
       </ul>
       <button class="modal__button" type="submit">Добавить</button>
     </div>
-    </section>
     <div class="overlay"></div>
     <script src="js/nav-min.js"></script>
     <script src="js/modal-min.js"></script>

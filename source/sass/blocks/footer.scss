@@ -7,14 +7,39 @@
   margin: 0;
 }
 
+.page-footer__logo-image {
+  display: none;
+
+  &:hover,
+  &:focus {
+    fill: $grass;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}
+
 @media (min-width: 768px) {
   .page-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .page-footer__logo-image {
+    display: block;
+    padding-left: 50px;
+    padding-top: 51px;
+    padding-bottom: 58px;
+    padding-right: 80px;
+  }
 }
 
 @media (min-width: 1150px) {
-
+  .page-footer__logo-image {
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 58px;
+  }
 }

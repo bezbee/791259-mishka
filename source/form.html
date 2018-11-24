@@ -39,19 +39,19 @@
         </li>
         <li class="nav-list__item nav-list__item--catalog"><a href="catalog.html" class="nav-list__link">Каталог товаров</a></li>
         <li class="nav-list__item--knitting nav-list__item"><a class="nav-list__link">Вязание на заказ</a></li>
-        <li class="nav-list__item nav-list__item--new"><a href="#" class="nav-list__link">Новые поступления</a></li>
-        <li class="nav-list__item nav-list__item--sale"><a href="#" class="nav-list__link">Распродажа</a></li>
+        <li class="nav-list__item nav-list__item--new nav-list__item--hidden"><a href="#" class="nav-list__link">Новые поступления</a></li>
+        <li class="nav-list__item nav-list__item--sale nav-list__item--hidden"><a href="#" class="nav-list__link">Распродажа</a></li>
         <li class="nav-list__item nav-list__item--search"><a href="#" class="nav-list__link">Поиск по сайту</a></li>
         <li class="nav-list__item nav-list__item--basket"><a href="#" class="nav-list__link">Корзина: пока пуста</a></li>
-        <li class="nav-list__item nav-list__item--text"><span class="nav-list__text">Бесплатная доставка по России</span></li>
+        <li class="nav-list__item nav-list__item--text nav-list__item--hidden"><span class="nav-list__text">Бесплатная доставка по России</span></li>
       </ul>
     </nav>
   </header>
 
-  <main class="page__main">
-    <h1 class="page-main__title">Вязание на заказ</h1>
-    <p class="page-main__intro">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-    <form class="page-main__form form" method="post" action="#">
+  <main class="page__main form-main">
+    <h1 class="form-main__title">Вязание на заказ</h1>
+    <p class="form-main__intro">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+    <form class="form-main__form form" method="post" action="#">
 
       <fieldset class="form__element">
         <div class="form__wrapper">
@@ -59,11 +59,11 @@
           <ul class="form__list">
             <li class="form__option radio">
               <input class="visually-hidden radio__input" type="radio" name="product-category" value="accessories" id="form-accessories">
-              <label class="radio__label" for="form-accessories">Аксессуар для интерьера</label>
+              <label class="radio__label" for="form-accessories" tabindex="0">Аксессуар для интерьера</label>
             </li>
             <li class="form__option radio">
               <input class="visually-hidden radio__input" type="radio" name="product-category" value="toy" id="form-toy">
-              <label class="radio__label" for="form-toy">Детская игрушка</label>
+              <label class="radio__label" for="form-toy" tabindex="0">Детская игрушка</label>
             </li>
           </ul>
         <div>
@@ -75,27 +75,27 @@
           <ul class="form__list form__list--color">
             <li class="form__option checkbox">
               <input class="visually-hidden checkbox__input" type="checkbox" id="color-white" checked>
-              <label class="checkbox__label" for="color-white">Белый</label>
+              <label class="checkbox__label" for="color-white" tabindex="0">Белый</label>
             </li>
             <li class="form__option checkbox">
               <input class="visually-hidden checkbox__input" type="checkbox" id="color-grey" checked>
-              <label class="checkbox__label" for="color-grey">Серый</label>
+              <label class="checkbox__label" for="color-grey" tabindex="0">Серый</label>
             </li>
             <li class="form__option checkbox">
               <input class="visually-hidden checkbox__input" type="checkbox" id="color-tiffany">
-              <label class="checkbox__label" for="color-tiffany">«Тиффани»</label>
+              <label class="checkbox__label" for="color-tiffany" tabindex="0">«Тиффани»</label>
             </li>
             <li class="form__option checkbox">
               <input class="visually-hidden checkbox__input" type="checkbox" id="color-black">
-              <label class="checkbox__label" for="color-black">Черный</label>
+              <label class="checkbox__label" for="color-black" tabindex="0">Черный</label>
             </li>
             <li class="form__option checkbox">
               <input class="visually-hidden checkbox__input" type="checkbox" id="color-pink">
-              <label class="checkbox__label" for="color-pink">Розовый</label>
+              <label class="checkbox__label" for="color-pink" tabindex="0">Розовый</label>
             </li>
             <li class="form__option checkbox">
               <input class="visually-hidden checkbox__input" type="checkbox" id="color-orange">
-              <label class="checkbox__label" for="color-orange">Оранжевый</label>
+              <label class="checkbox__label" for="color-orange" tabindex="0">Оранжевый</label>
             </li>
           </ul>
         </div>
@@ -154,21 +154,19 @@
       </svg>
     </a>
 
-    <div class="page-footer__social page-footer__social--1150 social">
-      <ul class="social__list">
-        <li class="social__item">
-          <a class="social__link social__link--instagram" href="#" target="_blank"><span class="visually-hidden">Мы в Инстаграме</span></a>
-        </li>
-        <li class="social__item">
-          <a class="social__link social__link--facebook" href="#" target="_blank"><span class="visually-hidden">Мы в Фейсбуке</span></a>
-        </li>
-        <li class="social__item">
-          <a class="social__link social__link--twitter" href="#" target="_blank"><span class="visually-hidden">Мы в Твиттере</span></a>
-        </li>
-      </ul>
-    </div>
+    <ul class="page-footer__social social">
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="#" target="_blank"><span class="visually-hidden">Мы в Инстаграме</span></a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="#" target="_blank"><span class="visually-hidden">Мы в Фейсбуке</span></a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--twitter" href="#" target="_blank"><span class="visually-hidden">Мы в Твиттере</span></a>
+      </li>
+    </ul>
 
-    <div class="page-footer__copyright page-footer__copyright--1150 copyright">
+    <div class="page-footer__copyright copyright">
       <b class="copyright__text">Разработано</b>
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank"><span class="visually-hidden">HTML Academy</span></a>
     </div>

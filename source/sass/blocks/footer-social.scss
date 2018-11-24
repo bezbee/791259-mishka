@@ -1,4 +1,4 @@
-.social__list {
+.social {
   @include list-style-none;
   display: flex;
   align-items: center;
@@ -56,13 +56,13 @@
 }
 
 @media (min-width: 768px) {
-  .social__list {
+  .social {
     padding-top: 0;
   }
 }
 
 @media (min-width: 1150px) {
-  .page-footer__social--1150 {
+  .social {
     padding-top: 10px;
   }
 }
