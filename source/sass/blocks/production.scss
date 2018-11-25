@@ -20,7 +20,7 @@
 
 .production__image {
   width: 100%;
-  padding-top: 90px;
+  padding-top: 93px;
   position: relative;
 }
 
@@ -58,7 +58,7 @@
   line-height: 24px;
   font-weight: 700;
   position: absolute;
-  top: 20px;
+  top: 22px;
   right: 13px;
   max-width: 156px;
 }
@@ -67,11 +67,11 @@
   font-size: 13px;
   color: $grey;
   line-height: 24px;
-  padding-top: 30px;
+  padding-top: 27px;
   padding-left: 35px;
   width: 190px;
   display: block;
-  padding-bottom: 25px;
+  padding-bottom: 23px;
   position: relative;
 
 
@@ -100,7 +100,8 @@
 @media (min-width: 768px) {
   .production {
     min-width: 668px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
+    margin-bottom: 63px;
   }
 
   .production__image {
@@ -122,8 +123,8 @@
     max-width: 100%;
     font-size: 20px;
     line-height: 24px;
-    padding-top: 42px;
-    padding-left: 109px;
+    padding-top: 40px;
+    padding-left: 108px;
   }
 
   .production__intro {
@@ -152,7 +153,7 @@
     width: 1049px;
     margin-left: 50px;
     padding-bottom: 0;
-    margin-bottom: 100px;
+    margin-bottom: 95px;
   }
 
   .production__image img {
@@ -166,7 +167,7 @@
 
   .production__text {
     width: 45%;
-    padding-top: 53px;
+    padding-top: 55px;
   }
 
   .production__title {

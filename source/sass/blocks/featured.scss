@@ -42,7 +42,7 @@
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
 }
 
 .featured__description {
@@ -116,7 +116,7 @@
     &::after {
       bottom: -30px;
       left: 0;
-      height: 16px;
+      height: 15px;
     }
   }
 
@@ -157,7 +157,7 @@
     width: 333px;
     height: 404px;
     position: absolute;
-    top: 150px;
+    top: 130px;
     right: 50px;
   }
 
@@ -186,6 +186,8 @@
     &::after {
       height: 23px;
       bottom: 10px;
+      background-size: 100% 90%;
+      background-repeat: no-repeat;
     }
   }
 
@@ -196,7 +198,7 @@
   .featured__image {
     width: 525px;
     height: 636px;
-    top: 77px;
+    top: 47px;
     right: 100px;
   }
 
@@ -221,7 +223,7 @@
 
   .featured__specification {
     display: block;
-    padding-bottom: 58px;
+    padding-bottom: 56px;
   }
 
   .featured__specification tr {
@@ -229,6 +231,6 @@
   }
 
   .featured__field {
-    padding-right: 30px;
+    padding-right: 15px;
   }
 }

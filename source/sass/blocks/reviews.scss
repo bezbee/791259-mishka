@@ -109,7 +109,7 @@
 
     &::after {
       bottom: 60px;
-      height: 16px;
+      height: 15px;
     }
   }
 
@@ -161,11 +161,11 @@
   .reviews__write {
     position: absolute;
 
-    top: 90px;
+    top: 93px;
     right: 50px;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 19px;
+    padding-top: 17px;
     width: 100px;
   }
 }
@@ -180,6 +180,8 @@
     &::after {
       height: 23px;
       bottom: 140px;
+      background-size: 100% 90%;
+      background-repeat: no-repeat;
     }
   }
 
@@ -192,7 +194,12 @@
 
   .reviews__text {
     padding-bottom: 35px;
+    padding-left: 5px;
     width: 85%;
+  }
+
+  .reviews__author-name {
+    padding-left: 5px;
   }
 
   .reviews__write {
