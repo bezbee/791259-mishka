@@ -139,6 +139,7 @@
   }
 
   .contacts__map  {
+    width: 768px;
     background-image:
       url("../img/icon-map-pin.svg"),
       url("../img/map-tablet@1x.jpg");
@@ -207,7 +208,7 @@
   }
 
   .contacts__map {
-    max-width: 525px;
+    width: 525px;
     position: absolute;
     top: -105px;
     right: 105px;
