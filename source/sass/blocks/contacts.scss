@@ -138,21 +138,21 @@
     padding-right: 22px;
   }
 
-  .contacts__map  {
+  .contacts__map {
     width: 768px;
     background-image:
       url("../img/icon-map-pin.svg"),
       url("../img/map-tablet@1x.jpg");
-      background-size: 67px 100px, 768px 457px;
-      background-position: 52% 40%, 0 0;
-      margin-bottom: 60px;
+    background-size: 67px 100px, 768px 457px;
+    background-position: 52% 40%, 0 0;
+    margin-bottom: 60px;
   }
 
   @media (min-resolution: 114dpi), (min-resolution: 1.5dppx) {
     .contacts__map {
       background-image:
-      url("../img/icon-map-pin.svg"),
-      url("../img/map-tablet@2x.jpg");
+        url("../img/icon-map-pin.svg"),
+        url("../img/map-tablet@2x.jpg");
     }
   }
 
