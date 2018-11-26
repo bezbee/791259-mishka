@@ -30,7 +30,7 @@
 
 .checkbox__input:checked + .checkbox__label::before {
   border-color: lighten($grey, 30%);
-  background-color: $white;
+  background-color: transparent;
 }
 
 .checkbox__input:checked + .checkbox__label::after {
