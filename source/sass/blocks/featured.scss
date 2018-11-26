@@ -49,7 +49,7 @@
   max-width: 290px;
 }
 
-.featured__specification tr {
+.featured__specification .featured__row {
   border-bottom: 1px solid #cecece;
 }
 
@@ -57,7 +57,7 @@
   padding-bottom: 10px;
 }
 
-tr:not(:first-child) td {
+.featured__row:not(:first-child) td {
   padding-top: 5px;
 }
 
@@ -131,7 +131,7 @@ tr:not(:first-child) td {
     padding-bottom: 43px;
   }
 
-  .featured__specification tr {
+  .featured__specification .featured__row {
     display: flex;
     width: 292px;
     max-height: 40px;
@@ -217,7 +217,7 @@ tr:not(:first-child) td {
     padding-bottom: 6px;
   }
 
-  tr:nth-child(2) td {
+  .featured__row:nth-child(2) td {
     padding-bottom: 0;
   }
 
