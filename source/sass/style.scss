@@ -64,6 +64,10 @@
     padding-left: 100px;
   }
 
+  .page--index .nav-list__item--text {
+    padding-right: 100px;
+  }
+
   .page--index .page-footer__logo-image {
     padding-left: 100px;
     padding-right: 85px;
@@ -145,7 +149,7 @@ blockquote {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.7);
   z-index: 1;
-  display: none;
+  display: block;
 }
 
 .modal-show {

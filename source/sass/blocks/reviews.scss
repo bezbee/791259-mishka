@@ -14,7 +14,7 @@
     background-size: contain;
     background-repeat: repeat;
     position: absolute;
-    bottom: -50px;
+    bottom: 35px;
     left: 0;
   }
 }
@@ -172,15 +172,15 @@
 
 @media (min-width: 1150px) {
   .reviews {
-    margin-left: 20px;
-    padding-left: 250px;
-    padding-bottom: 295px;
-    background-position: 75px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 150px;
+    padding-bottom: 300px;
+    background-position: 5px 0;
 
     &::after {
       height: 23px;
       bottom: 140px;
-      background-size: 100% 90%;
       background-repeat: no-repeat;
     }
   }
@@ -188,28 +188,29 @@
   .reviews__title {
     font-size: 53px;
     line-height: 57px;
-    margin-top: -20px;
+    margin-top: -25px;
     padding-bottom: 49px;
+    padding-left: 20px;
   }
 
   .reviews__text {
     padding-bottom: 35px;
-    padding-left: 5px;
-    width: 85%;
+    padding-left: 25px;
+    width: 93%;
   }
 
   .reviews__author-name {
-    padding-left: 5px;
+    padding-left: 25px;
   }
 
   .reviews__write {
-    right: 103px;
+    right: 3px;
     top: 77px;
     padding-top: 14px;
   }
 
   .reviews__buttons {
-    right: 115px;
+    right: 15px;
     top: 307px;
   }
 }

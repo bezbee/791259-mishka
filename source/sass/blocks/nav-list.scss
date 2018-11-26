@@ -159,7 +159,8 @@
   .nav-list__item.nav-list__item--text {
     display: flex;
     padding-top: 15px;
-    padding-left: 115px;
+    padding-right: 50px;
+    margin-left: auto;
     font-size: 15px;
     font-weight: 400;
     color: $grey;
@@ -221,7 +222,6 @@
   }
 
   .nav-list__item.nav-list__item--text {
-    padding-left: 505px;
     padding-top: 19px;
   }
 }

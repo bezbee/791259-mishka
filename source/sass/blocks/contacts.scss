@@ -26,7 +26,7 @@
 .contacts__field {
   padding-right: 28px;
   vertical-align: top;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .contacts__value {
@@ -89,7 +89,7 @@
 
 @media (min-width: 768px) {
   .contacts {
-    padding-bottom: 60px;
+    padding-bottom: 55px;
     position: relative;
 
     &::after {
@@ -117,7 +117,7 @@
     line-height: 30px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   .contacts__email {
@@ -145,7 +145,7 @@
       url("../img/map-tablet@1x.jpg");
     background-size: 67px 100px, 768px 457px;
     background-position: 52% 40%, 0 0;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
   }
 
   @media (min-resolution: 114dpi), (min-resolution: 1.5dppx) {
@@ -162,6 +162,7 @@
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 16px;
   }
 }
 
@@ -211,7 +212,7 @@
     width: 525px;
     position: absolute;
     top: -105px;
-    right: 105px;
+    left: 625px;
     background-image:
       url("../img/icon-map-pin.svg"),
       url("../img/map-desktop@1x.jpg");

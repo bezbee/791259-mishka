@@ -116,6 +116,11 @@
     padding-bottom: 0;
   }
 
+  .form__element:nth-child(2),
+  .form__element:nth-child(4) {
+    background-color: #f1f1f1;
+  }
+
   .form__wrapper {
     display: flex;
   }
@@ -161,10 +166,6 @@
   .form__option label {
     font-size: 19px;
     line-height: 18px;
-  }
-
-  .form__element:nth-child(4) {
-    background-color: #f1f1f1;
   }
 
   .form__list--contact {

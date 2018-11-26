@@ -4,7 +4,7 @@
 
   var modal = document.querySelector('.modal');
   var icons = document.querySelectorAll('.modal-trigger');
-  var overlay = document.querySelector('.overlay');
+  var head = document.querySelector('head');
 
   var ENTER = 13;
   var ESC = 27;
@@ -23,7 +23,7 @@
   var onEscHide = function (evt) {
     if (evt.keyCode === ESC) {
       hideElement(modal);
-      hideElement(overlay);
+      head.classList.remove('overlay');
     }
   };
 
@@ -31,20 +31,20 @@
 
     icons[i].addEventListener('click', function () {
       showElement(modal);
-      showElement(overlay);
+      head.classList.add('overlay');
     });
 
     icons[i].addEventListener('keydown', function (evt) {
       if (evt.keyCode === ENTER) {
         showElement(modal);
-        showElement(overlay);
+        head.classList.add('overlay');
       }
     });
   }
 
-  overlay.addEventListener('click', function () {
+  head.addEventListener('click', function () {
     hideElement(modal);
-    hideElement(overlay);
+    head.classList.remove('overlay');
   }, window.removeEventListener('keydown', onEscHide));
 
   window.addEventListener('keydown', onEscHide);

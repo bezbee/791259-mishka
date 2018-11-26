@@ -116,6 +116,14 @@
 }
 
 @media (min-width: 1150px) {
+  .form-text__input {
+    margin-right: 195px;
+  }
+
+  .form-text:last-child .form-text__input {
+    padding-left: 20px;
+  }
+
   .form-text--tel .form-text__input {
     margin-left: 75px;
     margin-right: 190px;
