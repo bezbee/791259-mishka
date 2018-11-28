@@ -1,5 +1,5 @@
 .modal {
-  max-width: 566px;
+  max-width: 320px;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -22,8 +22,8 @@
   font-size: 25px;
   color: $black;
   line-height: 30px;
-  padding-top: 37px;
-  padding-bottom: 10px;
+  padding-top: 35px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -40,7 +40,7 @@
   @include list-style-none;
   display: flex;
   align-content: center;
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 }
 
 .modal__button-size {
@@ -48,17 +48,18 @@
   color: $grey;
   line-height: 16px;
   padding-top: 20px;
-  padding-left: 37px;
+  padding-left: 33px;
   padding-bottom: 15px;
-  padding-right: 37px;
+  padding-right: 33px;
   border: 2px solid rgba(#444444, 0.1%);
   background-color: $white;
+  outline: none;
 
-  &:hover,
-  &:focus {
-    border: 2px solid rgba(#444444, 0.3%);
+  &:hover {
+    border-color: #cecece;
   }
 
+  &:focus,
   &:active {
     border-color: $emerald;
   }
@@ -76,13 +77,12 @@
   background: $grass;
   font-weight: 700;
   font-size: 17px;
-  color: $grey;
+  color: $white;
   line-height: 16px;
   text-transform: uppercase;
-  padding-top: 17px;
-  padding-left: 93px;
-  padding-bottom: 17px;
-  padding-right: 93px;
+  width: 260px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   display: block;
   margin: 0 auto;
   margin-bottom: 46px;
@@ -90,11 +90,33 @@
 
   &:hover,
   &:focus {
-    color: $white;
     opacity: 0.6;
   }
 
   &:active {
     opacity: 0.3;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal {
+    max-width: 566px;
+    padding-right: 108px;
+    padding-left: 108px;
+  }
+
+  .modal__title {
+    width: 120%;
+    padding-top: 37px;
+    padding-bottom: 10px;
+  }
+
+  .modal__button-size {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+
+  .modal__button {
+    width: 350px;
   }
 }
