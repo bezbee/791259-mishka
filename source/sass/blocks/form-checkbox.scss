@@ -19,17 +19,16 @@
 }
 
 .checkbox__label:hover::before,
-.checkbox__label:focus::before {
+.checkbox__input:focus + .checkbox__label::before {
   border-color: $emerald;
 }
 
 .checkbox__label:active::before {
-  border-color: lighten($grey, 40%);
-  background-color: $white;
+  border-color: lighten($grey, 30%);
+  background-color: transparent;
 }
 
 .checkbox__input:checked + .checkbox__label::before {
-  border-color: lighten($grey, 30%);
   background-color: transparent;
 }
 

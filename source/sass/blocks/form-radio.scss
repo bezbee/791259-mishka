@@ -21,7 +21,7 @@
 }
 
 .radio__label:active::before {
-  border-color: lighten($grey, 40%);
+  border-color: lighten($grey, 30%);
 }
 
 .radio__input:checked + .radio__label::after {
@@ -33,10 +33,6 @@
   background-color: $emerald;
   border-radius: 50%;
   position: absolute;
-}
-
-.radio__input:checked + .radio__label::before {
-  border-color: lighten($grey, 30%);
 }
 
 @media (min-width: 768px) {
